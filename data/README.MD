@@ -8,6 +8,8 @@ The structure is as follows:
 - volume: volume number or 'default'
 - issue: issue number of the publications or the number
 
+Then there is one file per paper in the folder. 
+
 The files 
 ```
 <type>/<acronym>/meta.bib
