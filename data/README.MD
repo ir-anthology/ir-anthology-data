@@ -14,4 +14,4 @@ The files
 ```
 <type>/<acronym>/meta.bib
 ```
-contains a description of the venue. 
+contain a description of the venue. 
