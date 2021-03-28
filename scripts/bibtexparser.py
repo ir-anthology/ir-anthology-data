@@ -1,17 +1,14 @@
 
 import re
+from .util import find_char_after
+from .util import find_char_after_no_error
+from pylatexenc.latexencode import unicode_to_latex
 
 class BibtexEntry:
     def __init__(self, entrytype, bibid, fields):
         self.entrytype = entrytype
         self.bibid = bibid
         self.fields = fields
-
-def find_char_after(string, char, index):
-    for i in range(index, len(string)):
-        if string[i]==char:
-            return i
-    raise IndexError("Can't find the char >"+char+"< in the string >"+string[index:]+"<")
 
 def find_char_after_mirrorchar(string, target_char, index, open_char, close_char, espace_char="\\"):
     opened = 0
@@ -63,11 +60,17 @@ def loads_entry(input):
         fields[key] = value
     return BibtexEntry(entrytype, bibid, fields)
 
-def dumps_entry(bibtex_entry):
-    output = "@"+bibtex_entry.entrytype+"{\n"
+def dumps_entry(bibtex_entry, use_raw=[]):
+    output = "@"+bibtex_entry.entrytype+"{"+bibtex_entry.bibid+",\n"
     l = []
-    for key in bibtex_entry.fields.keys():
-        l.append("  "+key+" = "+bibtex_entry.fields[key])
+    for key in sorted(bibtex_entry.fields.keys()):
+        if key in use_raw:
+            text = bibtex_entry.fields[key]
+            if key=="authors" or key=="editors":
+                text = bibtex_entry.fields[key]
+        else:
+            text = unicode_to_latex(bibtex_entry.fields[key])
+        l.append("  "+key+" = {"+text+"}")
     output += ",\n".join(l)+"\n}"
     return output
 
