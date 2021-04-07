@@ -1,4 +1,4 @@
-from . import bibtexparser
+from util import bibtexparser
 import xml.etree.ElementTree as ET
 from queue import Queue
 import re

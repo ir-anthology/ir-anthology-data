@@ -2,7 +2,7 @@
 import re
 from .util import find_char_after
 from .util import find_char_after_no_error
-from pylatexenc.latexencode import unicode_to_latex
+from latexparser import LatexParser
 
 class BibtexEntry:
     def __init__(self, entrytype, bibid, fields):
@@ -60,16 +60,35 @@ def loads_entry(input):
         fields[key] = value
     return BibtexEntry(entrytype, bibid, fields)
 
+"""
+idea: surround non-ascii unicode-chars with magic words -> then convert to latex -> replace magic words with { and } +
+very ugly but should work
+"""
+def encapsulate_umlaute(latex):
+    split = latex.split("\\\"")
+    if len(split)==1:
+        return latex
+    output = split[0]
+    for i in range(len(split)-1):
+        output += "{\\\""
+        if len(split[-1])>0:
+            output += split[i+1][0]
+        output += "}"+split[i+1][1:]
+    if len(split[-1])>1:
+        output += split[-1][1:]
+    return output
+
 def dumps_entry(bibtex_entry, use_raw=[]):
     output = "@"+bibtex_entry.entrytype+"{"+bibtex_entry.bibid+",\n"
+    latex = LatexParser()
     l = []
     for key in sorted(bibtex_entry.fields.keys()):
         if key in use_raw:
             text = bibtex_entry.fields[key]
             if key=="authors" or key=="editors":
-                text = bibtex_entry.fields[key]
+                text = encapsulate_umlaute(bibtex_entry.fields[key])
         else:
-            text = unicode_to_latex(bibtex_entry.fields[key])
+            text = latex.encode(bibtex_entry.fields[key])
         l.append("  "+key+" = {"+text+"}")
     output += ",\n".join(l)+"\n}"
     return output
