@@ -20,7 +20,7 @@ def parse_selection_key_set(path_criteria_bib):
             output.add(entry.fields()["search-key"])
     return output
 
-def download():
+def download(path_dblp_xml):
     print("pulling the dblp.xml from https://dblp.uni-trier.de/xml/dblp.xml.gz")
     url = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
     wget.download(url, path_dblp_xml)

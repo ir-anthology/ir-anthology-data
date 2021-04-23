@@ -23,7 +23,7 @@ def dblp():
 @click.option('--skip-download', help='skips the download, only selects the xml entries based on the criteria', is_flag=True, default=False)
 def update(skip_download):
     if not skip_download:
-        dblp_download.download()
+        dblp_download.download(path_dblp)
     dblp_download.select(path_dblp, path_criteria, path_references)
 
 @dblp.command(help='pull references')
