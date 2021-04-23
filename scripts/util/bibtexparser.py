@@ -1,19 +1,30 @@
 
 import re
-from .util import find_char_after
-from .util import find_char_after_no_error
-from latexparser import LatexParser
+from util.util import find_char_after
+from util.util import find_char_after_no_error
+from util.latexparser import LatexParser
 
 class BibtexEntry:
-    def __init__(self, entrytype, bibid, fields):
+    def __init__(self, entrytype, bibid, fields_data, string=lambda: raise_(Exception("not defined"))):
         self.entrytype = entrytype
         self.bibid = bibid
-        self.fields = fields
+        self.fields_data = fields_data
+        self.string = string
+        self.fields_data_cache = None
+
+    def fields(self):
+        if self.fields_data_cache is None:
+            self.fields_data_cache = self.fields_data()
+        return self.fields_data_cache
+
+
+def create_bibtex_entry(entrytype, bibid, fields):
+    return BibtexEntry(lambda: entrytype, lambda: bibid, lambda: fields)
 
 def find_char_after_mirrorchar(string, target_char, index, open_char, close_char, espace_char="\\"):
     opened = 0
     if open_char==close_char:
-        raise ValueError("target_char must not equal close_char")
+        raise ValueError("open_char must not equal close_char")
     jump_next = False
     for i in range(index, len(string)):
         if jump_next:
@@ -38,18 +49,18 @@ def contains_only_after(string, allowed, start, end_exclusive):
             return False
     return True
 
-def loads_entry(input):
-    lastchar_index = input.rfind("}")
+
+def load_fields(input):
     start = 1
+    final_end = input.rfind("}")
     end = find_char_after(input, "{", 1)
-    entrytype = input[start:end]
     start = end+1
     end = find_char_after(input, ",", start)
-    bibid = input[start:end]
     start = end+1
     fields = {}
+    latex = LatexParser()
     while True:
-        if contains_only_after(input, " \t\n\r", start, lastchar_index):
+        if contains_only_after(input, " \t\n\r", start, final_end):
             break
         end = find_char_after(input, "=", start)
         key = input[start:end].strip()
@@ -57,26 +68,27 @@ def loads_entry(input):
         end = find_char_after_mirrorchar(input, "}", start, "{", "}")+1
         value = "{"+re.sub('[\t \n\r]+', ' ', input[start:end]).strip()
         start = end+1
-        fields[key] = value
-    return BibtexEntry(entrytype, bibid, fields)
+        fields[key] = latex.decode(value)
+    return fields
 
-"""
-idea: surround non-ascii unicode-chars with magic words -> then convert to latex -> replace magic words with { and } +
-very ugly but should work
-"""
-def encapsulate_umlaute(latex):
-    split = latex.split("\\\"")
-    if len(split)==1:
-        return latex
-    output = split[0]
-    for i in range(len(split)-1):
-        output += "{\\\""
-        if len(split[-1])>0:
-            output += split[i+1][0]
-        output += "}"+split[i+1][1:]
-    if len(split[-1])>1:
-        output += split[-1][1:]
-    return output
+def raise_(ex):
+    raise ex
+
+def loads_entry(input, skip_fields=False, keep_input=True):
+    lastchar_index = input.rfind("}")
+    start = 1
+    end = find_char_after(input, "{", 1)
+    entrytype = input[start:end]
+    start = end+1
+    end = find_char_after(input, ",", start)
+    bibid = input[start:end]
+    return BibtexEntry(
+        lambda: entrytype, 
+        lambda: bibid, 
+        (lambda: load_fields(input)) if not skip_fields else (lambda: raise_(Exception("not computed because 'skip_fields' was set"))), 
+        (lambda: input) if keep_input else (lambda: raise_(Exception("was not stored because keep_input was not set")))
+    )
+
 
 def dumps_entry(bibtex_entry, use_raw=[]):
     output = "@"+bibtex_entry.entrytype+"{"+bibtex_entry.bibid+",\n"
@@ -85,8 +97,6 @@ def dumps_entry(bibtex_entry, use_raw=[]):
     for key in sorted(bibtex_entry.fields.keys()):
         if key in use_raw:
             text = bibtex_entry.fields[key]
-            if key=="authors" or key=="editors":
-                text = encapsulate_umlaute(bibtex_entry.fields[key])
         else:
             text = latex.encode(bibtex_entry.fields[key])
         l.append("  "+key+" = {"+text+"}")
@@ -94,7 +104,7 @@ def dumps_entry(bibtex_entry, use_raw=[]):
     return output
 
 
-def loads(input):
+def loads(input, skip_fields=False, keep_input=True):
     start = 0
     output = []
     lastchar_index = input.rfind("}")
@@ -103,6 +113,8 @@ def loads(input):
             break
         temp = find_char_after(input, "{", start)+1
         end = find_char_after_mirrorchar(input, "}", temp, "{", "}")+1
-        output.append(loads_entry(input[start:end]))
+        output.append(loads_entry(input[start:end], skip_fields, keep_input))
         start = end
     return output
+
+

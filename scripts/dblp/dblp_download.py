@@ -1,27 +1,45 @@
-from .util import find_char_after
+from util.util import find_char_after
 import os
 import gzip
+from util import bibtexparser
+import wget
+import click
+import sys
 
 dblp_topleveltags = ["article", "inproceedings", "proceedings", "book", "incollection", "phdthesis", "mastersthesis", "www", "person", "data"]
 
 def find_startindex_char(string, index, char):
     return find_char_after(string, char, index)
 
-def parse_selection_key_set(selection_list):
-    return set(["conf/ecir"])
+def parse_selection_key_set(path_criteria_bib):
+    output = set([])
+    with open(path_criteria_bib, "r") as criteria_bib:
+        for entry in bibtexparser.loads(criteria_bib.read()):
+            if not entry.bibid().startswith("DBLP:"):
+                continue
+            output.add(entry.fields()["search-key"])
+    return output
 
-def main(dblp_path, selection_list, output_folder, output_filename):
-    os.makedirs(output_folder, exist_ok=True)
-    selection_key_set = parse_selection_key_set(selection_list)
-    with open(output_folder+ "/" + output_filename, "w") as file:
-        file.write("<dblpselection>\n")
-        with gzip.open(dblp_path, 'rb') as gzfile:
-            lines = []
+def download():
+    print("pulling the dblp.xml from https://dblp.uni-trier.de/xml/dblp.xml.gz")
+    url = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
+    wget.download(url, path_dblp_xml)
+
+def select(path_dblp_xml, path_criteria_bib, path_selection_output_xmll):
+    print("one dot equals one million lines of the xml")
+    selection_key_set = parse_selection_key_set(path_criteria_bib)
+    with open(path_selection_output_xmll, "w") as file:
+        with gzip.open(path_dblp_xml, 'rb') as gzfile:
             xmls = ""
             last_tag = None
             open_frame = False
             write_frame = False
+            counter = 0
             for line in gzfile:
+                if counter % 1000000 == 0:
+                    print(".", end="")
+                    sys.stdout.flush()
+                counter += 1
                 line = line.decode("utf-8")
                 while True:
                     # some lines contain a close and an open tag
@@ -61,6 +79,3 @@ def main(dblp_path, selection_list, output_folder, output_filename):
                             file.write(xmls.replace("\n",""))
                             file.write("\n")
                             write_frame = False
-        file.write("</dblpselection>\n")
-
-main("../.cache/dblp/dblp.xml.gz", None, "../.cache", "dblpselection.xml")
