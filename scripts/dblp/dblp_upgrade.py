@@ -33,10 +33,10 @@ def addpersonids_and_crossref(root, bibtex_entry):
     lines = bibtex_entry.split("\n")
     res = lines[0]
     personids = []
-    crossef = None
+    crossref = None
     for item in list(root):
         if item.tag == "crossref":
-            crossef = item.text
+            crossref = item.text
         if not item.tag=="author" and not item.tag=="editor":
             continue
         if item.tag=="author":
@@ -53,7 +53,8 @@ def addpersonids_and_crossref(root, bibtex_entry):
                 authormap["orcid"] = item.attrib["orcid"]
         personids.append(authormap)
     res += "\n  personids = {" + json.dumps(personids).encode("UTF-8").hex() + "},\n"
-    res += "  crossref = crossef{" + "DBLP:"+crossef + "},\n"
+    if crossref is not None:
+        res += "  crossref = crossref{" + "DBLP:"+crossref + "},\n"
     res += "\n".join(lines[1:])
     return res
 
