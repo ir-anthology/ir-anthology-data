@@ -54,7 +54,7 @@ def addpersonids_and_crossref(root, bibtex_entry):
         personids.append(authormap)
     res += "\n  personids = {" + json.dumps(personids).encode("UTF-8").hex() + "},\n"
     if crossref is not None:
-        res += "  crossref = crossref{" + "DBLP:"+crossref + "},\n"
+        res += "  crossref = {" + "DBLP:"+crossref + "},\n"
     res += "\n".join(lines[1:])
     return res
 
