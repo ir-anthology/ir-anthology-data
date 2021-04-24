@@ -24,6 +24,7 @@ def download(path_dblp_xml):
     print("pulling the dblp.xml from https://dblp.uni-trier.de/xml/dblp.xml.gz")
     url = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
     wget.download(url, path_dblp_xml)
+    print("")
 
 def select(path_dblp_xml, path_criteria_bib, path_selection_output_xmll):
     print("one dot equals one million lines of the xml")
@@ -79,3 +80,4 @@ def select(path_dblp_xml, path_criteria_bib, path_selection_output_xmll):
                             file.write(xmls.replace("\n",""))
                             file.write("\n")
                             write_frame = False
+    print("")
