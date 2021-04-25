@@ -8,4 +8,5 @@ def main(path_cache_bib, path_other_bib, path_criteria_bib, path_bundle_bib):
     with open(path_bundle_bib,"w") as bundle:
         for f in [path_cache_bib, path_other_bib, path_criteria_bib]:
             with open(f,'r') as fd:
+                bundle.write("\n")
                 shutil.copyfileobj(fd, bundle)
