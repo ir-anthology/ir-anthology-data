@@ -28,6 +28,9 @@ def update(skip_download):
 
 @dblp.command(short_help='Crawl all extracted entries and append them and their meta data to the ir-anthology.bib - This will replace outdated entries. Only changes entries crawled from the dblp. Crawling 0.2 entries per second. ')
 def upgrade():
-        dblp_cache.main(path_data, path_dblp_cache, path_other_cache)
-        dblp_upgrade.main(path_dblp_cache, path_references)
-        dblp_combine.main(path_dblp_cache, path_other_cache, path_criteria, path_data)
+    if not os.path.isfile(path_references):
+        print("no references found - you can try to run 'ir-anthology-data dblp update'")
+        exit(1)
+    dblp_cache.main(path_data, path_dblp_cache, path_other_cache)
+    dblp_upgrade.main(path_dblp_cache, path_references)
+    dblp_combine.main(path_dblp_cache, path_other_cache, path_criteria, path_data)
