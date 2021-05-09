@@ -6,7 +6,8 @@ This repository contains the data for the ir-anthology and a command to manage t
 
 # Requirements
 - ubuntu-like-os
-- python3
+- python3 ≥ 3.8.5
+- pip3
 - make
 - bash
 
