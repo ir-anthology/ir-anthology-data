@@ -24,4 +24,4 @@ Before you run other dblp command, you should always run the `update` command fi
 `./ir-anthology-data dblp update`
 This will check for any new/changed entries in the dblp.
 
-To add these new/changed entries to the ir-anthology.bib run `./ir-anthology-data dblp upgrade`.
+To add these new/changed entries to the ir-anthology.bib run `./ir-anthology-data dblp upgrade`. This may take a very long time if you specified new search criteria.
