@@ -15,7 +15,7 @@ path_dblp_cache = ".cache/dblp/dblp_cache"
 path_other_cache = ".cache/dblp/dblp_other_cache"
 
 
-@click.group()
+@click.group(short_help='Manage bib entries originating from the dblp.')
 def dblp():
     pass
 
