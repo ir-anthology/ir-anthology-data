@@ -15,9 +15,10 @@ def parse_selection_key_set(path_criteria_bib):
     output = set([])
     with open(path_criteria_bib, "r") as criteria_bib:
         for entry in bibtexparser.loads(criteria_bib.read()):
-            if not entry.bibid().startswith("DBLP:"):
+            if not entry.bibid().startswith("CRITERIA:DBLP:"):
                 continue
-            output.add(entry.fields()["search-key"])
+            for key in entry.fields()["search-keys"].split(","):
+            	output.add(key.strip())
     return output
 
 def download(path_dblp_xml):
