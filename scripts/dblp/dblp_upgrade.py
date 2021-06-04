@@ -59,7 +59,6 @@ def addpersonids_and_crossref(root, bibtex_entry):
     return res
 
 def parse_xml(line):
-    line = html.unescape(line).replace("&","&amp;")
     root = ET.fromstring(line)
     return root
 
