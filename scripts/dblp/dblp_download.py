@@ -62,7 +62,9 @@ def select(path_dblp_xml, path_criteria_bib, path_selection_output_xmll):
                     print(".", end="")
                     sys.stdout.flush()
                 counter += 1
-                line = line.decode("utf-8")
+                # the dblp contains \r at seemingly random location
+                # these characters screw up downstream speration by line
+                line = line.decode("utf-8").replace("\r", "")
                 while True:
                     # some lines contain a close and an open tag
                     # which is why there is a while True here
