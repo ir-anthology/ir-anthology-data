@@ -9,14 +9,14 @@ from util import bibtexparser
 import click
 
 def check(path_to_custom_bib):
-    check_regex(path_to_custom_bib)
+    #check_regex(path_to_custom_bib)
     check_required_fields(path_to_custom_bib)
     check_misc_coverage(path_to_custom_bib)
 
 def check_regex(path_to_custom_bib):
     with open(path_to_custom_bib, "r") as bib:
         text = bib.read()
-    match = re.match("^(( |\n)*@[a-zA-Z:/]+\{[^,]+,(( |\n)*(-|[a-zA-Z])+ *= *\{(.|\n)*\},)*( |\n)*(-|[a-zA-Z])+ *= *\{(.|\n)*\}( |\n)*\}( |\n)*)$", text)
+    match = re.match("^(( |\n)*@[a-zA-Z:/]+\{[^,]+,(( |\n)*(-|[a-zA-Z])+ *= *\{(.|\n)*\},)*( |\n)*(-|[a-zA-Z])+ *= *\{(.|\n)*\}( |\n)*\}( |\n)*)+$", text)
     if match is None:
         raise Exception("regex does not match")
     print("end of regex_check")
