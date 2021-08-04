@@ -76,7 +76,7 @@ def raise_(ex):
 
 def loads_entry(input, skip_fields=False, keep_input=True):
     lastchar_index = input.rfind("}")
-    start = 1
+    start = input.find("@")+1
     end = find_char_after(input, "{", 1)
     entrytype = input[start:end]
     start = end+1
