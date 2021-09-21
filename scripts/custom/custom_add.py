@@ -23,7 +23,7 @@ def add(path_to_custom_bib, ignore_errors):
                 if entry.bibid() in d:
                     out = d[entry.bibid()].string()
                     del d[entry.bibid()]
-                print(out, file=new_anthology)
+                print(out.strip(), file=new_anthology)
             for entry in d.values():
-                print(entry.string(), file=new_anthology)
+                print(entry.string().strip(), file=new_anthology)
     shutil.move(".cache/ir-anthology.bib", "./ir-anthology.bib")
