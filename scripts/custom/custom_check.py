@@ -24,12 +24,12 @@ def check_regex(path_to_custom_bib):
 def check_required_fields(path_to_custom_bib):
     with open(path_to_custom_bib, "r") as bib:
         text = bib.read()
-    required_fields = set(["personids", "author", "title", "year"])
+    required_fields = [["personids"], ["title"], ["year"], ["author", "editor"]]
     for entry in bibtexparser.loads(text):
         keys = entry.fields().keys()
         for required_field in required_fields:
-            if required_field not in keys:
-                raise Exception("required field '"+required_field + "' is missing in "+entry.bibid())
+            if len(set(required_field) & set(keys))==0:
+                raise Exception("at least one of these required fields must be added to '" + entry.bibid() + "': " + repr(required_field))
         s = bytes.fromhex(entry.fields()["personids"]).decode('utf-8')
         s = json.loads(s)
     print("end of check_required_fields")
