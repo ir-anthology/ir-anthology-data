@@ -13,6 +13,8 @@ def add(path_to_custom_bib, ignore_errors):
             print(e)
     with open(path_to_custom_bib, "r") as source:
         new_entries = bibtexparser.loads(source.read())
+    with open("criteria.bib", "r") as source:
+        new_entries = new_entries + bibtexparser.loads(source.read())
     d = {}
     for entry in new_entries:
         d[entry.bibid()] = entry
