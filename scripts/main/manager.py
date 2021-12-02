@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import dblp.dblp_manager as dblp_manager
 import custom.custom_manager as custom_manager
+import rename.rename_main as rename_main
 import click
 
 import os
@@ -12,6 +13,7 @@ def main():
 
 main.add_command(custom_manager.custom)
 main.add_command(dblp_manager.dblp)
+main.add_command(rename_main.rename)
 #dblp_cache.main("all.bib", "cache.bib", "other.bib")
 #dblp_download.main("/tmp/dblp.xml.tar.gz", "criteria.bib", "/tmp/selection.xmll")
 #dblp_cache_update.main1()

@@ -1,4 +1,4 @@
-from util import bibtexparser
+from util import bibtexparser, rename
 import urllib3
 import html
 import xml.etree.ElementTree as ET
@@ -77,17 +77,20 @@ def main(path_cache_bib, path_selection_xmll):
     cache = {}
     with open(path_cache_bib, "r") as cache_bib:
         for entry in bibtexparser.loads(input=cache_bib.read()):
-            cache[entry.bibid()] = entry
+            cache[entry.fields()["sourceid"]] = entry
     with open(path_selection_xmll, "r") as xmll:
         with open(path_cache_bib+"2", "w") as cache_bib:
             for line in xmll:
                 root = parse_xml(line)
                 bibid = root.attrib["key"]
                 entry_string = None
-                xml_checksum = checksum(line)
                 if not is_uptodate(cache, bibid, line):
                     entry_string = addchecksum(line, crawl(bibid))
                     entry_string = addpersonids_and_crossref(root, entry_string)
+                    fields = bibtexparser.load_fields(entry_string)
+                    sourceid = "DBLP:"+bibid
+                    new_bibid = rename.generate_bibid(sourceid, fields)
+                    entry_string = rename.replace_bibid_add_source_id(entry_string, sourceid, new_bibid)
                 else:
                     entry_string = cache["DBLP:"+bibid].string()
                 cache_bib.write(entry_string)
