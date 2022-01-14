@@ -9,7 +9,9 @@ setup(
         'Click',
         'pylatexenc',
         'wget',
-        'urllib3'
+        'urllib3',
+        'nameparser',
+        'nltk'
     ],
     entry_points='''
         [console_scripts]
