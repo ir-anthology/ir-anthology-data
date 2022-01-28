@@ -25,3 +25,6 @@ Before you run other dblp command, you should always run the `update` command fi
 This will check for any new/changed entries in the dblp.
 
 To add these new/changed entries to the ir-anthology.bib run `./ir-anthology-data dblp upgrade`. This may take a very long time if you specified new search criteria.
+
+## Manually adding meta data
+If the data is available in the primary sources (i.e. dblp XML dump), please consider modifying the `criteria.bib` accordingly. To manually add 3rd party meta data to the IR Anthology, refer to the instructions for [creating custom bib entries](./doc/custom-bib-files.md).
