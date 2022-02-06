@@ -9,7 +9,7 @@ import os
 import json
 
 last_crawl_time = -1
-time_between_crawls = 5
+time_between_crawls = 2
 
 def crawl(bibid):
     global last_crawl_time
@@ -68,6 +68,7 @@ def checksum(text):
 def is_uptodate(cache, bibid, xmlentry):
     key = "DBLP:"+bibid
     if key not in cache:
+        print(f"{key} not in cache")
         return False
     bib_checksum = cache[key].fields()["xml-checksum"]
     xml_checksum = checksum(xmlentry)
