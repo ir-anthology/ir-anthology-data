@@ -28,3 +28,6 @@ To add these new/changed entries to the ir-anthology.bib run `./ir-anthology-dat
 
 ## Manually adding meta data
 If the data is available in the primary sources (i.e. dblp XML dump), please consider modifying the `criteria.bib` accordingly. To manually add 3rd party meta data to the IR Anthology, refer to the instructions for [creating custom bib entries](./doc/custom-bib-files.md).
+
+## Adding custom bib files
+Please consult https://github.com/ir-anthology/ir-anthology-data/blob/master/doc/custom-bib-files.md
