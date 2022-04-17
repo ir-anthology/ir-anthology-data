@@ -5,10 +5,11 @@ Since this will be created using the naive (greedy) solution, there will be freq
 
 class Entry:
     def __init__(self):
-        self.people = []
         self.journal = None
         self.volume = None
         self.number = None
+        self.publisher = None
+        self.year = None
 
 def index_of_close(text, open_symbol, close_symbol):
     stack = []
@@ -27,6 +28,12 @@ def index_of_close(text, open_symbol, close_symbol):
 
 
 def parse(entry_as_text):
+    type_of_entry = entry_as_text[1:entry_as_text.index('{')]
+
+    if type_of_entry == 'misc':
+        return True #general information
+
+
     entry = Entry()
 
     content = entry_as_text[entry_as_text.index(',')+2:-1] #remove very last "}"
@@ -46,46 +53,47 @@ def parse(entry_as_text):
             content = content[nextbegin+1:]
         value=value.strip()
 
-        if key=='author':
-            authors = value.split(' and\n')
-            for author in authors:
-                entry.people.append(author.strip())
-        elif key=='journal':
+        if key=='journal':
             entry.journal = value
         elif key=='volume':
             entry.volume = value
         elif key=='number':
             entry.number = value #keep as string, some have numbers "1-2"
+        elif key=='publisher':
+            entry.publisher = value
+        elif key=='year':
+            entry.year = value
+            
                 
     return entry
 
 
-def keep(entry, covered):
-    for person in entry.people:
-        if not (person in covered['people'] and covered['people'][person]>=2):
-            return True
-    
-    if entry.journal and entry.volume and entry.number and not (entry.journal in covered['journals'] and entry.volume in covered['journals'][entry.journal] and entry.number in covered['journals'][entry.journal][entry.volume] and covered['journals'][entry.journal][entry.volume][entry.number]>=2):
-        return True
-
-    return False
+def keep(entry, covered):   
+    if entry.journal:
+        return entry.volume and entry.number and not (entry.journal in covered['journals'] and entry.volume in covered['journals'][entry.journal] and entry.number in covered['journals'][entry.journal][entry.volume] and covered['journals'][entry.journal][entry.volume][entry.number]>=2)
+    elif entry.publisher:
+        return entry.year and not (entry.publisher in covered['publishers'] and entry.year in covered['publishers'][entry.publisher] and covered['publishers'][entry.publisher][entry.year] >= 2)
 
 def update(covered, entry):
-    for person in entry.people:
-        if not person in covered['people']:
-            covered['people'][person]=1
+    if entry.journal: #journal
+        if not entry.journal in covered['journals']:
+            covered['journals'][entry.journal] = {entry.volume: {entry.number:1}}
+        elif not entry.volume in covered['journals'][entry.journal]:
+            covered['journals'][entry.journal][entry.volume] = {entry.number:1}
+        elif not entry.number in covered['journals'][entry.journal][entry.volume]:
+            covered['journals'][entry.journal][entry.volume][entry.number] = 1
+
         else:
-            covered['people'][person]+=1
+            covered['journals'][entry.journal][entry.volume][entry.number] += 1
 
-    if not entry.journal in covered['journals']:
-        covered['journals'][entry.journal] = {entry.volume: {entry.number:1}}
-    elif not entry.volume in covered['journals'][entry.journal]:
-        covered['journals'][entry.journal][entry.volume] = {entry.number:1}
-    elif not entry.number in covered['journals'][entry.journal][entry.volume]:
-        covered['journals'][entry.journal][entry.volume][entry.number] = 1
 
-    else:
-        covered['journals'][entry.journal][entry.volume][entry.number] += 1
+    elif entry.publisher: #conference
+        if not entry.publisher in covered['publishers']:
+            covered['publishers'][entry.publisher] = {entry.year:1}
+        elif not entry.year in covered['publishers'][entry.publisher]:
+            covered['publishers'][entry.publisher][entry.year] = 1
+        else:
+            covered['publishers'][entry.publisher][entry.year] += 1
 
 
 if __name__ == '__main__':
@@ -97,17 +105,25 @@ if __name__ == '__main__':
     with open(SAMPLE_FILE,'a') as sample: #only appending
         with open('ir-anthology.bib','r') as bib:
             cached_entry = '' #string will contain whole entry
-            covered = {'people':{}, 'journals':{}} #keep >=2 of each: venue, person, journal+volume+number (one each list page should be at least 2 papers)
+            covered = {'journals':{}, 'publishers':{}} #keep >=2 of each: venue, person, journal+volume+number (one each list page should be at least 2 papers)
             for line in bib: #this loads only current line -> not everything needs to be in the RAM
                 #assume no new lines, entry after entry
                 cached_entry += line
                 if line == '}\n':
                     print(cached_entry)
                     entry = parse(cached_entry)
-                    if keep(entry, covered):
-                        update(covered, entry)
+                    keep_flag = False
 
+                    if entry is True: # not an entry object
+                        keep_flag = True
+
+                    elif keep(entry, covered):
+                        update(covered, entry)
+                        keep_flag = True
+ 
+                    if keep_flag:
                         sample.write(cached_entry)
+
                     cached_entry = '' # new entry starts
 
 
