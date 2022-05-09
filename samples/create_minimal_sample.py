@@ -110,7 +110,6 @@ if __name__ == '__main__':
                 #assume no new lines, entry after entry
                 cached_entry += line
                 if line == '}\n':
-                    print(cached_entry)
                     entry = parse(cached_entry)
                     keep_flag = False
 
