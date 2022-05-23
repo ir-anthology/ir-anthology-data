@@ -36,6 +36,15 @@ Keep in mind that this will not check for plausibility only the above mentioned 
 Your custom bib file should be placed in the addidtional-bib-entries for future updates. You can add your custom bib file to the ir-anthology with `./ir-anthology-data custom add <custom-file>`
 *Beware: This will overwrite any bib entries with the same bibid as the entries in your custom bib file.*
 
+### commands
+
+The commands can be installed via (from within `scripts/`)
+
+```bash
+python3 setup.py build
+python3 setup.py install --user
+```
+
 
 ### How to create author JSON
 
