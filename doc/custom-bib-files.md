@@ -45,6 +45,8 @@ python3 setup.py build
 python3 setup.py install --user
 ```
 
+Run the command from the repository root dir as `ir-anthology-data custom <check/add> <custom-file>`. It will add everything to `ir-anthology.bib`. Never add the same content twice to the same file.
+
 
 ### How to create author JSON
 
