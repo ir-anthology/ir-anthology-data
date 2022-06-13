@@ -32,6 +32,21 @@ def check_required_fields(path_to_custom_bib):
                 raise Exception("at least one of these required fields must be added to '" + entry.bibid() + "': " + repr(required_field))
         s = bytes.fromhex(entry.fields()["personids"]).decode('utf-8')
         s = json.loads(s)
+
+        names = []
+        for person in s:
+            if not all(['role','dblpid'] in person):
+                raise Exception('role and dblpid must be present in personids of ' + str(person) + ' in the entry ' + entry.bibid())
+
+            name = person['dblpid']
+            parts = name.split(' ')
+            if re.match('^[0-9]{4}$',parts[-1]) != None:
+                parts = parts[:-1] #forget number
+                name = ' '.join(parts)
+            
+        if 'and\n'.join(names) != entry['author']:
+            raise Exception("Names don't fit in entry: " + entry.bibid())
+
     print("end of check_required_fields")
             
 def check_misc_coverage(path_to_custom_bib):
