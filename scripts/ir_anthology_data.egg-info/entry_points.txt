@@ -1,4 +1,0 @@
-
-        [console_scripts]
-        ir-anthology-data=main.manager:main
-    
