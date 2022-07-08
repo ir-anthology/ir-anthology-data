@@ -1,6 +1,0 @@
-Click
-nameparser
-nltk
-pylatexenc
-urllib3
-wget
