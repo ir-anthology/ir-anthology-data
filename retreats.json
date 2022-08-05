@@ -4,7 +4,13 @@
         "year":2013,
         "url":"https://ils.unc.edu/taskbasedsearch/index.html",
         "papers": [
-            {}
+            "DBLP:journals/sigir/KellyAC13"
         ]
+    },
+    {
+        "name": "HIPstIR",
+        "year": 2019,
+        "url": "https://bmitra-msft.github.io/HIPstIR/",
+        "papers": []
     }
 ]
