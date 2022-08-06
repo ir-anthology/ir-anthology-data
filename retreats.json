@@ -1,6 +1,7 @@
 [
     {
-        "name":"NSF-sponsored workshop on Task-Based Information Search",
+        "label":"NSF-sponsored workshop on Task-Based Information Search",
+        "acronym":"NSF TBIS",
         "year":2013,
         "url":"https://ils.unc.edu/taskbasedsearch/index.html",
         "papers": [
@@ -8,7 +9,8 @@
         ]
     },
     {
-        "name": "HIPstIR",
+        "label": "HIPstIR",
+        "acronym":"HIPstIR",
         "year": 2019,
         "url": "https://bmitra-msft.github.io/HIPstIR/",
         "papers": []

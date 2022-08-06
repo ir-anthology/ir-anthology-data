@@ -4,3 +4,4 @@ ir-anthology-data
 scripts/build
 scripts/dist
 scripts/ir_anthology_data.egg-info
+.vscode/
