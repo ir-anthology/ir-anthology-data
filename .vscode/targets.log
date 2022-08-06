@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug  5 17:25:28 2022
+# Make data base, printed on Sat Aug  6 10:59:11 2022
 
 # Variables
 
@@ -71,7 +71,7 @@ PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-Bow9jBwb6VPO/agent.1791
+SSH_AUTH_SOCK = /tmp/ssh-LlRqX8OhQ9oL/agent.1907
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -89,7 +89,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3372
+VSCODE_PID = 3428
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -99,7 +99,7 @@ BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 CONDA_PYTHON_EXE = /home/asqiir/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/schwarzer-klotz:@/tmp/.ICE-unix/2232,unix/schwarzer-klotz:/tmp/.ICE-unix/2232
+SESSION_MANAGER = local/schwarzer-klotz:@/tmp/.ICE-unix/2348,unix/schwarzer-klotz:/tmp/.ICE-unix/2348
 # automatic
 *F = $(notdir $*)
 # environment
@@ -193,7 +193,7 @@ SNAP_DATA = /var/snap/code/103
 # environment
 SNAP_CONTEXT = 4MFEeQwbfixgJbqy2K_EOf6Iv3dhNM19TFjicDRmEpsCnr2L2sTx
 # environment
-SSH_AGENT_PID = 2052
+SSH_AGENT_PID = 2154
 # environment
 _ = /snap/code/103/usr/share/code/code
 # environment
@@ -223,7 +223,7 @@ SNAP_NAME = code
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
 # environment
-XDG_SESSION_ID = 3
+XDG_SESSION_ID = 4
 # environment
 XCURSOR_SIZE = 24
 # default
@@ -259,7 +259,6 @@ _CE_CONDA =
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
- 
 # Load=123/1024=12%, Rehash=0, Collisions=3/154=2%
 
 # Pattern-specific Variable Values
@@ -268,9 +267,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 65026, inode 6816028): 18 files, no impossibilities.
+# . (device 65026, inode 6816028): 19 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,6 +289,7 @@ make: .venv
 
 # Not a target:
 Makefile:
+ 
 #  Implicit rule search has been done.
 #  Last modified 2022-04-09 14:13:46.805212969
 #  File has been updated.
@@ -328,12 +328,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 241 B / avg = 9 B
-# current buf: size = 8162 B / used = 241 B / count = 25 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 255 B / avg = 9 B
+# current buf: size = 8162 B / used = 255 B / count = 26 / avg = 9 B
 
-# strcache performance: lookups = 35 / hit rate = 28%
+# strcache performance: lookups = 36 / hit rate = 27%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/35=0%
-# Finished Make data base on Fri Aug  5 17:25:28 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/36=0%
+# Finished Make data base on Sat Aug  6 10:59:11 2022
 
  
