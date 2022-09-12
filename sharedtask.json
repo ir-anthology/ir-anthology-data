@@ -1,645 +1,793 @@
 {
-    "year": [
-        {
-            "year": 2020,
-            "conference": [
-                {
-                    "name": "CLEF",
-                    "tasks": [
-                        {
-                            "name": "ARQMath",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Find Answers",
-                                    "description": "Given a posted question as a query, search all answer posts and return relevant answer posts.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Formula Search",
-                                    "description": "Given a question post with an identified formula as a query, search all question and answer posts and return relevant formulas with their posts.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "BioASQ",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "BioASQ Task 10a",
-                                    "description": "This task will be based on the standard process followed by PubMed to index journal abstracts. The participants will be asked to classify new PubMed documents, written in English, as they become available online, before PubMed curators annotate (in effect, classify) them manually. The classes will come from the MeSH hierarchy; they will be the subject headings that are currently used to manually index the abstracts, excluding those that are already provided by the authors of each article. As new manual annotations become available, they will be used to evaluate the classification performance of participating systems (that classify articles before they are manually annotated), using standard IR measures (e.g., precision, recall, accuracy), as well as hierarchical variants of them. The participants will be able to train their classifiers, using the whole history of manually annotated abstracts.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "BioASQ Task 10b",
-                                    "description": "Task 10b will use benchmark datasets containing training and test biomedical questions, in English, along with gold standard (reference) answers. The participants will have to respond to each test question with relevant concepts (from designated terminologies and ontologies), relevant articles (in English, from designated article repositories), relevant snippets (from the relevant articles), relevant RDF triples (from designated ontologies), exact answers (e.g., named entities in the case of factoid questions) and 'ideal' answers (English paragraph-sized summaries). More than 4,200 training questions (that were used as dry-run or test questions in previous year) are already available, along with their gold standard answers (relevant concepts, articles, snippets, exact answers, summaries). About 500 new test questions will be used this year. All the questions are constructed by biomedical experts from around Europe.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "BioASQ Task DisTEMIST",
-                                    "description": "The novel DisTEMIST task will focus on the recognition and indexing of diseases in medical documents, by posing subtasks on (1) indexing medical documents with controlled  terminologies (2) automatic detection indexing textual evidence, i.e. disease entity mentions in text and (3) normalization of these disease mentions to terminologies.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "BioASQ Task Synergy",
-                                    "description": "Task Synergy will use benchmark datasets of test biomedical questions for COVID-19, in English. The participants will have to respond to each test question with relevant articles (in English, from designated article repositories), relevant snippets (from the relevant articles), exact answers (e.g., named entities in the case of factoid questions) and 'ideal' answers (English paragraph-sized summaries). No special training questions are available for this task, but expert feedback will be incrementally provided instead, based on participant responses for each round. Using this feedback, the participants can improve their systems and provide better answers for persisting and/or new questions. Meanwhile, the participants may also trainin their systems using the training dataset from previous versions of task Synergy and of task 10b as well, both available at the BioASQ Participants Area . All the questions are constructed and assessed by biomedical experts from around Europe. Participation in the task can be partial, i.e. participants may enter the task in any of the rounds.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "ChEMU",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Named Entity Recognition involves identifying chemical compounds as well as their types in context, i.e., to assign the label of a chemical compound according to the role which the compound plays within a chemical reaction.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Event extraction over chemical reactions involves event trigger detection and argument recognition.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "CheckThat!",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Predict which tweet from a stream of tweets on a topic should be prioritized for fact-checking.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Given a check-worthy tweet claim, and a set of previously-checked claims, determine whether the claim has been already fact-checked.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 4",
-                                    "description": "Given a check-worthy claim in a tweet and a set of potentially-relevant Web pages, estimate the veracity of the claim.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 5",
-                                    "description": "Given a debate segmented into sentences, together with speaker information, prioritize sentences for fact-checking.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task3",
-                                    "description": "Given a check-worthy claim on a specific topic and a set of text snippets extracted from potentially-relevant webpages, return a ranked list of evidence snippets for the claim.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "HIPE",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Subtask 1.1: NERC Coarse-grained: this task includes the recognition and classification of entity mentions according to coarse-grained types (Person, Location, Organisation and Product). Subtask 1.2: NERC Fine-grained: this task includes the recognition and classification of entity mentions according to fine-grained types (cf. column 2 in Table 2), plus the detection and classification of nested entities of depth 1, as well as entity mention components.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "This task includes the linking of named entity mentions to a unique referent in a knowledge base (KB) or to a NIL node if the mention does not have a referent in the KB. The chosen KB is Wikidata. The entity linking task includes two settings: with and without prior knowledge of mention boundaries. Concretely speaking, the evaluation period will consist of two consecutive rounds, where a first NEL task without prior information on mentions will be evaluated during round 1 (i.e. task bundles 1 and 2), and a second one with information on mention boundaries (but no type) during the second round (bundle 5).",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "ImageCLEF",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "ImageCLEFcoral",
-                                    "description": "The increasing use of structure-from-motion photogrammetry for modelling large-scale environments from action cameras has driven the next generation of visualization techniques. The task addresses the problem of automatically segmenting and labeling a collection of images that can be used in combination to create 3D models for the monitoring of coral reefs.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "ImageCLEFdrawnUI",
-                                    "description": "Enabling people to create websites by drawing them on a piece of paper can make the webpage building process more accessible. The task addresses the problem of automatically recognizing hand drawn objects representing website UIs, that will be further translated into automatic website code.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "ImageCLEFlifelog",
-                                    "description": "An increasingly wide range of personal devices that allow capturing pictures, videos, and audio clips for every moment of our lives, are becoming available. In this context, the task addresses the problems of lifelogging data retrieval and summarization.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "ImageCLEFmedical",
-                                    "description": "Medical images can be used in a variety of scenarios and this task will combine the most popular medical tasks of ImageCLEF and continue the last year idea of combining various applications, namely: automatic image captioning and scene understanding, medical visual question answering and decision support on tuberculosis. This allows to explore synergies between the tasks.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "LiLAS",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Given a query, find the most relevant documents!",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Given a seed publication, recommend research datasets",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "LifeCLEF",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "BirdCLEF",
-                                    "description": "Two scenarios will be evaluated: (i) the recognition of all specimens singing in a long sequence (up to one hour) of raw soundscapes that can contain tens of birds singing simultaneously, and (ii) chorus source separation in complex soundscapes that were recorded in stereo at very high sampling rate (250 kHz SR). For the first scenario, participants will be asked to provide time intervals of recognized singing birds. Participants will be allowed to use any of the provided metadata complementary to the audio content (wav format, 44.1 kHz, 48 kHz, or 96 kHz sampling rate). The task is focused on developing real-world applicable solutions and therefore requires participants to submit single models trained on none other than the mono-species recordings provided as training data. For the second task on stereophonic recordings, the goal will be to determine the species singing in chorus simultaneously during a time interval. In contrast to task one, the challengers are invited to run automatic source separation before or jointly to the bird species classification, taking advantage of the multi-channel recordings. Participants will be allowed to use any other data than the provided recordings, but will have to provide the scripts to check that their solution is fully automatic. For both tasks, the evaluation measure will be the classification mean Average Precision",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "GeoLifeCLEF",
-                                    "description": "The detailed description of the challenge is provided on the AICrowd page of the challenge: GeoLifeCLEF 2020 . In a nutshell, the occurrence dataset is split in a training set with known species name labels and a test set used for the evaluation. For each occurrence in the test set (paired with the corresponding satellite image and environmental co-variates), the goal of the task will is to return a candidate set of species with associated confidence scores. The evaluation metric will be an adaptive top-K accuracy.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "PlantCLEF",
-                                    "description": "The challenge will be evaluated as a cross-domain classification task. The training set will consist of herbarium sheets whereas the test set will be composed of field pictures. To enable learning a mapping between the herbarium sheets domain and the field pictures domain, we will provide both herbarium sheets and field pictures for a subset of species. The metrics used for the evaluation of the task will be the classification accuracy and the Mean Reciprocal Rank.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "SnakeCLEF",
-                                    "description": "Given the set of images and corresponding geographic locality information, the goal of the task will be to return for each image a ranked list of species sorted according to the likelihood that they are in the image and might have been observed at that location.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "PAN",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Authorship Verification",
-                                    "description": "Authorship verification is the task of deciding whether two texts have been written by the same author based on comparing the texts' writing styles. Given a large training dataset comprising of known authors who have written about a given set of topics, the test dataset contains verification cases from a subset of the authors and topics found in the training data.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Touch ",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "The goal of Task 1 is to support users who search for arguments to be used in conversations (e.g., getting an overview of pros and cons or just looking for arguments in line with a user's stance). Given a question on a controversial topic, the task is to retrieve relevant arguments from a focused crawl of online debate portals.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "The goal of Task 2 is to support users facing some choice problem from \"everyday life\". Given a comparative question, the task is to retrieve and rank documents from the ClueWeb12 that help to answer the comparative question.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "eHealth",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "This year s Multilingual Information Extraction (IE) task continues the growth path identified in previous year s CLEF eHealth IE challenges. The 2020 task focuses on ICD coding for clinical textual data in Spanish. Coding also includes some textual evidence annotations. A subtask focuses on term mapping, which is now a crucial and pressing need. The terms considered are extracted from EHRs in Spanish and they are manually linked to HPO, ICD10 and SNOMED CT. These tasks can be treated as a named entity recognition and normalisation task, but also as a text classification task. This year the lab proposes 3 subtasks:\r\nICD10-CM [CIE10 Diagn stico] codes assignment. This sub-track evaluates systems that predict ICD10-CM codes (in the Spanish translation, CIE10-Diagn stico codes).\r\nICD10-PCS [CIE10 Procedimiento] codes assignment. This sub-track evaluates systems that predict ICD10-PCS codes (in the Spanish translation, CIE10-Procedimiento codes).\r\nExplainable AI. Systems are required to submit the reference to the predicted codes (both ICD10-CM and ICD10-PCS). The correctness of the provided reference is assessed in this sub-track, in addition to the code prediction.\r\n",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "The 2020 CLEF eHealth Task 2 on consumer health search builds on the information retrieval tasks that have run at CLEF eHealth since its inception. The consumer health search task follows a standard information retrieval shared challenge paradigm from the perspective that it provides challenge participants with a test collection consisting of a set of documents and a set of topics to develop retrieval techniques for. Runs submitted by participants are pooled, and manual relevance assessment conducted.\r\nThis year the lab proposes 2 subtasks:\r\nAdhoc subtask\r\nSpoken queries subtask",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "eRisk",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "The challenge consists in performing a task on early risk detection of self-harm. The challenge consists of sequentially processing pieces of evidence and detect early traces of self-harm as soon as possible. The task is mainly concerned about evaluating Text Mining solutions and, thus, it concentrates on texts written in Social Media. Texts should be processed in the order they were created. In this way, systems that effectively perform this task could be applied to sequentially monitor user interactions in blogs, social networks, or other types of online media.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "This is a continuation of eRisk 2019's T3 task. The task consists of estimating the level of depression from a thread of user submissions. For each user, the participants will be given a history of postings and the participants will have to fill a standard depression questionnaire (based on the evidence found in the history of postings).",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "FIRE",
-                    "tasks": [
-                        {
-                            "name": "Anaphora Resolution from Social Media Text in Indian Languages (SocAnaRes-IL)\r\n",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task",
-                                    "description": "The task is to identify Anaphor and its antecedent in a given text. The text is a tweet.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Artificial Intelligence for Legal Assistance (AILA)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Given a query (description of a situation), identify relevant statutes and prior-cases",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "The task is to semantically segment a legal case document. More formally, it is a sentence classification task, where each sentence has to be assigned one of the 7 predefined labels or \"rhetorical roles\".",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Authorship Identification of Source Code (AI-SOCO)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "A",
-                                    "description": "Capitalization is writing a word with its first letter as a capital letter. Your task is to capitalize the given word. Input: A single line contains a non-empty word. This word consists of lowercase and uppercase English letters. The length of the word will not exceed 10^3. Output: The given word after capitalization.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "CEREX (Cause-Effect Relation EXtraction from Text)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task A",
-                                    "description": "Identify whether a given sentence contains a causal event (either cause/effect).",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task B",
-                                    "description": "Annotate each word in a sentence in terms of the four labels cause (C),effect(E), causal connectives(CC) and None.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Causality-driven Ad hoc Information Retrieval (CAIR)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task",
-                                    "description": "Participants will be given a static test collection of documents and a list of queries related to events that are likely to be caused by a number of other past events. The participants are then required to develop ranking models that can effectively retrieve documents containing information on such past events that are likely candidates to lead to the query event. The officially submitted ranked lists of different participating systems will then be evaluated by comparing them against a set of manually judged relevant documents.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Dravidian CodeMix Hate Speech and Offensive Content Identification in Indo-European Languages (Dravdian-CodeMix-HASOC)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task-1",
-                                    "description": "People use offensive content in their social media posts to degrade an individual or religion or other organizations in many respects. The identification of such social media posts is a necessity. A substantial amount of work has been done in languages like English. However, the offensive language identification in Indian language scenario is still an unexplored area. One of the key reasons is the code-mixing.\r\nThe goal of this task is to identify the offensive language of the code-mixed dataset of comments/posts in Dravidian Languages (Tamil-English and Malayalam-English and ) collected from social media. Each comment/post is annotated with offensive language label at the comment/post level. The data set has been collected from YouTube comments and Tweets.\r\nThis is a message-level label classification task. Given a YouTube comment in Code-mixed (Mixture of Native and Roman Script) Tamil and Malayalam, systems have to classify it into offensive or not-offensive. ",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Taskl-2",
-                                    "description": "People use offensive content in their social media posts to degrade an individual or religion or other organizations in many respects. The identification of such social media posts is a necessity. A substantial amount of work has been done in languages like English. However, the offensive language identification in Indian language scenario is still an unexplored area. One of the key reasons is the code-mixing.\r\nThe goal of this task is to identify the offensive language of the code-mixed dataset of comments/posts in Dravidian Languages (Tamil-English and Malayalam-English and ) collected from social media. Each comment/post is annotated with offensive language label at the comment/post level. The data set has been collected from YouTube comments and Tweets.\r\nThis is a message-level label classification task. Given a tweet or YouTube comments in Tanglish and Manglish (Tamil and Malayalam using written using Roman Script), systems have to classify it into offensive or not-offensive.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Event Detection from News in Indian Languages (EDNIL)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Event Identification: Identify a piece of text from news articles that contain an event.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Event Frame: Create an event frame from the news article containing the following details:\r\nType: Type and subtype of the line containing the event\r\nCasualties: No of people is injured or killed/Damages to properties\r\nTime: When the event takes place\r\nPlace: Where the event takes place\r\nReason: Why and how the event takes place\r\n",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Fake News Detection in the Urdu Language (UrduFake)\r\n",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task",
-                                    "description": "The dissemination of Fake news always beat out the truth with significant growth. Fake news and false rumors are spreading further and faster, reaching more people, and penetrating deeper into social networks. We propose the task titled  Fake News Detection in the Urdu Language\", which aims at identifying deceiving news articles in the Urdu language spread via digital media. Urdu fake news detection has been investigated (Amjad al.,2020), and we want better results at the level of English language and more methods. The objective of organizing this task is to address the problem of detecting deceiving information in Urdu language using digital media text.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Sub-task A",
-                                    "description": "Sub-task A focus on Hate speech and Offensive language identification offered for English, German, Hindi. Sub-task A is coarse-grained binary classification in which participating system are required to classify tweets into two class, namely: Hate and Offensive (HOF) and Non- Hate and offensive (NOT).\r\n(NOT) Non Hate-Offensive - This post does not contain any Hate speech, profane, offensive content.\r\n(HOF) Hate and Offensive - This post contains Hate, offensive, and profane content.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Sub-task B",
-                                    "description": "This sub-task  is a fine-grained classification offered for English, German, Hindi.. Hate-speech and offensive posts from the sub-task A are further classified into three categories.\r\n(HATE) Hate speech :- Posts under this class contain Hate speech content.\r\n(OFFN) Offenive :- Posts under this class contain offensive content.\r\n(PRFN) Profane :- These posts contain profane words.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Retrieval from Conversational Dialogues (RCD)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "Given an excerpt of a dialogue act as shown in example above, output the span of text indicating a potential piece of information need (requiring contextualization), i.e., in case of the above example, output the text Fifth Amendment.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Given an excerpt of a dialogue act (see above example), return a ranked list of passages containing information on the topic of the information need (requiring contextualization), i.e., with respect to the above example return passages from Wikipedia that contain information on the Fifth Amendment.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "TREC",
-                    "tasks": [
-                        {
-                            "name": "Conversational Assistance (CAsT)",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task",
-                                    "description": "The core of the CAsT 2020 task is unchanged from CAsT 2019. The goal of the task is to satisfy a user s complex information need expressed through multi-turn conversational queries/utterances (?) for each turn ? = {?1, ...?? ...??}, by retrieving and ranking passages from MS MARCO [1] and Wikipedia   the Complex Answer Retrieval (CAR) corpora [4]. The CAsT 2019 overview and dataset paper provide detail about the this setup [2, 3].",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Deep Learning",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "The first task focuses on document retrieval, with two subtasks: (i) Full retrieval and (ii) top-100 reranking. In the full retrieval subtask, the runs are expected to rank documents based on their relevance to the query, where documents can be retrieved from the full document collection provided. This subtask models the end-to-end retrieval scenario. In the reranking subtask, participants were provided with an initial ranking of 100 documents, giving all participants the same starting point. This is a common scenario in many real-world retrieval systems that employ a telescoping architecture [Matveeva et al., 2006, Wang et al., 2011]. The reranking subtask allows participants to focus on learning an effective relevance estimator, without the need for implementing an end-to-end retrieval system. It also makes the reranking runs more comparable, because they all rerank the same set of 100 candidates. The initial top-100 rankings were retrieved using Indri [Strohman et al., 2005] on the full corpus with Krovetz stemming and stopwords eliminated. Judgments are on a four-point scale: [3] Perfectly relevant: Document is dedicated to the query, it is worthy of being a top result in a search engine. [2] Highly relevant: The content of this document provides substantial information on the query. [1] Relevant: Document provides some information relevant to the query, which may be minimal. [0] Irrelevant: Document does not provide any useful information about the query. For metrics that binarize the judgment scale, we map document judgment levels 3,2,1 to relevant and map document judgment level 0 to irrelevant.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "Similar to the document retrieval task, the passage retrieval task includes (i) a full retrieval and (ii) a top-1000 reranking tasks. In the full retrieval subtask, given a query, the participants were expected to retrieve a ranked list of passages from the full collection based on their estimated likelihood of containing an answer to the question. Participants could submit up to 1000 passages per query for this end-to-end retrieval task. In the top-1000 reranking subtask, 1000 passages per query were provided to participants, giving all participants the same starting point. The sets of 1000 were generated based on BM25 retrieval with no stemming as applied to the full collection. Participants were expected to rerank the 1000 passages based on their estimated likelihood of containing an answer to the query. In this subtask, we can compare different reranking methods based on the same initial set of 1000 candidates, with the same rationale as described for the document reranking subtask. Judgments are on a four-point scale: [3] Perfectly relevant: The passage is dedicated to the query and contains the exact answer. [2] Highly relevant: The passage has some answer for the query, but the answer may be a bit unclear, or hidden amongst extraneous information. [1] Related: The passage seems related to the query but does not answer it. [0] Irrelevant: The passage has nothing to do with the query. For metrics that binarize the judgment scale, we map passage judgment levels 3,2 to relevant and map document judgment levels 1,0 to irrelevant.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Fair Ranking",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "For 2020, we again adopted an academic search task, where we have a corpus of academic article abstracts and queries submitted to a production academic search engine. The central goal of the Fair Ranking track is to provide fair exposure to different groups of authors (a group fairness framing). We recognize that there may be multiple group definitions (e.g. based on demographics, stature, topic) and hoped for the systems to be robust to these. We expected participants to develop systems that optimize for fairness and relevance for arbitrary group definitions, and did not reveal the exact group definitions until after the evaluation runs were submitted. \"Rerank\" runs sorted a query-dependent list of documents to simultaneously provide fairness and relevance.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "For 2020, we again adopted an academic search task, where we have a corpus of academic article abstracts and queries submitted to a production academic search engine. The central goal of the Fair Ranking track is to provide fair exposure to different groups of authors (a group fairness framing). We recognize that there may be multiple group definitions (e.g. based on demographics, stature, topic) and hoped for the systems to be robust to these. We expected participants to develop systems that optimize for fairness and relevance for arbitrary group definitions, and did not reveal the exact group definitions until after the evaluation runs were submitted. \"Retrieval\" runs returned 100-item rankings from the corpus in response to a query string.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Health Misinformation",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "For the total recall task, the goal is to identify all the documents conveying incorrect information for a specific set of topics. Documents contradicting the topic s answer are assumed to be misinformation. Participants were to identify all documents in a collection that promulgate, promote, and/or support that misinformation. For example, for the topic  Can Ibuprofen worsen COVID19 , participants were to identify all documents indicating that Ibuprofen can worsen COVID-19. Documents making this claim for the purposes of debunking it are not misinformation. Participants submitted runs that ranked documents according to the likelihood that they promulgate misinformation. Up to 10,000 documents per topic could be submitted.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "For the ad-hoc retrieval task, the goal is to design a ranking model that promotes credible and correct information over incorrect information. For a given topic, participants were to return relevant, credible, and correct information that will help searchers make correct decisions. Participants were to assume that the statement included in the topic description is correct or not, based on the answer field, even if they knew current medical or other evidence suggests otherwise. Runs were allowed to contain a maximum of 1,000 documents per topic. Note that this task is more than simply a new definition of what is relevant. There are multiple types of results: useful and correct and credible, useful and correct but not credible, etc. as well as incorrect and non-useful documents. It is important that search results avoid containing incorrect results. In place of notions of correctness, the credibility of the information source is useful, and useful and credible information is preferred.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Incident Streams",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task 1",
-                                    "description": "This task is an extension of the core TREC-IS task used in 2018 and 2019. Systems participating in this task are given tweet streams from a collection of crisis events and should classify each tweet as having one or more of the high-level information types described in the ontology section above. Each tweet should be assigned as many categories as are appropriate. Likewise, each message must be tagged with a numeric measure of priority, on a [0, 1] scale (in 2020-A, we used an ordinal value of  Low ,  Medium ,  High , or  Critical  but returned to the numeric scale after discussions with participants)",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 2",
-                                    "description": "(Introduced in 2020-A) A common concern in Task 1 is that the number of high-level information types makes it difficult to dive deeply into the labels. Obtaining a deeper understanding of these labels appears key to a high-performing system, however, as systems with strong feature engineering have performed highly in previous TREC-IS editions. To address this issue, TREC-IS 2020 now includes a restricted version of Task 1 that focuses only on 11 of the high-level information types. These 11 include the top six information types labeled as  actionable  in previous editions (i.e., the types that have, on average, the highest priority) as well as five other types selected from the full set used in Task 1, as shown in Table 1 (marked by a   ).",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Task 3",
-                                    "description": "(Introduced in 2020-A) In this task, systems are intended to provide public health officials and emergency response officers with additional tooling and evaluation data for future public health emergencies or resurgence of COVID-19. COVID-19 is different from prior events, however, in that its impacts are global in scale and are difficult to restrict to a single region as we can with wildfires or earthquakes. It is therefore difficult to identify primary affected locations (whereas hurricanes or wildfires are geographically constrained). Hence, for COVID-19 TREC-IS focuses data collections around regional areas of interest, primarily population centers. In 2020-A, this task restricted the set of information types to a subset of eight relevant types (see Table 1 for types marked with a   ) as the track lacked training data for public health events. For 2020-B, however, we have removed the category restriction as analyses of 2020-A COVID-19 data has found instances across 24 of the 25 information types (weather-related content was not found). Consequently, this Task 3 parallels Task 1 and differs only in the data against which participant systems are evaluated.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "News",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Background Linking",
-                                    "description": "The goal of the background linking task is to develop evaluation data to support researchers in developing systems that can help users contextualize news articles as they are reading them. News websites nearly always link to related articles in a sidebar, at the end of an article, from within the text of the article, or all three. We want to look at a particular case for linking: given that the user is reading a specific article (the query article), algorithms should recommend articles that this person should read next that are the most useful for providing context and background for the query article. The background article can be dated before or after the query article, because we are considering the use case where the user is reading the query article now, irrespective of when it was published, and the system is recommending background reading live at the time when the user is reading the query article.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Wikification",
-                                    "description": "In addition to providing links to articles that give the reader background or contextual information, journalists sometimes link mentions of concepts, artifacts, and entities to internal or external pages with in depth information that will help the reader better understand the article. In the first two years of the track, we worked on ranking entities within the document as to their priority for linking. For this year, the task was grown into a full wikification task. Wikification is providing Wikipedia-like markup in a document by linking related content to contextually-relevant anchors. The goal of wikification depends on the application; in Wikipedia, the goal is to link articles to other articles as cross-references. For news reading, we imagine that wikification could be used to recommend interstitial links to the author or editor of the article, where those links serve a similar function to results in the background linking task: provide essential background and context to the reader of the article. This definition of wikification differs in some important ways from the natural language processing field s version, where it essentially means linking entities in the article (which may be a Wikipedia article) to other Wikipedia articles. First, we do not restrict the anchor to entity mentions but rather they can be any contiguous span of text within a block. Second, the target of the link can be the knowledge base (Wikipedia) or another article in the Post. Lastly, the task is formulated as ranked recommendation, so high performance is modeled by selecting useful anchors and linking them in a way that provides context to the user, instead of complete and correct entity linking. The task is operationalized as follows: Given the same starting article as in the background linking task, systems were to provide a ranked list of link anchors and suggestions. A link anchor was a triple of content block number, starting 6 character, and anchor length, defining an extent of characters in the document. The suggested target for the anchor could be either another Washington Post article, or a Wikipedia article in the provided Wikipedia dump. Individual (anchor, target) pairs are ranked by the system-provided score as in a traditional TREC run. At the time that the task was released to participants, the rubric for relevance judgments was not yet set, although the coordinators had expected the scheme to mirror that of background linking. However, as the assessment plan was developed, it was clear that a wikification result could be poor for multiple reasons. Thus, the following two-level, four-part scheme was used: 1. is the anchor sensible, that is, does it break on word boundaries and seem reasonable in a  lexical  sense? Anchors that break in the middle of words or awkwardly in the middle of phrases are not sensible. 2. is the anchor useful, that is, would a link at that place in the document possible help the reader better understand the article? Converting a noun phrase that has no bearing on the main topic of the article would be sensible, but not useful. 3. does the target match the anchor? Is the target document what the reader would reasonably expect to be linked from that anchor? Linking the text  Justin Bieber  to the Wikipedia page for Barack Obama would not match, although the anchor seems sensible and is conceivably useful. 4. is the target helpful? Does the content in the linked article provide background information or context for understanding the topic document? This is essentially the relevance criterion in the background linking task.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Podcasts",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Segment Retrieval",
-                                    "description": "The retrieval task was defined as the problem of finding relevant segments from the episodes for a set of search queries which were provided in traditional TREC topic format. The provided transcripts have word-level time-stamps on a granularity of 0.1s which allows retrieval systems to index the contents by time osets. A segment was defined to be a two-minute chunk starting on the minute; e.g. [0.0-119.9] seconds, [60-199.9] seconds, [120-139.9] seconds, etc. Segments overlap each other by one minute - any segment except for the first and last segment is covered by the preceding and following segments. The rationale for creating overlapping segments is to account for the case where a phrase or sentence is split across segment boundaries. This creates 3.4M segments in total from the document collection with an average word count of 340   70 per segment. Topics consist of a topic number, keyword query, a type label, and a description of the user s information need. Eight topics were given at the outset for the participants to practice on, and 50 topics were released as the test task. Topics were formulated in three types: topical, re-finding, and known item. Example topics are given in Figure 2.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                },
-                                {
-                                    "name": "Summarization Task",
-                                    "description": "Given a podcast episode, its audio, and transcription, the task is to return a short text snippet which accurately conveys the content of the podcast. Returned summaries should be grammatical, standalone uerances of significantly shorter length than the input episode description, short enough to be quickly read on a smartphone screen. No ground truth summaries are provided; the closest proxies are the show and episode descriptions provided by the podcast creators. We observe that these descriptions vary widely in scope, and are not always intended to act as summaries of the episode content, reflecting the dierent genres represented in the sample and the dierent intentions of the creators for the descriptions. We filtered the descriptions to establish a subset that is more appropriate as a ground truth set compared to full set of descriptions. The filtering was done with three heuristics shown in Table 5. These filters overlap to some extent, and remove about a third of the entire set; the remaining 66,245 descriptions we call the Brass Set.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Precision Medicine",
-                            "overviewpaper": "none",
-                            "sharedtasks": [
-                                {
-                                    "name": "Task",
-                                    "description": "The task this year was focused on finding information about a specific treatment that an oncologist might consider for a patient. Specifically, the task focused on identifying critical evidence for or against the treatment in the specific population represented by the type of cancer and genetic mutation(s) in the topic. The topic structure is close to the Evidence Based Medicine (EBM)  PICO  framework, where the problem/population (P) is the cancer and its mutations, the intervention (I) is the treatment, the comparison (C) is an alternative treatment, and the outcomes (O) are the endpoints of a cancer study, such as event-free survival, quality of life or time to progression. This framework was designed to find the most relevant scientific articles for an individual patient, specifically searching the scientific literature in PubMed. The EBM notion of relevance combines topical evidence with the strength of evidence. The task emulated this notion and required strong evidence for the treatment (whether positive or negative) to be ranked over weaker evidence. There are often many treatments for a particular type of cancer and particular genetic mutations, so a useful clinical decision support tool will help oncologists narrow the treatment decision to the one most likely to help the patient. This is why strong negative evidence is important: it helps eliminate the treatment so that a more efficacious treatment can be chosen instead. The idea is to provide oncologists with the evidence that best helps them make a decision when evaluating competing alternatives. The primary literature corpus is therefore a snapshot of MEDLINE abstracts (i.e., what is searchable through the PubMed interface). The same MEDLINE-baseline snapshot that was used for the 2019 track was used this year. Of course, this collection should not be used to provide real-time decision support in 2020, but it is large enough to support the goals of this evaluation. Specifically, this corpus is composed of 29,138,916 MEDLINE abstracts.",
-                                    "participantpaper": [
-                                        "none"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
+  "2020": {
+    "conferences":[
+      {
+        "id":"clef",
+        "label":"CLEF",
+        "tasks":[
+          {
+            "id":"arqmath",
+            "label":"ARQMath",
+            "overviewpapers":[
+              "zanibbi-2020-overview"
+            ],
+            "sharedtasks":[
+              "Find Answers",
+              "Formula Search"
+            ],
+            "participantpapers":[
+              "dadure-2020-analysis",
+              "mansouri-2020-dprl",
+              "ng-2020-dowsing",
+              "novotny-2020-three",
+              "rohatgi-2020-psu",
+              "scharpf-2020-arqmath"
             ]
-        }
+          },
+          {
+            "id":"bioasq",
+            "label":"BioASQ",
+            "overviewpapers":[
+              "nentidis-2020-overview-1",
+              "penagos-2020-overview",
+              "nentidis-2020-overview"
+            ],
+            "sharedtasks":[
+              "BioASQ Task 10a",
+              "BioASQ Task 10b",
+              "BioASQ Task DisTEMIST",
+              "BioASQ Task Synergy"
+            ],
+            "participantpapers":[
+              "akdemir-2020-transfer",
+              "almeida-2020-bitua-1",
+              "cardoso-2020-priberam",
+              "han-2020-ncuiisr",
+              "jeong-2020-transferability",
+              "kazaryan-2020-transformerbased",
+              "kommaraju-2020-unsupervised",
+              "laraclares-2020-statistical",
+              "ma-2020-hybrid",
+              "molla-2020-query",
+              "neves-2020-extreme",
+              "pappas-2020-auebnlp",
+              "ribadaspena-2020-cole",
+              "sankhavara-2020-queryfocused"
+            ]
+          },
+          {
+            "id":"chemu",
+            "label":"ChEMU",
+            "overviewpapers":[
+              "he-2020-overview",
+              "he-2020-extended"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "malarkodi-2020-clrg",
+              "copara-2020-named",
+              "dao-2020-vinai",
+              "donmez-2020-bounrex",
+              "lowe-2020-extraction",
+              "mahendran-2020-nlpatvcu",
+              "ruas-2020-lasigebiotm",
+              "wang-2020-melaxtech"
+            ]
+          },
+          {
+            "id":"checkthat",
+            "label":"CheckThat!",
+            "overviewpapers":[
+              "hasanain-2020-overview",
+              "shaar-2020-overview",
+              "barroncedeno-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2",
+              "Task 4",
+              "Task 5",
+              "Task 3"
+            ],
+            "participantpapers":[
+              "alkhalifa-2020-qmulsds",
+              "bouziane-2020-team",
+              "cheema-2020-checksquare",
+              "cusmuliuc-2020-uaics",
+              "hasanain-2020-bigir",
+              "hussein-2020-damascusteam",
+              "kartal-2020-tobb",
+              "thyaharajan-2020-ssnnlp",
+              "zhou-2018-search",
+              "mcdonald-2020-university-1",
+              "nikolov-2020-team",
+              "passaro-2020-unipinle",
+              "shukla-2020-tiet",
+              "thuma-2020-ubet",
+              "touahri-2020-evolutionteam",
+              "williams-2020-accenture"
+            ]
+          },
+          {
+            "id":"hipe",
+            "label":"HIPE",
+            "overviewpapers":[
+              "ehrmann-2020-extended",
+              "ehrmann-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "boros-2020-robust",
+              "dekhili-2020-hybrid",
+              "vaigh-2020-irisa",
+              "ghannay-2020-experiments",
+              "kristanti-2020-delft",
+              "labusch-2020-named",
+              "nouvel-2020-adapting",
+              "suarez-2020-sinner",
+              "provatorova-2020-named",
+              "schweter-2020-triple",
+              "todorov-2020-transfer"
+            ]
+          },
+          {
+            "id":"imageclef",
+            "label":"ImageCLEF",
+            "overviewpapers":[
+              "ninh-2020-overview",
+              "abacha-2020-overview",
+              "fichou-2020-overview",
+              "pelka-2020-overview",
+              "chamberlain-2020-overview",
+              "kozlovski-2020-overview",
+              "ionescu-2020-overview"
+            ],
+            "sharedtasks":[
+              "ImageCLEFcoral",
+              "ImageCLEFdrawnUI",
+              "ImageCLEFlifelog",
+              "ImageCLEFmedical"
+            ],
+            "participantpapers":[
+              "alsadi-2020-inception",
+              "arendt-2020-effects",
+              "arul-2020-imageclef",
+              "asakawa-2020-imageclef",
+              "balwal-2020-deep",
+              "abdallah-2020-automatic",
+              "bogomasov-2020-enhanced",
+              "che-2020-chejiao",
+              "chen-2020-hcpmic",
+              "coca-2020-uaic",
+              "deherrera-2020-essex",
+              "gruber-2020-automatic",
+              "gupta-2020-html",
+              "jung-2020-bumjunjung",
+              "kalimuthu-2020-competitive",
+              "karatzas-2020-aueb",
+              "le-2020-organiser",
+              "lestyan-2020-sztaki",
+              "liao-2020-aiml",
+              "liu-2020-shengyan",
+              "lu-2020-imageclef",
+              "layode-2020-multilabel",
+              "mainguyen-2020-leverage",
+              "miron-2020-revealing",
+              "mossa-2020-ensemble",
+              "narayanan-2020-deep",
+              "mohamed-2020-imageclef",
+              "picek-2020-coral",
+              "ribeiro-2020-uapt",
+              "sarrouti-2020-nlm",
+              "sonker-2020-techniques",
+              "tran-2020-interactive-1",
+              "tran-2020-interactive-1",
+              "trangtrung-2020-lifelog",
+              "udas-2020-concept",
+              "umada-2020-kdevqa",
+              "verma-2020-harendrakv",
+              "waqas-2020-lungwise",
+              "zita-2020-sketchcode"
+            ]
+          },
+          {
+            "id":"lilias",
+            "label":"LiLAS",
+            "overviewpapers":[
+              "schaer-2020-overview",
+              "schaer-2020-overview-1"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+
+            ]
+          },
+          {
+            "id":"lifeclef",
+            "label":"LifeCLEF",
+            "overviewpapers":[
+              "goeau-2020-overview",
+              "picek-2020-overview",
+              "kahl-2020-overview",
+              "deneu-2020-overview",
+              "joly-2020-overview"
+            ],
+            "sharedtasks":[
+              "BirdCLEF",
+              "GeoLifeCLEF",
+              "PlantCLEF",
+              "SnakeCLEF"
+            ],
+            "participantpapers":[
+              "bai-2020-xception",
+              "bloch-2020-combination",
+              "chulif-2020-herbariumfield",
+              "clementino-2020-using",
+              "deneu-2020-participation",
+              "krishnan-2020-impact",
+              "krishna-2020-plant",
+              "muhling-2020-bird",
+              "villacisllobet-2020-domain",
+              "zhang-2020-adversarial-1"
+            ]
+          },
+          {
+            "id":"pan",
+            "label":"PAN",
+            "overviewpapers":[
+              "zangerle-2020-overview",
+              "wiegmann-2020-overview",
+              "bevendorff-2020-shared",
+              "pardo-2020-overview",
+              "bevendorff-2020-overview"
+            ],
+            "sharedtasks":[
+              "Authorship Verification"
+            ],
+            "participantpapers":[
+              "agirrezabal-2020-kucst",
+              "alroobaea-2020-deep",
+              "araujopino-2020-siamese",
+              "giglou-2020-lsaconet",
+              "bakhteev-2020-fake",
+              "baruah-2020-automatic",
+              "boenninghoff-2020-deep",
+              "buda-2020-ensemble",
+              "cardaioli-2020-fake",
+              "castrocastro-2020-mixed",
+              "das-2020-ensemble",
+              "duan-2020-rmit",
+              "espinosa-2020-analyzing",
+              "espinosa-2020-profiling",
+              "fersini-2020-profiling",
+              "gagala-2020-authorship",
+              "halvani-2020-crossdomain",
+              "hashemi-2020-fake",
+              "hortenhuemer-2020-multiaspect",
+              "ikae-2020-unine",
+              "ikae-2020-unine-1",
+              "iyer-2020-style",
+              "kipnis-2020-higher",
+              "koloski-2020-multilingual",
+              "koloski-2020-know",
+              "labadie-2020-fusing",
+              "lichouri-2020-profiling",
+              "lopez-2020-profiling",
+              "fernandez-2020-approaches",
+              "majumder-2020-detecting",
+              "manna-2020-profiling",
+              "morenosandoval-2020-assembly",
+              "bello-2020-detecting",
+              "niven-2020-profiling",
+              "ordonez-2020-longformers",
+              "pinnaparaju-2020-identifying",
+              "pizarro-2020-using",
+              "price-2020-celebrity",
+              "russo-2020-sadness",
+              "lopez-2020-profiling",
+              "shashirekha-2020-ulmfit",
+              "shashirekha-2020-ensemble",
+              "shrestha-2020-detecting",
+              "vogel-2020-fake",
+              "weerasinghe-2020-feature",
+              "wu-2020-bert"
+            ]
+          },
+          {
+            "id":"touche",
+            "label":"Touché",
+            "overviewpapers":[
+              "bondarenko-2020-overview-1",
+              "bondarenko-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "abye-2020-opendomain",
+              "akiki-2020-exploring",
+              "bundesmann-2020-creating",
+              "chekalina-2020-retrieving",
+              "dumani-2020-ranking",
+              "entezari-2020-argument",
+              "huck-2020-development",
+              "shahshahani-2020-university",
+              "sievers-2020-question",
+              "staudte-2020-sentarg"
+            ]
+          },
+          {
+            "id":"ehealth",
+            "label":"eHealth",
+            "overviewpapers":["goeuriot-2020-overview"],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+
+            ]
+          },
+          {
+            "id":"erisk",
+            "label":"eRisk",
+            "overviewpapers":[
+              "losada-2020-overview",
+              "losada-2020-overview-1"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "achilles-2020-using",
+              "aragon-2020-inaoecimat",
+              "hosseinabad-2020-detection",
+              "ageitos-2020-nlpuned",
+              "madani-2020-usdb",
+              "martinezcastano-2020-early",
+              "maupome-2020-early",
+              "trifan-2020-bioinfo",
+              "uban-2020-deep"
+            ]
+          }
+        ]
+      },
+      {
+        "id":"fire",
+        "label":"FIRE",
+        "tasks":[
+          {
+            "id":"anaphora resolution from social media text in indian languages socanares il",
+            "label":"Anaphora Resolution from Social Media Text in Indian Languages (SocAnaRes-IL)",
+            "overviewpapers":[
+              "devi-2020-anaphora"
+            ],
+            "sharedtasks":[
+              "Task"
+            ],
+            "participantpapers":[
+              "singh-2020-attention"
+            ]
+          },
+          {
+            "id":"artificial intelligence for legal assistance aila",
+            "label":"Artificial Intelligence for Legal Assistance (AILA)",
+            "overviewpapers":[
+              "bhattacharya-2020-overview",
+              "bhattacharya-2020-fire"
+            ],
+            "sharedtasks":[
+              "Task 1 : Precedent & Statute retrieval",
+              "Task 2 : Rhetorical Role Labelling for Legal Judgements"
+            ],
+            "participantpapers":[
+              "leburudingalo-2020-ub",
+              "liu-2020-query",
+              "majumder-2020-rhetorical",
+              "balaji-2020-legal",
+              "s-2020-best",
+              "gao-2020-legal",
+              "almuslim-2020-document",
+              "li-2020-language",
+              "dinunzio-2020-study-3",
+              "arora-2020-artificial",
+              "jain-2020-spectre",
+              "xu-2020-language",
+              "fink-2020-fire",
+              "wu-2020-retrieval"
+            ]
+          },
+          {
+            "id":"authorship identification of source code ai soco",
+            "label":"Authorship Identification of Source Code (AI-SOCO)",
+            "overviewpapers":[
+              "fadel-2020-overview",
+              "fadel-2020-overview-1"
+            ],
+            "sharedtasks":[
+              "A"
+            ],
+            "participantpapers":[
+              "crosby-2020-uob",
+              "yang-2020-ngrambased",
+              "younes-2020-team",
+              "bestgen-2020-boosting",
+              "han-2020-rankingbased",
+              "garciadiaz-2020-umuteam",
+              "mandalam-2020-embeddingbased",
+              "suman-2020-source",
+              "sriiesaranusorn-2020-kodestylers",
+              "balaji-2020-ssncsenlp-3"
+            ]
+          },
+          {
+            "id":"cerec cause effect relation extraction from text",
+            "label":"CEREX (Cause-Effect Relation EXtraction from Text)",
+            "overviewpapers":[
+              "sinha-2020-cerex"
+            ],
+            "sharedtasks":[
+              "Task A",
+              "Task B"
+            ],
+            "participantpapers":[
+              "durairaj-2020-ssnnlp",
+              "aziz-2020-feature"
+            ]
+          },
+          {
+            "id":"causality driven ad hoc information retrieval cair",
+            "label":"Causality-driven Ad hoc Information Retrieval (CAIR)",
+            "overviewpapers":["datta-2020-overview"],
+            "sharedtasks":[
+              "Task"
+            ],
+            "participantpapers":[
+              "lin-2020-causality",
+              "dadure-2020-preliminary"
+            ]
+          },
+          {
+            "id":"dravidian codemix hate speech and offensive content identification in indo european languages Dravian codemic hasoc",
+            "label":"Dravidian CodeMix Hate Speech and Offensive Content Identification in Indo-European Languages (Dravdian-CodeMix-HASOC)",
+            "overviewpapers":[
+              "chakravarthi-2020-overview-1",
+              "chakravarthi-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task-1 (Tamil)",
+              "Task-2 (Malayalam)"
+            ],
+            "participantpapers":[
+              "mahata-2020-junlp",
+              "balouchzahi-2020-mucs",
+              "sharma-2020-bits",
+              "dowlagar-2020-cmsaone",
+              "sun-2020-hitsun",
+              "andrew-2020-judithjeyafreeda",
+              "kalaivani-2020-ssnnlpmlrg",
+              "chanda-2020-irlab",
+              "kanwar-2020-pits",
+              "sun-2020-srj",
+              "balaji-2020-ssncsenlp",
+              "ou-2020-ynu",
+              "babu-2020-cianitt",
+              "huang-2020-lucashub",
+              "kumar-2020-nitpainlp-1",
+              "s-2020-sasvg",
+              "saroj-2020-irlab",
+              "ortizbejar-2020-umsnhinfotec",
+              "sharma-2020-tads",
+              "krishnamurthy-2020-parameswarifaithnagaraju",
+              "zhu-2020-yun",
+              "lakshmanan-2020-theedhum",
+              "banerjee-2020-nuigshubhanker"
+            ]
+          },
+          {
+            "id":"event detection from news in indian languages ednil",
+            "label":"Event Detection from News in Indian Languages (EDNIL)",
+            "overviewpapers":[
+              "dave-2020-overview",
+              "dave-2020-fire"
+            ],
+            "sharedtasks":[
+              "Task 1: Event Identification",
+              "Task 2: Event Frame"
+            ],
+            "participantpapers":[
+              "mishra-2020-nonneural",
+              "kumar-2020-comma",
+              "balouchzahi-2020-approach",
+              "basak-2020-event"
+            ]
+          },
+          {
+            "id":"fake news detection in the urdu language urdufake",
+            "label":"Fake News Detection in the Urdu Language (UrduFake)",
+            "overviewpapers":[
+              "amjad-2020-overview",
+              "amjad-2020-urdufake"
+            ],
+            "sharedtasks":[
+              "Task"
+            ],
+            "participantpapers":[
+              "lin-2020-fake",
+              "khilji-2020-urdu",
+              "kumar-2020-nitpainlp-2",
+              "reddy-2020-grubased",
+              "balaji-2020-ssncsenlp-1",
+              "balouchzahi-2020-learning"
+            ]
+          },
+          {
+            "id":"hate speech and offensive content identification in indo european languages hasoc",
+            "label":"Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
+            "overviewpapers":[
+              "mandl-2020-overview",
+              "chakravarthi-2020-overview-2",
+              "mandl-2020-overview-1"
+            ],
+            "sharedtasks":[
+              "Sub-task : Identifying Hate, offensive and profane content",
+              "Sub-task B :- Discrimination between Hate, profane and offensive posts"
+            ],
+            "participantpapers":[
+              "ou-2020-ynuoxz",
+              "roy-2020-leveraging",
+              "mishra-2020-iiitdwd",
+              "balouchzahi-2020-las",
+              "madhu-2020-astralis",
+              "raj-2020-nsit",
+              "ray-2020-ju",
+              "ezike-2020-chrestotes",
+              "dowlagar-2020-hasocone",
+              "kalaivani-2020-ssnnlpmlrg-1",
+              "zhou-2020-zeus",
+              "zhao-2020-zyj",
+              "li-2020-lee",
+              "zhang-2020-yunde",
+              "shi-2020-huiping",
+              "huang-2020-hub",
+              "swaminathan-2020-hrstechie",
+              "wang-2019-ynuwb",
+              "mothe-2020-iritprevision",
+              "kumar-2020-nitpainlp",
+              "reddy-2020-hatedetectors",
+              "que-2020-simon",
+              "saha-2020-hate",
+              "mohtaj-2020-tub",
+              "b-2020-dlrg",
+              "xu-2020-yasuo",
+              "kumari-2020-aimlnitpatna",
+              "singh-2020-cfilt",
+              "aroyehun-2020-nlpcic",
+              "sai-2020-siva",
+              "renjit-2020-cusatnlp",
+              "pathak-2020-kbcnmujal",
+              "arora-2020-gauravarora",
+              "balaji-2020-ssncsenlp-2",
+              "v-2020-cenmates",
+              "kumar-2020-nitpainlp-3",
+              "dong-2020-yun",
+              "zhu-2020-zyy",
+              "p-2020-ajees",
+              "singh-2020-cfilt-1",
+              "ranasinghe-2020-wlvrit",
+              "baruah-2020-iiitgadbu"
+            ]
+          },
+          {
+            "id":"retrieval from conversational dialogues rcd",
+            "label":"Retrieval from Conversational Dialogues (RCD)",
+            "overviewpapers":["ganguly-2020-overview"],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "kaushik-2020-dcu"
+            ]
+          }
+        ]
+      },
+      {
+        "id":"trec",
+        "label":"TREC",
+        "tasks":[
+          {
+            "id":"conversational assistance cast",
+            "label":"Conversational Assistance (CAsT)",
+            "overviewpapers":[
+              "dalton-2020-cast"
+            ],
+            "sharedtasks":[
+              "Task"
+            ],
+            "participantpapers":[
+              "chang-2020-query",
+              "fotiadis-2020-duth",
+              "gemmell-2020-glasgow",
+              "althani-2020-hbku",
+              "mele-2020-topical-1",
+              "cross-2020-ielab",
+              "ferreira-2020-nova",
+              "xu-2020-polyu",
+              "sekulic-2020-extending",
+              "vakulenko-2020-leveraging",
+              "arabzadeh-2020-waterlooclarke",
+              "niebergall-2020-wilfrid"
+            ]
+          },
+          {
+            "id":"deep learning",
+            "label":"Deep Learning",
+            "overviewpapers":[
+              "craswell-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "almeida-2020-deep",
+              "knafou-2020-sib",
+              "pradeep-2020-holoo",
+              "wrzalik-2020-hsrmlavis",
+              "chen-2020-icip",
+              "li-2020-mpii",
+              "mitra-2020-conformerkernel",
+              "formal-2020-naver",
+              "mrabet-2020-nlm",
+              "qiao-2020-pash",
+              "cao-2020-multiple",
+              "haouari-2020-bigir",
+              "culpepper-2020-rmit",
+              "hofstatter-2020-evaluating",
+              "kamps-2020-impact",
+              "reed-2020-faster",
+              "wang-2020-university",
+              "sekulic-2020-longformer"
+            ]
+          },
+          {
+            "id":"fair ranking",
+            "label":"Fair Ranking",
+            "overviewpapers":[
+
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "feng-2020-university",
+              "almquist-2020-macewan",
+              "ferraro-2020-balancing",
+              "kletti-2020-naver",
+              "sayed-2020-university",
+              "mcdonald-2020-university"
+            ]
+          },
+          {
+            "id":"health misinformation",
+            "label":"Health Misinformation",
+            "overviewpapers":[
+              "clarke-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2"
+            ],
+            "participantpapers":[
+              "fernandezpichel-2020-citius",
+              "pradeep-2020-holoo",
+              "lima-2020-university",
+              "mrabet-2020-nlm",
+              "tao-2020-realsakailab",
+              "goncalves-2020-vohcolab",
+              "bevendorff-2020-webis"
+            ]
+          },
+          {
+            "id":"incident streams",
+            "label":"Incident Streams",
+            "overviewpapers":[
+              "buntain-2020-incident"
+            ],
+            "sharedtasks":[
+              "Task 1",
+              "Task 2",
+              "Task 3"
+            ],
+            "participantpapers":[
+              "wang-2020-bjut",
+              "sharma-2020-improving",
+              "wang-2020-multitask-1",
+              "hepburn-2020-university"
+            ]
+          },
+          {
+            "id":"news",
+            "label":"News",
+            "overviewpapers":[
+              "soboroff-2020-trec"
+            ],
+            "sharedtasks":[
+              "Background Linking",
+              "Wikification"
+            ],
+            "participantpapers":[
+              "khloponin-2020-clac",
+              "gautam-2020-trec",
+              "day-2020-osc",
+              "boers-2020-radboud",
+              "ak-2020-sunlp",
+              "ningtyas-2020-tuwifs",
+              "lu-2020-aspect"
+            ]
+          },
+          {
+            "id":"podcasts",
+            "label":"Podcasts",
+            "overviewpapers":[
+              "jones-2020-trec"
+            ],
+            "sharedtasks":[
+              "Segment Retrieval",
+              "Summarization Task"
+            ],
+            "participantpapers":[
+              "manakul-2020-cuedspeech",
+              "moriya-2020-dcuadapt",
+              "karlbom-2020-abstract",
+              "sharma-2020-lrg",
+              "yu-2020-spotify",
+              "rezapour-2020-spotify",
+              "kashyapi-2020-tremaunh",
+              "song-2020-automatic",
+              "zheng-2020-twophase",
+              "galuscakova-2020-combine",
+              "owoicho-2020-glasgow"
+            ]
+          },
+          {
+            "id":"precision medicine",
+            "label":"Precision Medicine",
+            "overviewpapers":[
+              "roberts-2020-overview"
+            ],
+            "sharedtasks":[
+              "Task"
+            ],
+            "participantpapers":[
+              "jin-2020-aliababa",
+              "almeida-2020-bitua",
+              "knafou-2020-sib",
+              "sahu-2020-retrieving",
+              "rybinski-2020-csiromed",
+              "pradeep-2020-holoo",
+              "dinunzio-2020-study",
+              "grossman-2020-mrguwaterloo",
+              "dutkiewicz-2020-poznan",
+              "ueda-2020-university",
+              "cardoso-2020-vohcolab"
+            ]
+          }
+        ]
+      }
     ]
+  }
 }
