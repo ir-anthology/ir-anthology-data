@@ -1,0 +1,30 @@
+{
+    "reddit": [
+        {
+            "label": "r/informationretrieval",
+            "url": "https://www.reddit.com/r/informationretrieval/"
+        },
+        {
+            "label": "r/musicir",
+            "url": "https://www.reddit.com/r/musicir/"
+        }
+    ],
+    "mailing lists": [
+        {
+            "label": "SIG-IRList",
+            "url": "https://sigir.org/sig-irlist/"
+        },
+        {
+            "label": "JISC",
+            "url": "https://www.jiscmail.ac.uk/"
+        },
+        {
+            "label": "CLEF",
+            "url": "https://list.uva.nl/mailman/listinfo/clef"
+        },
+        {
+            "label": "NTCIR",
+            "url": "https://research.nii.ac.jp/ntcir/ml-en.html"
+        }
+    ]
+}

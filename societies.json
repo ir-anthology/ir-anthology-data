@@ -1,0 +1,58 @@
+[
+    {
+        "label":"ACM SIGIR",
+        "url":"https://sigir.org/"
+    },
+    {
+        "label":"ACM SIGIR Tokyo",
+        "url":"https://sigir.jp/"
+    },
+    {
+        "label":"ARIA",
+        "url":"http://www.asso-aria.org/"
+    },
+    {
+        "label":"ASIS&T",
+        "url":"https://www.asist.org/"
+    },
+    {
+        "label":"BCS IRSG",
+        "url":"https://irsg.bcs.org/"
+    },
+    {
+        "label":"CLEF Initiative",
+        "url":"http://www.clef-initiative.eu/"
+    },
+    {
+        "label":"GI FGIR",
+        "url":"https://fg-retrieval.gi.de/"
+    },
+    {
+        "label":"HTAi",
+        "url":"https://htai.org/interest-groups/information-retrieval/"
+    },
+    {
+        "label":"IRSI",
+        "url":"http://irsi.res.in"
+    },
+    {
+        "label":"ISMIR",
+        "url":"https://www.ismir.net/"
+    },
+    {
+        "label":"MIR",
+        "url":"https://web.archive.org/web/20160406110537/http://www.mirsociety.org/home/visitorpage.php"
+    },
+    {
+        "label":"PECAMP",
+        "url":"https://pecamp.org/"
+    },
+    {
+        "label":"ROMIP",
+        "url":"http://romip.ru/"
+    },
+    {
+        "label":"WGI",
+        "url":"https://www.informatiewetenschap.org/"
+    }
+]

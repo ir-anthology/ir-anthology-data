@@ -1,0 +1,15 @@
+{
+    "video": [
+        {
+            "link":"https://www.youtube.com/c/webis",
+            "label":"Webis"
+        }    
+    ],
+    "lecture notes": [
+        {
+            "link":"https://webis.de/lecturenotes.html",
+            "label":"Webis"
+        }
+    
+    ]
+}
