@@ -1,13 +1,13 @@
 {
     "video": [
         {
-            "link":"https://www.youtube.com/c/webis",
+            "url":"https://www.youtube.com/c/webis",
             "label":"Webis"
         }    
     ],
     "lecture notes": [
         {
-            "link":"https://webis.de/lecturenotes.html",
+            "url":"https://webis.de/lecturenotes.html",
             "label":"Webis"
         }
     ]
