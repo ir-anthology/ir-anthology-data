@@ -1751,7 +1751,7 @@
               "grossman-2017-mrguwaterloo",
               "hagen-2017-webis"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-CC.pdf"
           },
           {
             "id":"complexanswerretrieval",
@@ -1764,7 +1764,7 @@
               "macavaney-2017-contextualized",
               "maldonado-2017-utd"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf"
           },
           {
             "id":"dynamicdomain",
@@ -1777,7 +1777,7 @@
               "zhang-2017-ictnet",
               "rogers-2017-umdclip"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-DD.pdf"
           },
           {
             "id":"liveqa",
@@ -1803,7 +1803,7 @@
               "tavakolpoursaleh-2017-ircologne",
               "hagen-2017-webis"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-O.pdf"
           },
           {
             "id":"precisionmedicine",
@@ -1833,7 +1833,7 @@
               "viswavarapu-2017-unt",
               "goodwin-2017-utd"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-PM.pdf"
           },
           {
             "id":"realtimesummarization",
@@ -1857,7 +1857,7 @@
               "gao-2017-fast",
               "lu-2017-silent"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
           },
           {
             "id":"tasks",
@@ -1869,7 +1869,7 @@
               "li-2017-bjut",
               "barranca-2017-siena"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
           }
         ]
       },
@@ -1891,7 +1891,7 @@
               "liang-2017-clef",
               "ludmann-2017-recommending"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1866/paper_176.pdf"
           },
           {
             "id":"lifeclef",
@@ -1917,7 +1917,7 @@
               "zhuang-2017-marine",
               "sulc-2017-learning"
             ],
-            "link":""
+            "link":"https://www.imageclef.org/LifeCLEF2017"
           },
           {
             "id":"panlabondigitaltextforensics",
@@ -1959,7 +1959,7 @@
               "sierra-2017-convolutional",
               "tellez-2017-gender"
             ],
-            "link":""
+            "link":"https://pan.webis.de/shared-tasks.html"
           },
           {
             "id":"clefehealthevaluationlab",
@@ -2002,7 +2002,7 @@
               "thuma-2017-ubbotswana",
               "yang-2017-uevora"
             ],
-            "link":""
+            "link":"https://sites.google.com/site/clefehealth2017/"
           },
           {
             "id":"clefmicroblogculturalcontextualization",
@@ -2023,7 +2023,7 @@
               "ouertatani-2017-opinion",
               "quillot-2017-reranking"
             ],
-            "link":""
+            "link":"https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
           },
           {
             "id":"imageclef",
@@ -2062,7 +2062,7 @@
               "valavanis-2018-ipl",
               "zhou-2017-organizer"
             ],
-            "link":""
+            "link":"https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
           },
           {
             "id":"pirclef",
@@ -2076,7 +2076,7 @@
               "belkin-2017-data",
               "conlan-2017-evalumap"
             ],
-            "link":""
+            "link":"https://ikr3.disco.unimib.it/description-of-the-laboratory/"
           },
           {
             "id":"earlyriskpredictionontheinternet",
@@ -2094,7 +2094,7 @@
               "villatorotello-2017-uam",
               "villegas-2017-lidic"
             ],
-            "link":""
+            "link":"https://early.irlab.org/2017/index.html"
           },
           {
             "id":"dynamicsearchforcomplextasks",
@@ -2107,7 +2107,7 @@
               "Leveraging Wikipediaâs Article Structure to Build Search Agents: TUW at CLEF 2017 Dynamic Search",
               "suglia-2017-automatic"
             ],
-            "link":""
+            "link":"https://ekanou.github.io/dynamicsearch/clef-lab.html"
           },
           {
             "id":"multimodalspatialrolelabelingworkshop",
@@ -2119,7 +2119,7 @@
               "kordjamshidi-2017-clef-1",
               "zablocki-2017-lip"
             ],
-            "link":""
+            "link":"https://www.cs.tulane.edu/~pkordjam/mSpRL_CLEF_lab.htm"
           }
         ]
       },
@@ -2140,7 +2140,7 @@
               "markov-2017-winning",
               "b-2017-representation"
             ],
-            "link":""
+            "link":"https://en.rusprofilinglab.ru/rusprofiling-at-pan/opisanie-zadachi/"
           },
           {
             "id":"informationretrievalfrommicroblogsduringdisasters",
@@ -2160,7 +2160,7 @@
               "mehrotra-2017-iit",
               "fadaei-2017-use"
             ],
-            "link":""
+            "link":"https://sites.google.com/site/irmidisfire2017/"
           },
           {
             "id":"informationretrievalfromlegaldocuments",
@@ -2180,7 +2180,7 @@
               "thuma-2017-importance",
               "koboyatshwene-2017-machine"
             ],
-            "link":""
+            "link":"https://sites.google.com/view/fire2017irled"
           },
           {
             "id":"indiannativelanguageidentification",
@@ -2197,7 +2197,7 @@
               "bhargava-2017-bitspilani",
               "jain-2017-seernet"
             ],
-            "link":""
+            "link":"http://www.nlp.amrita.edu/INLI/Test.html"
           },
           {
             "id":"eventextractionfromnewswiresandsocialmediatextinindianlanguages",
@@ -2211,7 +2211,7 @@
               "devi-2017-kecdalab",
               "manju-2017-development"
             ],
-            "link":""
+            "link":"http://78.46.86.133/EventXtractionIL-FIRE2017/"
           },
           {
             "id":"doctoralconsortiumfire",
@@ -2266,7 +2266,7 @@
               "viswavarapu-2016-unt",
               "wang-2016-whuirgroup"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-CL.pdf"
           },
           {
             "id":"contextualsuggestion",
@@ -2287,7 +2287,7 @@
               "manotumruksa-2016-university",
               "aliannejadi-2016-venue"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-CS.pdf"
           },
           {
             "id":"dynamicdomain",
@@ -2302,7 +2302,7 @@
               "moraes-2016-ufmg",
               "dibuccio-2016-evaluation"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-DD.pdf"
           },
           {
             "id":"opensearch",
@@ -2337,7 +2337,7 @@
               "malhas-2016-real",
               "mackenzie-2016-rmit"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-QA.pdf"
           },
           {
             "id":"realtimesummarization",
@@ -2358,7 +2358,7 @@
               "suwaileh-2016-lightweight",
               "lu-2016-query"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-RT.pdf"
           },
           {
             "id":"totalrecall",
@@ -2374,7 +2374,7 @@
               "cormack-2016-stop",
               "hagen-2016-webis"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-TR.pdf"
           },
           {
             "id":"tasks",
@@ -2386,7 +2386,7 @@
               "garigliotti-2016-university",
               "hagen-2016-webis"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-T.pdf"
           }
         ]
       },
@@ -2425,7 +2425,7 @@
               "wang-2016-mayonlpteam",
               "zweigenbaum-2016-limsi"
             ],
-            "link":""
+            "link":"https://sites.google.com/site/clefehealth2016/"
           },
           {
             "id":"imageclef",
@@ -2452,7 +2452,7 @@
               "valavanis-2016-ipl",
               "zhu-2016-joint"
             ],
-            "link":""
+            "link":"https://www.imageclef.org/2016"
           },
           {
             "id":"lifeclef",
@@ -2479,7 +2479,7 @@
               "Deep Learning and SVM Classification for Plant Recognition in Content-Based Large Scale Image Retrieval",
               "sulc-2016-deep"
             ],
-            "link":""
+            "link":"https://www.imageclef.org/node/197"
           },
           {
             "id":"llirnewsreelnewideas",
@@ -2492,7 +2492,7 @@
               "kelly-2016-researchcentres",
               "schaer-2016-ideas"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1618/EvalUMAP_paper_7.pdf"
           },
           {
             "id":"newsrecommendationevaluationlabnewsreel",
@@ -2510,7 +2510,7 @@
               "probst-2016-optimizing",
               "yuan-2016-clicks"
             ],
-            "link":""
+            "link":"https://dl.acm.org/doi/pdf/10.1145/2888422.2888443"
           },
           {
             "id":"digitaltextforensicspan",
@@ -2551,7 +2551,7 @@
               "zahid-2016-crossgenre",
               "zmiycharov-2016-experiments"
             ],
-            "link":""
+            "link":"https://pan.webis.de/shared-tasks.html"
           },
           {
             "id":"socialbooksearchsbs",
@@ -2578,7 +2578,7 @@
               "ziak-2016-know-1",
               "ziak-2016-know"
             ],
-            "link":""
+            "link":"http://social-book-search.humanities.uva.nl/#/overview"
           },
           {
             "id":"culturalmicroblogcontextualizationcmc",
@@ -2593,7 +2593,7 @@
               "pontes-2016-tweet",
               "Tweet Data mining  : the Cultural Microblog Contextualization Data Set"
             ],
-            "link":""
+            "link":"https://talne.eu/spip/spip.php?page=article&id_article=8"
           }
         ]
       },
@@ -2618,7 +2618,7 @@
               "ghosh-2016-indian",
               "vazquez-2016-uaemex"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T1-4.pdf"
           },
           {
             "id":"informationextractionfrommicroblogspostedduringdisasters",
@@ -2638,7 +2638,7 @@
               "chakraborty-2016-information",
               "lkhagvasuren-2016-semiautomatic"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T2-1.pdf"
           },
           {
             "id":"sharedtaskonmixedscriptinformationretrievalmsir",
@@ -2656,7 +2656,7 @@
               "b-2016-distributional",
               "singh-2016-cen"
             ],
-            "link":""
+            "link":"https://msir2016.github.io/"
           },
           {
             "id":"persianplagiarismdetectionpersianplagdet",
@@ -2677,7 +2677,7 @@
               "mashhadirajab-2016-text",
               "sharifabadi-2016-mahak"
             ],
-            "link":""
+            "link":"http://ictrc.ac.ir/plagdet/"
           },
           {
             "id":"consumerhealthinformationsearchchis",
@@ -2696,7 +2696,7 @@
               "sankhavara-2016-team-1",
               "yang-2016-improving"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T5-1.pdf"
           },
           {
             "id":"detectingparaphrasesinindianlanguagesdpil",
@@ -2716,7 +2716,7 @@
               "manju-2016-cusatteam",
               "thangarajan-2016-kec"
             ],
-            "link":""
+            "link":"https://nlp.amrita.edu/dpil_cen/"
           },
           {
             "id":"sharedtaskoncodemixentityextractioninindianlanguagescmeeil",
@@ -2733,7 +2733,7 @@
               "gosala-2016-deep",
               "skanda-2016-cen"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T7-1.pdf"
           }
         ]
       }
@@ -2778,7 +2778,7 @@
               "ghenai-2015-waterlooclarke",
               "balaneshinkordan-2015-wsuir"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
           },
           {
             "id":"contextualsuggestion",
@@ -2798,7 +2798,7 @@
               "aliannejadi-2015-university",
               "hoffmann-2015-waterlooclarke"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
           },
           {
             "id":"dynamicdomain",
@@ -2812,7 +2812,7 @@
               "joganah-2015-laval",
               "mccreadie-2015-university"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/overview-dd.pdf"
           },
           {
             "id":"liveqa",
@@ -2833,7 +2833,7 @@
               "chen-2015-rmit",
               "vtyurina-2015-waterlooclarke"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-QA.pdf"
           },
           {
             "id":"microblog",
@@ -2857,7 +2857,7 @@
               "tan-2015-university",
               "abualsaud-2015-waterlooclarke"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-MB.pdf"
           },
           {
             "id":"tasks",
@@ -2869,7 +2869,7 @@
               "bennett-2015-mining",
               "hagen-2015-webis"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-T.pdf"
           },
           {
             "id":"temporalsummarization",
@@ -2889,7 +2889,7 @@
               "garbacea-2015-university",
               "raza-2015-waterlooclarke"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-TS.pdf"
           },
           {
             "id":"totalrecall",
@@ -2908,7 +2908,7 @@
               "hagen-2015-webis",
               "wu-2015-whu"
             ],
-            "link":""
+            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-TR.pdf"
           }
         ]
       },
@@ -2927,7 +2927,7 @@
               "ramirezdelacruz-2015-high",
               "shah-2015-clscr"
             ],
-            "link":""
+            "link":"https://pan.webis.de/downloads/publications/papers/garciahernandez_2015.pdf"
           },
           {
             "id":"sharedtaskonmixedscriptinformationretrieval",
@@ -2947,7 +2947,7 @@
               "prabhakar-2015-ism",
               "ghelani-2015-mixed"
             ],
-            "link":""
+            "link":"http://amitavadas.com/Pub/FIRE_2015_Overview.pdf"
           },
           {
             "id":"automatedstoryillustration",
@@ -2959,7 +2959,7 @@
               "p-2015-amritacen",
               "talsania-2015-automated"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T3-3.pdf"
           },
           {
             "id":"entityextractionfromsocialmediatextindianlanguagesesmil",
@@ -2976,7 +2976,7 @@
               "choudhury-2015-entity",
               "bagiya-2015-vira"
             ],
-            "link":""
+            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T4-6.pdf"
           },
           {
             "id":"arabicplagiarismdetectionaraplagdet",
@@ -2989,7 +2989,7 @@
               "magooda-2015-rdi",
               "mahgoub-2015-rdi"
             ],
-            "link":""
+            "link":"http://personales.upv.es/prosso/resources/BensalemEtAl_FIRE15.pdf"
           }
         ]
       }
