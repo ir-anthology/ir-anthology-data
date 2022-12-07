@@ -1,0 +1,104 @@
+{
+    "ADCS": {
+        "first": 1996,
+        "last": 2022,
+        "checkedAt": 2022
+    },
+    "AIRS": {
+        "first": 1979,
+        "last": 2023,
+        "checkedAt": 2022
+    },
+    "CERI": {
+        "last": 2018,
+        "checkedAt": 2022
+    },
+    "CCIR": {
+        "last": 2021,
+        "checkedAt": 2022
+    },
+    "CIKM": {
+         "first": 1992,
+         "last": 2023,
+         "checkedAt": 2022
+    },
+    "CIVR": {
+        "first": 2002,
+        "last": 2010,
+        "checkedAt": 2022
+    },
+    "DESIRES": {
+        "first": 2018,
+        "excluding": [2019, 2020],
+        "last": 2022,
+        "checkedAt": 2022
+    },
+    "DIR": {
+        "first": 2000,
+        "last": 2021,
+        "checkedAt": 2022
+    },
+    "ECIR": {
+        "first": 1978,
+        "last": 2023,
+        "checkedAt": 2022
+    },
+    "FDIA": {
+        "first": 2007,
+        "last": 2019,
+        "checkedAt": 2022
+    },
+    "FIRE": {
+        "first": 2008,
+        "excluding": [2009],
+        "last": 2022,
+        "checkedAt": 2022
+    },
+    "ICTIR": {
+        "first": 1978,
+        "last": 2023,
+        "checkedAt": 2022
+    },
+    "IRFC": {
+        "first": 2010,
+        "last": 2015,
+        "checkedAt": 2022
+    },
+    "NTCIR": {
+        "first": 1999,
+        "last": 2021,
+        "checkedAt": 2022
+    },
+    "RIAO/OAIR": {
+        "first": 1985,
+        "excluding": [1986,1987, 1989,1990,1992,1993,1995,1996,1998,1999,2001,2002,2003,2005,2006,2008,2009,2011,2012],
+        "last": 2013,
+        "checkedAt": 2022
+    },
+    "SIGIR": {
+        "first": 1971,
+        "last": 2023,
+        "checkedAt": 2022
+    },
+    "SPIRE": {
+        "first": 1993,
+        "excluding": [1994],
+        "last": 2021,
+        "checkedAt": 2022
+    },
+    "TREC": {
+        "first": 1992,
+        "last": 2022,
+        "checkedAt": 2022
+    },
+    "WSDM": {
+        "first": 2008,
+        "last": 2022,
+        "checkedAt": 2022
+    },
+    "WWW": {
+        "first": 1994,
+        "last": 2023,
+        "checkedAt": 2022
+    }
+}

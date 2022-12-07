@@ -31,3 +31,23 @@ If the data is available in the primary sources (i.e. dblp XML dump), please con
 
 ## Adding custom bib files
 Please consult https://github.com/ir-anthology/ir-anthology-data/blob/master/doc/custom-bib-files.md
+
+
+
+# About other files
+
+## `novenue.json`
+
+File structure:
+
+```json
+{
+    "Short Venue name": {
+        "first": <year of the first conference>,
+        "last": <year of the last conference>,
+        "excluding": [<years in which the conference didn't happen in between>]
+    }
+}
+```
+
+Every attribute is optional.
