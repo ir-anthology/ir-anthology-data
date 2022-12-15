@@ -1,18 +1,18 @@
 {
-  "2020":{
-    "conferences":[
+  "2020": {
+    "conferences": [
       {
-        "id":"clef",
-        "label":"CLEF",
-        "tasks":[
+        "id": "clef",
+        "label": "CLEF",
+        "tasks": [
           {
-            "id":"arqmath",
-            "label":"ARQMath",
-            "overviewpapers":[
+            "id": "arqmath",
+            "label": "ARQMath",
+            "overviewpapers": [
               "zanibbi-2020-overview"
             ],
-            "link":"https://www.cs.rit.edu/~dprl/ARQMath/",
-            "participantpapers":[
+            "link": "https://www.cs.rit.edu/~dprl/ARQMath/",
+            "participantpapers": [
               "dadure-2020-analysis",
               "mansouri-2020-dprl",
               "ng-2020-dowsing",
@@ -22,15 +22,15 @@
             ]
           },
           {
-            "id":"bioasq",
-            "label":"BioASQ",
-            "overviewpapers":[
+            "id": "bioasq",
+            "label": "BioASQ",
+            "overviewpapers": [
               "nentidis-2020-overview-1",
               "penagos-2020-overview",
               "nentidis-2020-overview"
             ],
-            "link":"http://www.bioasq.org/workshop2020",
-            "participantpapers":[
+            "link": "http://www.bioasq.org/workshop2020",
+            "participantpapers": [
               "akdemir-2020-transfer",
               "almeida-2020-bitua-1",
               "cardoso-2020-priberam",
@@ -48,14 +48,14 @@
             ]
           },
           {
-            "id":"chemu",
-            "label":"ChEMU",
-            "overviewpapers":[
+            "id": "chemu",
+            "label": "ChEMU",
+            "overviewpapers": [
               "he-2020-overview",
               "he-2020-extended"
             ],
-            "link":"https://chemu-patent-ie.github.io/",
-            "participantpapers":[
+            "link": "https://chemu-patent-ie.github.io/",
+            "participantpapers": [
               "malarkodi-2020-clrg",
               "copara-2020-named",
               "dao-2020-vinai",
@@ -67,15 +67,15 @@
             ]
           },
           {
-            "id":"checkthat",
-            "label":"CheckThat!",
-            "overviewpapers":[
+            "id": "checkthat",
+            "label": "CheckThat!",
+            "overviewpapers": [
               "hasanain-2020-overview",
               "shaar-2020-overview",
               "barroncedeno-2020-overview"
             ],
-            "link":"https://sites.google.com/view/clef2020-checkthat",
-            "participantpapers":[
+            "link": "https://sites.google.com/view/clef2020-checkthat",
+            "participantpapers": [
               "alkhalifa-2020-qmulsds",
               "bouziane-2020-team",
               "cheema-2020-checksquare",
@@ -84,7 +84,7 @@
               "hussein-2020-damascusteam",
               "kartal-2020-tobb",
               "thyaharajan-2020-ssnnlp",
-              "zhou-2018-search",
+              "martinezrico-2020-nlp",
               "mcdonald-2020-university-1",
               "nikolov-2020-team",
               "passaro-2020-unipinle",
@@ -95,14 +95,14 @@
             ]
           },
           {
-            "id":"hipe",
-            "label":"HIPE",
-            "overviewpapers":[
+            "id": "hipe",
+            "label": "HIPE",
+            "overviewpapers": [
               "ehrmann-2020-extended",
               "ehrmann-2020-overview"
             ],
-            "link":"https://impresso.github.io/CLEF-HIPE-2020/",
-            "participantpapers":[
+            "link": "https://impresso.github.io/CLEF-HIPE-2020/",
+            "participantpapers": [
               "boros-2020-robust",
               "dekhili-2020-hybrid",
               "vaigh-2020-irisa",
@@ -117,9 +117,9 @@
             ]
           },
           {
-            "id":"imageclef",
-            "label":"ImageCLEF",
-            "overviewpapers":[
+            "id": "imageclef",
+            "label": "ImageCLEF",
+            "overviewpapers": [
               "ninh-2020-overview",
               "abacha-2020-overview",
               "fichou-2020-overview",
@@ -128,8 +128,8 @@
               "kozlovski-2020-overview",
               "ionescu-2020-overview"
             ],
-            "link":"https://www.imageclef.org/2020",
-            "participantpapers":[
+            "link": "https://www.imageclef.org/2020",
+            "participantpapers": [
               "alsadi-2020-inception",
               "arendt-2020-effects",
               "arul-2020-imageclef",
@@ -172,29 +172,27 @@
             ]
           },
           {
-            "id":"lilias",
-            "label":"LiLAS",
-            "overviewpapers":[
+            "id": "lilas",
+            "label": "LiLAS",
+            "overviewpapers": [
               "schaer-2020-overview",
               "schaer-2020-overview-1"
             ],
-            "link":"https://clef-lilas.github.io/",
-            "participantpapers":[
-
-            ]
+            "link": "https://clef-lilas.github.io/",
+            "participantpapers": []
           },
           {
-            "id":"lifeclef",
-            "label":"LifeCLEF",
-            "overviewpapers":[
+            "id": "lifeclef",
+            "label": "LifeCLEF",
+            "overviewpapers": [
               "goeau-2020-overview",
               "picek-2020-overview",
               "kahl-2020-overview",
               "deneu-2020-overview",
               "joly-2020-overview"
             ],
-            "link":"https://www.imageclef.org/LifeCLEF2020",
-            "participantpapers":[
+            "link": "https://www.imageclef.org/LifeCLEF2020",
+            "participantpapers": [
               "bai-2020-xception",
               "bloch-2020-combination",
               "chulif-2020-herbariumfield",
@@ -208,17 +206,17 @@
             ]
           },
           {
-            "id":"pan",
-            "label":"PAN",
-            "overviewpapers":[
+            "id": "pan",
+            "label": "PAN",
+            "overviewpapers": [
               "zangerle-2020-overview",
               "wiegmann-2020-overview",
               "bevendorff-2020-shared",
               "pardo-2020-overview",
               "bevendorff-2020-overview"
             ],
-            "link":"https://pan.webis.de/",
-            "participantpapers":[
+            "link": "https://pan.webis.de/",
+            "participantpapers": [
               "agirrezabal-2020-kucst",
               "alroobaea-2020-deep",
               "araujopino-2020-siamese",
@@ -268,14 +266,14 @@
             ]
           },
           {
-            "id":"touche",
-            "label":"Touché",
-            "overviewpapers":[
+            "id": "touch",
+            "label": "Touch\u00c3\u00a9",
+            "overviewpapers": [
               "bondarenko-2020-overview-1",
               "bondarenko-2020-overview"
             ],
-            "link":"https://touche.webis.de/",
-            "participantpapers":[
+            "link": "https://touche.webis.de/",
+            "participantpapers": [
               "abye-2020-opendomain",
               "akiki-2020-exploring",
               "bundesmann-2020-creating",
@@ -289,25 +287,23 @@
             ]
           },
           {
-            "id":"ehealth",
-            "label":"eHealth",
-            "overviewpapers":[
+            "id": "ehealth",
+            "label": "eHealth",
+            "overviewpapers": [
               "goeuriot-2020-overview"
             ],
-            "link":"https://clefehealth.imag.fr/",
-            "participantpapers":[
-
-            ]
+            "link": "https://clefehealth.imag.fr/",
+            "participantpapers": []
           },
           {
-            "id":"erisk",
-            "label":"eRisk",
-            "overviewpapers":[
+            "id": "erisk",
+            "label": "eRisk",
+            "overviewpapers": [
               "losada-2020-overview",
               "losada-2020-overview-1"
             ],
-            "link":"https://early.irlab.org/2020/index.html",
-            "participantpapers":[
+            "link": "https://early.irlab.org/2020/index.html",
+            "participantpapers": [
               "achilles-2020-using",
               "aragon-2020-inaoecimat",
               "hosseinabad-2020-detection",
@@ -322,29 +318,29 @@
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"anaphora resolution from social media text in indian languages socanares il",
-            "label":"Anaphora Resolution from Social Media Text in Indian Languages (SocAnaRes-IL)",
-            "overviewpapers":[
+            "id": "anaphoraresolutionfromsocialmediatextinindianlanguagessocanaresil",
+            "label": "Anaphora Resolution from Social Media Text in Indian Languages (SocAnaRes-IL)",
+            "overviewpapers": [
               "devi-2020-anaphora"
             ],
-            "link":"http://78.46.86.133/SocAnaRes-IL20/",
-            "participantpapers":[
+            "link": "http://78.46.86.133/SocAnaRes-IL20/",
+            "participantpapers": [
               "singh-2020-attention"
             ]
           },
           {
-            "id":"artificial intelligence for legal assistance aila",
-            "label":"Artificial Intelligence for Legal Assistance (AILA)",
-            "overviewpapers":[
+            "id": "artificialintelligenceforlegalassistanceaila",
+            "label": "Artificial Intelligence for Legal Assistance (AILA)",
+            "overviewpapers": [
               "bhattacharya-2020-overview",
               "bhattacharya-2020-fire"
             ],
-            "link":"https://sites.google.com/view/aila-2020",
-            "participantpapers":[
+            "link": "https://sites.google.com/view/aila-2020",
+            "participantpapers": [
               "leburudingalo-2020-ub",
               "liu-2020-query",
               "majumder-2020-rhetorical",
@@ -362,14 +358,14 @@
             ]
           },
           {
-            "id":"authorship identification of source code ai soco",
-            "label":"Authorship Identification of Source Code (AI-SOCO)",
-            "overviewpapers":[
+            "id": "authorshipidentificationofsourcecodeaisoco",
+            "label": "Authorship Identification of Source Code (AI-SOCO)",
+            "overviewpapers": [
               "fadel-2020-overview",
               "fadel-2020-overview-1"
             ],
-            "link":"https://sites.google.com/view/ai-soco-2020",
-            "participantpapers":[
+            "link": "https://sites.google.com/view/ai-soco-2020",
+            "participantpapers": [
               "crosby-2020-uob",
               "yang-2020-ngrambased",
               "younes-2020-team",
@@ -383,38 +379,38 @@
             ]
           },
           {
-            "id":"cerec cause effect relation extraction from text",
-            "label":"CEREX (Cause-Effect Relation EXtraction from Text)",
-            "overviewpapers":[
+            "id": "cerexcauseeffectrelationextractionfromtext",
+            "label": "CEREX (Cause-Effect Relation EXtraction from Text)",
+            "overviewpapers": [
               "sinha-2020-cerex"
             ],
-            "link":"https://sites.google.com/view/cerex-fire2020/home",
-            "participantpapers":[
+            "link": "https://sites.google.com/view/cerex-fire2020/home",
+            "participantpapers": [
               "durairaj-2020-ssnnlp",
               "aziz-2020-feature"
             ]
           },
           {
-            "id":"causality driven ad hoc information retrieval cair",
-            "label":"Causality-driven Ad hoc Information Retrieval (CAIR)",
-            "overviewpapers":[
+            "id": "causalitydrivenadhocinformationretrievalcair",
+            "label": "Causality-driven Ad hoc Information Retrieval (CAIR)",
+            "overviewpapers": [
               "datta-2020-overview"
             ],
-            "link":"https://cair-miners.github.io/CAIR-2020-website/",
-            "participantpapers":[
+            "link": "https://cair-miners.github.io/CAIR-2020-website/",
+            "participantpapers": [
               "lin-2020-causality",
               "dadure-2020-preliminary"
             ]
           },
           {
-            "id":"dravidian codemix hate speech and offensive content identification in indo european languages Dravian codemic hasoc",
-            "label":"Dravidian CodeMix Hate Speech and Offensive Content Identification in Indo-European Languages (Dravdian-CodeMix-HASOC)",
-            "overviewpapers":[
+            "id": "dravidiancodemixhatespeechandoffensivecontentidentificationinindoeuropeanlanguagesdravdiancodemixhasoc",
+            "label": "Dravidian CodeMix Hate Speech and Offensive Content Identification in Indo-European Languages (Dravdian-CodeMix-HASOC)",
+            "overviewpapers": [
               "chakravarthi-2020-overview-1",
               "chakravarthi-2020-overview"
             ],
-            "link":"https://sites.google.com/view/dravidian-codemix-fire2020/overview",
-            "participantpapers":[
+            "link": "https://sites.google.com/view/dravidian-codemix-fire2020/overview",
+            "participantpapers": [
               "mahata-2020-junlp",
               "balouchzahi-2020-mucs",
               "sharma-2020-bits",
@@ -441,14 +437,14 @@
             ]
           },
           {
-            "id":"event detection from news in indian languages ednil",
-            "label":"Event Detection from News in Indian Languages (EDNIL)",
-            "overviewpapers":[
+            "id": "eventdetectionfromnewsinindianlanguagesednil",
+            "label": "Event Detection from News in Indian Languages (EDNIL)",
+            "overviewpapers": [
               "dave-2020-overview",
               "dave-2020-fire"
             ],
-            "link":"https://ednilfire.github.io/ednil/2020/index.html",
-            "participantpapers":[
+            "link": "https://ednilfire.github.io/ednil/2020/index.html",
+            "participantpapers": [
               "mishra-2020-nonneural",
               "kumar-2020-comma",
               "balouchzahi-2020-approach",
@@ -456,14 +452,14 @@
             ]
           },
           {
-            "id":"fake news detection in the urdu language urdufake",
-            "label":"Fake News Detection in the Urdu Language (UrduFake)",
-            "overviewpapers":[
+            "id": "fakenewsdetectionintheurdulanguageurdufake",
+            "label": "Fake News Detection in the Urdu Language (UrduFake)",
+            "overviewpapers": [
               "amjad-2020-overview",
               "amjad-2020-urdufake"
             ],
-            "link":"https://www.urdufake2020.cicling.org/",
-            "participantpapers":[
+            "link": "https://www.urdufake2020.cicling.org/",
+            "participantpapers": [
               "lin-2020-fake",
               "khilji-2020-urdu",
               "kumar-2020-nitpainlp-2",
@@ -473,15 +469,15 @@
             ]
           },
           {
-            "id":"hate speech and offensive content identification in indo european languages hasoc",
-            "label":"Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
-            "overviewpapers":[
+            "id": "hatespeechandoffensivecontentidentificationinindoeuropeanlanguageshasoc",
+            "label": "Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
+            "overviewpapers": [
               "mandl-2020-overview",
               "chakravarthi-2020-overview-2",
               "mandl-2020-overview-1"
             ],
-            "link":"https://hasocfire.github.io/hasoc/2020/call_for_participation.html",
-            "participantpapers":[
+            "link": "https://hasocfire.github.io/hasoc/2020/call_for_participation.html",
+            "participantpapers": [
               "ou-2020-ynuoxz",
               "roy-2020-leveraging",
               "mishra-2020-iiitdwd",
@@ -499,7 +495,7 @@
               "shi-2020-huiping",
               "huang-2020-hub",
               "swaminathan-2020-hrstechie",
-              "wang-2019-ynuwb",
+              "anusha-2020-ensemble",
               "mothe-2020-iritprevision",
               "kumar-2020-nitpainlp",
               "reddy-2020-hatedetectors",
@@ -527,30 +523,30 @@
             ]
           },
           {
-            "id":"retrieval from conversational dialogues rcd",
-            "label":"Retrieval from Conversational Dialogues (RCD)",
-            "overviewpapers":[
+            "id": "retrievalfromconversationaldialoguesrcd",
+            "label": "Retrieval from Conversational Dialogues (RCD)",
+            "overviewpapers": [
               "ganguly-2020-overview"
             ],
-            "link":"https://rcd2020firetask.github.io/RCD2020FIRETASK/",
-            "participantpapers":[
+            "link": "https://rcd2020firetask.github.io/RCD2020FIRETASK/",
+            "participantpapers": [
               "kaushik-2020-dcu"
             ]
           }
         ]
       },
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"conversational assistance cast",
-            "label":"Conversational Assistance (CAsT)",
-            "overviewpapers":[
+            "id": "conversationalassistancecast",
+            "label": "Conversational Assistance (CAsT)",
+            "overviewpapers": [
               "dalton-2020-cast"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.C.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.C.pdf",
+            "participantpapers": [
               "chang-2020-query",
               "fotiadis-2020-duth",
               "gemmell-2020-glasgow",
@@ -566,13 +562,13 @@
             ]
           },
           {
-            "id":"deep learning",
-            "label":"Deep Learning",
-            "overviewpapers":[
+            "id": "deeplearning",
+            "label": "Deep Learning",
+            "overviewpapers": [
               "craswell-2020-overview"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.DL.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.DL.pdf",
+            "participantpapers": [
               "almeida-2020-deep",
               "knafou-2020-sib",
               "pradeep-2020-holoo",
@@ -594,13 +590,11 @@
             ]
           },
           {
-            "id":"fair ranking",
-            "label":"Fair Ranking",
-            "overviewpapers":[
-
-            ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.FR.pdf",
-            "participantpapers":[
+            "id": "fairranking",
+            "label": "Fair Ranking",
+            "overviewpapers": [],
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.FR.pdf",
+            "participantpapers": [
               "feng-2020-university",
               "almquist-2020-macewan",
               "ferraro-2020-balancing",
@@ -610,13 +604,13 @@
             ]
           },
           {
-            "id":"health misinformation",
-            "label":"Health Misinformation",
-            "overviewpapers":[
+            "id": "healthmisinformation",
+            "label": "Health Misinformation",
+            "overviewpapers": [
               "clarke-2020-overview"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.HM.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.HM.pdf",
+            "participantpapers": [
               "fernandezpichel-2020-citius",
               "pradeep-2020-holoo",
               "lima-2020-university",
@@ -627,13 +621,13 @@
             ]
           },
           {
-            "id":"incident streams",
-            "label":"Incident Streams",
-            "overviewpapers":[
+            "id": "incidentstreams",
+            "label": "Incident Streams",
+            "overviewpapers": [
               "buntain-2020-incident"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.IS.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.IS.pdf",
+            "participantpapers": [
               "wang-2020-bjut",
               "sharma-2020-improving",
               "wang-2020-multitask-1",
@@ -641,13 +635,13 @@
             ]
           },
           {
-            "id":"news",
-            "label":"News",
-            "overviewpapers":[
+            "id": "news",
+            "label": "News",
+            "overviewpapers": [
               "soboroff-2020-trec"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.N.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.N.pdf",
+            "participantpapers": [
               "khloponin-2020-clac",
               "gautam-2020-trec",
               "day-2020-osc",
@@ -658,13 +652,13 @@
             ]
           },
           {
-            "id":"podcasts",
-            "label":"Podcasts",
-            "overviewpapers":[
+            "id": "podcasts",
+            "label": "Podcasts",
+            "overviewpapers": [
               "jones-2020-trec"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.P.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.P.pdf",
+            "participantpapers": [
               "manakul-2020-cuedspeech",
               "moriya-2020-dcuadapt",
               "karlbom-2020-abstract",
@@ -679,13 +673,13 @@
             ]
           },
           {
-            "id":"precision medicine",
-            "label":"Precision Medicine",
-            "overviewpapers":[
+            "id": "precisionmedicine",
+            "label": "Precision Medicine",
+            "overviewpapers": [
               "roberts-2020-overview"
             ],
-            "link":"https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.PM.pdf",
-            "participantpapers":[
+            "link": "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.PM.pdf",
+            "participantpapers": [
               "jin-2020-aliababa",
               "almeida-2020-bitua",
               "knafou-2020-sib",
@@ -703,39 +697,39 @@
       }
     ]
   },
-  "2019":{
-    "conferences":[
+  "2019": {
+    "conferences": [
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"complexanswerretrieval",
-            "label":"Complex Answer Retrieval",
-            "overviewpapers":[
+            "id": "complexanswerretrieval",
+            "label": "Complex Answer Retrieval",
+            "overviewpapers": [
               "shahshahani-2019-university"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ren-2019-ictnet",
               "dusart-2019-irit",
               "ramsdell-2019-tremaunh",
               "shahshahani-2019-university"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.CAR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.CAR.pdf"
           },
           {
-            "id":"conversationalassistance",
-            "label":"Conversational Assistance",
-            "overviewpapers":[
+            "id": "conversationalassistance",
+            "label": "Conversational Assistance",
+            "overviewpapers": [
               "hao-2019-ictnet"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "arora-2019-dcu",
               "yang-2019-query",
               "kumar-2019-step",
               "li-2019-linber",
               "hao-2019-ictnet",
-              "kaiser-2020-conversational",
+              "kaiser-2019-crown",
               "mehrotra-2019-mpii",
               "zuo-2019-rucir",
               "kamphuis-2019-radboud",
@@ -747,29 +741,29 @@
               "stamatis-2019-ves",
               "clarke-2019-waterlooclarke"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.CAsT.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.CAsT.pdf"
           },
           {
-            "id":"decision",
-            "label":"Decision",
-            "overviewpapers":[
+            "id": "decision",
+            "label": "Decision",
+            "overviewpapers": [
               "bondarenko-2019-webis"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "cui-2019-ictnet",
               "2019-uq",
               "abualsaud-2019-uwaterloomds",
               "bondarenko-2019-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.D.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.D.pdf"
           },
           {
-            "id":"deeplearning",
-            "label":"Deep Learning",
-            "overviewpapers":[
+            "id": "deeplearning",
+            "label": "Deep Learning",
+            "overviewpapers": [
               "ren-2019-ictnet"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "knafou-2019-sib",
               "zerveas-2019-brown",
               "hu-2019-ccnuirgroup",
@@ -785,28 +779,26 @@
               "zhao-2019-higway",
               "su-2019-university"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.DL.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.DL.pdf"
           },
           {
-            "id":"fairranking",
-            "label":"Fair Ranking",
-            "overviewpapers":[
+            "id": "fairranking",
+            "label": "Fair Ranking",
+            "overviewpapers": [
               "bonart-2019-fair"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "melucci-2019-testing",
               "wang-2019-ict",
               "bonart-2019-fair"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.FR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.FR.pdf"
           },
           {
-            "id":"incidentstreams",
-            "label":"Incident Streams",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "incidentstreams",
+            "label": "Incident Streams",
+            "overviewpapers": [],
+            "participantpapers": [
               "choi-2019-cbnu",
               "zhou-2019-cmuinformedia",
               "wang-2019-classification",
@@ -817,15 +809,15 @@
               "dusart-2019-irit",
               "GPLSI at TREC 2019 Incident Streams Track"
             ],
-            "link":""
+            "link": ""
           },
           {
-            "id":"news",
-            "label":"News",
-            "overviewpapers":[
-              "soboroff-2018-trec"
+            "id": "news",
+            "label": "News",
+            "overviewpapers": [
+              "TREC 2019 News Track Overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "missaoui-2019-dminr",
               "The CLaC System at the TREC 2019 News Track",
               "goncalves-2019-proximitybased",
@@ -839,15 +831,15 @@
               "qu-2019-unc",
               "le-2019-uq"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.N.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.N.pdf"
           },
           {
-            "id":"precisionmedicine",
-            "label":"Precision Medicine",
-            "overviewpapers":[
+            "id": "precisionmedicine",
+            "label": "Precision Medicine",
+            "overviewpapers": [
               "rybinski-2019-csiro"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "caucheteur-2019-designing",
               "ahmed-2019-brown",
               "jo-2019-cbnu",
@@ -858,26 +850,26 @@
               "zheng-2019-ecnuica",
               "lopezubeda-2019-trec",
               "dinunzio-2019-exploring",
-              "hellrich-2013-julie",
+              "faessler-2019-julie",
               "cieslewicz-2019-poznan",
               "qu-2019-unc-1",
               "consuegraayala-2019-deep"
             ],
-            "link":"https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.PM.pdf"
+            "link": "https://trec.nist.gov/pubs/trec28/papers/OVERVIEW.PM.pdf"
           }
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"artificialintelligenceforlegalassistanceaila",
-            "label":"Artificial Intelligence for Legal Assistance (AILA)",
-            "overviewpapers":[
+            "id": "artificialintelligenceforlegalassistanceaila",
+            "label": "Artificial Intelligence for Legal Assistance (AILA)",
+            "overviewpapers": [
               "bhattacharya-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "more-2019-removing",
               "gain-2019-iitp",
               "renjit-2019-cusat",
@@ -889,19 +881,19 @@
               "kannan-2019-dlrg",
               "gao-2019-fire"
             ],
-            "link":"https://sites.google.com/view/fire-2019-aila/"
+            "link": "https://sites.google.com/view/fire-2019-aila/"
           },
           {
-            "id":"authorprofilinganddeceptiondetectioninarabicapda",
-            "label":"Author profiling and deception detection in Arabic (APDA)",
-            "overviewpapers":[
+            "id": "authorprofilinganddeceptiondetectioninarabicapda",
+            "label": "Author profiling and deception detection in Arabic (APDA)",
+            "overviewpapers": [
               "pardo-2019-overview-1"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "zhang-2019-bertbased",
               "nayel-2019-nayel",
               "ananthakrishnan-2019-arabic",
-              "Author Profiling in Arabic Tweets:An Approach based on Multi-Classification with Word and Character Features",
+              "sun-2019-author",
               "cabrejas-2019-deception",
               "siagian-2019-dbmsku",
               "devi-2019-kce",
@@ -911,15 +903,15 @@
               "delrio-2019-detection",
               "suman-2019-gender"
             ],
-            "link":"https://www.researchgate.net/profile/Hamada-Nayel/publication/337927526_NAYELAPDA_Machine_Learning_Approach_for_Author_Profiling_and_Deception_Detection_in_Arabic_Texts/links/5ea24c56458515ec3a02e2c6/NAYELAPDA-Machine-Learning-Approach-for-Author-Profiling-and-Deception-Detection-in-Arabic-Texts.pdf"
+            "link": "https://www.researchgate.net/profile/Hamada-Nayel/publication/337927526_NAYELAPDA_Machine_Learning_Approach_for_Author_Profiling_and_Deception_Detection_in_Arabic_Texts/links/5ea24c56458515ec3a02e2c6/NAYELAPDA-Machine-Learning-Approach-for-Author-Profiling-and-Deception-Detection-in-Arabic-Texts.pdf"
           },
           {
-            "id":"hatespeechandoffensivecontentidentificationinindoeuropeanlanguageshasoc",
-            "label":"Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
-            "overviewpapers":[
+            "id": "hatespeechandoffensivecontentidentificationinindoeuropeanlanguageshasoc",
+            "label": "Hate Speech and Offensive Content Identification in Indo-European Languages (HASOC)",
+            "overviewpapers": [
               "modha-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "wang-2019-ynuwb",
               "ranasinghe-2019-brums",
               "mishra-2019-idiots",
@@ -946,15 +938,15 @@
               "k-2019-amrita",
               "rajalakshmi-2019-dlrg"
             ],
-            "link":"https://hasocfire.github.io/hasoc/2019/call_for_participation.html"
+            "link": "https://hasocfire.github.io/hasoc/2019/call_for_participation.html"
           },
           {
-            "id":"ironydetectioninarabictweetsidat",
-            "label":"Irony Detection in Arabic Tweets (IDAT)",
-            "overviewpapers":[
+            "id": "ironydetectioninarabictweetsidat",
+            "label": "Irony Detection in Arabic Tweets (IDAT)",
+            "overviewpapers": [
               "ghanem-2019-idat-1"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "zhang-2019-multitask",
               "nayel-2019-benha",
               "moudjari-2019-embeddingbased",
@@ -964,15 +956,13 @@
               "kayalvizhi-2019-ssnnlp",
               "allaith-2019-neural"
             ],
-            "link":"https://dl.acm.org/doi/pdf/10.1145/3368567.3368585"
+            "link": "https://dl.acm.org/doi/pdf/10.1145/3368567.3368585"
           },
           {
-            "id":"classificationofinsincerequestionsciq",
-            "label":"Classification of Insincere Questions (CIQ)",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "classificationofinsincerequestionsciq",
+            "label": "Classification of Insincere Questions (CIQ)",
+            "overviewpapers": [],
+            "participantpapers": [
               "mujadia-2019-classification",
               "m-2019-amrita",
               "ranganathan-2019-classification",
@@ -980,33 +970,33 @@
               "das-2019-fine",
               "han-2019-ensemble"
             ],
-            "link":"https://sites.google.com/view/insincerequestiontask/home?authuser=0"
+            "link": "https://sites.google.com/view/insincerequestiontask/home?authuser=0"
           }
         ]
       },
       {
-        "id":"clef",
-        "label":"CLEF",
-        "tasks":[
+        "id": "clef",
+        "label": "CLEF",
+        "tasks": [
           {
-            "id":"centreclefclefntcirtrecreproducibility",
-            "label":"CENTRE@CLEF - CLEF/NTCIR/TREC Reproducibility",
-            "overviewpapers":[
+            "id": "centreclefclefntcirtrecreproducibility",
+            "label": "CENTRE@CLEF - CLEF/NTCIR/TREC Reproducibility",
+            "overviewpapers": [
               "ferro-2019-centre"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "breuer-2019-dockerizing"
             ],
-            "link":"http://www.centre-eval.org/clef2019/"
+            "link": "http://www.centre-eval.org/clef2019/"
           },
           {
-            "id":"checkthatautomaticidentificationandverificationofclaims",
-            "label":"CheckThat! - Automatic Identification and Verification of Claims",
-            "overviewpapers":[
+            "id": "checkthatautomaticidentificationandverificationofclaims",
+            "label": "CheckThat! - Automatic Identification and Verification of Claims",
+            "overviewpapers": [
               "atanasova-2019-overview",
               "hasanain-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "altun-2019-tobbetu",
               "coca-2019-checkthat",
               "dhar-2019-hybrid",
@@ -1020,34 +1010,34 @@
               "su-2019-entity",
               "touahri-2019-automatic"
             ],
-            "link":"https://www.researchgate.net/publication/332257515_CheckThat_at_CLEF_2019_Automatic_Identification_and_Verification_of_Claims"
+            "link": "https://www.researchgate.net/publication/332257515_CheckThat_at_CLEF_2019_Automatic_Identification_and_Verification_of_Claims"
           },
           {
-            "id":"clefehealth",
-            "label":"CLEF eHealth",
-            "overviewpapers":[
+            "id": "clefehealth",
+            "label": "CLEF eHealth",
+            "overviewpapers": [
               "kanoulas-2019-clef",
               "neves-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ahmed-2019-demir",
               "alharbi-2019-ranking",
               "amin-2019-mltdfki",
               "dinunzio-2019-classification",
               "dinunzio-2019-distributed",
-              "Deep Learning Approach for Semantic Indexing of Animal Experiments Summaries in German Language",
+              "kayalvizhi-2019-deep",
               "li-2019-automatic-1",
               "sanger-2019-classifying"
             ],
-            "link":"https://mural.maynoothuniversity.ie/14368/1/LK_overview.pdf"
+            "link": "https://mural.maynoothuniversity.ie/14368/1/LK_overview.pdf"
           },
           {
-            "id":"eriskearlyriskpredictionontheinternet",
-            "label":"eRisk - Early Risk Prediction on the Internet ",
-            "overviewpapers":[
+            "id": "eriskearlyriskpredictionontheinternet",
+            "label": "eRisk - Early Risk Prediction on the Internet ",
+            "overviewpapers": [
               "losada-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "abedesfahani-2019-transfer",
               "aragon-2019-inaoecimat",
               "burdisso-2019-unsl",
@@ -1063,22 +1053,22 @@
               "vanrijen-2019-datadriven",
               "trifan-2019-bioinfo"
             ],
-            "link":"https://erisk.irlab.org/2019/index.html"
+            "link": "https://erisk.irlab.org/2019/index.html"
           },
           {
-            "id":"lifeclefbiodiversityidentificationandprediction",
-            "label":"LifeCLEF - Biodiversity Identification and Prediction ",
-            "overviewpapers":[
+            "id": "lifeclefbiodiversityidentificationandprediction",
+            "label": "LifeCLEF - Biodiversity Identification and Prediction ",
+            "overviewpapers": [
               "goeau-2019-overview",
               "kahl-2019-overview",
               "botella-2019-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "atodiresei-2019-locationbased",
               "bai-2019-inceptionv",
               "chulif-2019-plant",
               "krishna-2019-species",
-              "kahl-2017-largescale",
+              "koh-2019-bird",
               "lasseck-2019-bird",
               "monestiez-2019-species",
               "negri-2019-locationbased",
@@ -1086,12 +1076,12 @@
               "picek-2019-recognition",
               "simoussi-2019-plant"
             ],
-            "link":"https://www.imageclef.org/LifeCLEF"
+            "link": "https://www.imageclef.org/LifeCLEF"
           },
           {
-            "id":"imageclefmultimediaretrievalinclef",
-            "label":"ImageCLEF - Multimedia Retrieval in CLEF",
-            "overviewpapers":[
+            "id": "imageclefmultimediaretrievalinclef",
+            "label": "ImageCLEF - Multimedia Retrieval in CLEF",
+            "overviewpapers": [
               "cid-2019-overview",
               "chamberlain-2019-overview",
               "dangnguyen-2019-overview",
@@ -1099,7 +1089,7 @@
               "karampidis-2019-overview",
               "abacha-2019-vqamed"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "alsadi-2019-imageclef",
               "allaouzi-2019-encoderdecoder",
               "almeida-2019-weighted",
@@ -1151,18 +1141,18 @@
               "zhou-2019-tua",
               "zunair-2019-estimating"
             ],
-            "link":"https://www.imageclef.org/2019"
+            "link": "https://www.imageclef.org/2019"
           },
           {
-            "id":"panlabondigitaltextforensicsandstylometry",
-            "label":"PAN Lab on Digital Text Forensics and Stylometry",
-            "overviewpapers":[
+            "id": "panlabondigitaltextforensicsandstylometry",
+            "label": "PAN Lab on Digital Text Forensics and Stylometry",
+            "overviewpapers": [
               "wiegmann-2019-overview",
               "zangerle-2019-overview",
               "pardo-2019-overview",
               "johansson-2019-foi"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ashraf-2019-bots",
               "giglou-2019-author",
               "bacciu-2019-bot",
@@ -1224,15 +1214,15 @@
               "vogel-2019-bot",
               "zuo-2019-style"
             ],
-            "link":"https://pan.webis.de/"
+            "link": "https://pan.webis.de/"
           },
           {
-            "id":"protestnewsextractingprotestsfromnews",
-            "label":"ProtestNews - Extracting Protests from News",
-            "overviewpapers":[
+            "id": "protestnewsextractingprotestsfromnews",
+            "label": "ProtestNews - Extracting Protests from News",
+            "overviewpapers": [
               "hurriyetoglu-2019-overview-1"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "basar-2019-comparative",
               "basile-2019-protesta",
               "ali-2019-linguistic",
@@ -1243,37 +1233,35 @@
               "skitalinskaya-2019-clef",
               "thenmozhi-2019-extracting"
             ],
-            "link":"https://emw.ku.edu.tr/clef-protestnews-2019/"
+            "link": "https://emw.ku.edu.tr/clef-protestnews-2019/"
           }
         ]
       }
     ]
   },
-  "2018":{
-    "conferences":[
+  "2018": {
+    "conferences": [
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"centre",
-            "label":"CENTRE",
-            "overviewpapers":[
+            "id": "centre",
+            "label": "CENTRE",
+            "overviewpapers": [
               "ferro-2018-centre"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "yu-2018-holoo",
               "dinunzio-2018-university"
             ],
-            "link":"https://trec.nist.gov/pubs/trec27/papers/Overview-CENTRE.pdf"
+            "link": "https://trec.nist.gov/pubs/trec27/papers/Overview-CENTRE.pdf"
           },
           {
-            "id":"commoncore",
-            "label":"Common Core",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "commoncore",
+            "label": "Common Core",
+            "overviewpapers": [],
+            "participantpapers": [
               "yu-2018-holoo",
               "devezas-2018-feup",
               "yu-2018-holoo",
@@ -1285,15 +1273,15 @@
               "abualsaud-2018-uwaterloomds",
               "bondarenko-2018-webis"
             ],
-            "link":"https://trec-core.github.io/2018/"
+            "link": "https://trec-core.github.io/2018/"
           },
           {
-            "id":"complexanswerretrieval",
-            "label":"Complex Answer Retrieval",
-            "overviewpapers":[
+            "id": "complexanswerretrieval",
+            "label": "Complex Answer Retrieval",
+            "overviewpapers": [
               "dietz-2018-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "lin-2018-cuis",
               "litschko-2018-treccar",
               "macavaney-2018-pacrr",
@@ -1302,15 +1290,13 @@
               "naseri-2018-umass",
               "maldonado-2018-utd"
             ],
-            "link":"https://trec.nist.gov/pubs/trec27/papers/Overview-CAR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec27/papers/Overview-CAR.pdf"
           },
           {
-            "id":"incidentstreams",
-            "label":"Incident Streams",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "incidentstreams",
+            "label": "Incident Streams",
+            "overviewpapers": [],
+            "participantpapers": [
               "lu-2018-bjut",
               "choi-2018-cbnu",
               "zahera-2018-dice",
@@ -1321,15 +1307,15 @@
               "miyazaki-2018-nhk",
               "cumbreras-2018-sinai"
             ],
-            "link":""
+            "link": ""
           },
           {
-            "id":"news",
-            "label":"News",
-            "overviewpapers":[
+            "id": "news",
+            "label": "News",
+            "overviewpapers": [
               ""
             ],
-            "participantpapers":[
+            "participantpapers": [
               "yu-2018-holoo",
               "bimantara-2018-htw",
               "vandersluis-2018-signal",
@@ -1338,15 +1324,15 @@
               "lu-2018-paragraph",
               "naseri-2018-umass"
             ],
-            "link":"https://trec.nist.gov/pubs/trec27/papers/Overview-News.pdf"
+            "link": "https://trec.nist.gov/pubs/trec27/papers/Overview-News.pdf"
           },
           {
-            "id":"precisionmedicine",
-            "label":"Precision Medicine",
-            "overviewpapers":[
+            "id": "precisionmedicine",
+            "label": "Precision Medicine",
+            "overviewpapers": [
               "oleynik-2018-hpidhc"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "baruah-2018-brown",
               "zhou-2018-team",
               "jo-2018-cbnu",
@@ -1361,40 +1347,40 @@
               "ronzano-2018-ibi",
               "cieslewicz-2018-poznan",
               "bampoulidis-2018-rsa",
-              "caucheteur-2019-designing",
+              "SIB Text Mining at TREC 2018 Precision Medicine Track",
               "lopezubeda-2018-filtering",
               "zheng-2018-ucas",
               "wang-2018-exploring",
               "taylor-2018-utd",
               "mullane-2018-team"
             ],
-            "link":"https://trec.nist.gov/pubs/trec27/papers/Overview-PM.pdf"
+            "link": "https://trec.nist.gov/pubs/trec27/papers/Overview-PM.pdf"
           },
           {
-            "id":"realtimesummarization",
-            "label":"Real-time Summarization",
-            "overviewpapers":[
+            "id": "realtimesummarization",
+            "label": "Real-time Summarization",
+            "overviewpapers": [
               "sequiera-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "chellal-2018-irit",
               "fernandez-2018-gplsi"
             ],
-            "link":"https://trec.nist.gov/pubs/trec27/papers/Overview-RTS.pdf"
+            "link": "https://trec.nist.gov/pubs/trec27/papers/Overview-RTS.pdf"
           }
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"informationretrievalfrommicroblogsduringdisastersirmidis",
-            "label":"Information Retrieval from Microblogs during Disasters (IRMiDis)",
-            "overviewpapers":[
+            "id": "informationretrievalfrommicroblogsduringdisastersirmidis",
+            "label": "Information Retrieval from Microblogs during Disasters (IRMiDis)",
+            "overviewpapers": [
               "basu-2018-overview-1"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "banerjee-2018-measuring",
               "basu-2018-overview",
               "anand-2018-fully",
@@ -1402,15 +1388,15 @@
               "rafi-2018-string",
               "ghelani-2018-identify"
             ],
-            "link":"http://fire.irsi.res.in/fire/2018/home"
+            "link": "http://fire.irsi.res.in/fire/2018/home"
           },
           {
-            "id":"indiannativelanguageidentificationinli",
-            "label":"Indian Native Language Identification (INLI)",
-            "overviewpapers":[
+            "id": "indiannativelanguageidentificationinli",
+            "label": "Indian Native Language Identification (INLI)",
+            "overviewpapers": [
               "m-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "p-2018-inli",
               "bharathi-2018-statistical",
               "thenmozhi-2018-machine",
@@ -1421,15 +1407,15 @@
               "patel-2018-iiitv",
               "nayel-2018-mangalore"
             ],
-            "link":"https://nlp.amrita.edu/inli/"
+            "link": "https://nlp.amrita.edu/inli/"
           },
           {
-            "id":"informationextractorforconversationalsystemsinindianlanguagesiecsil",
-            "label":"Information Extractor for Conversational Systems in Indian Languages (IECSIL)",
-            "overviewpapers":[
+            "id": "informationextractorforconversationalsystemsinindianlanguagesiecsil",
+            "label": "Information Extractor for Conversational Systems in Indian Languages (IECSIL)",
+            "overviewpapers": [
               "b-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "p-2018-cusatteam",
               "2018-hilt",
               "mishra-2018-iit",
@@ -1439,15 +1425,15 @@
               "gupta-2018-raiden",
               "thenmozhi-2018-ssnnlp"
             ],
-            "link":"https://www.researchgate.net/profile/Senthil-Kumar-Balasubramanian/publication/342095186_SSN_NLPIECSIL-FIRE-2018_Deep_Learning_Approach_to_Named_Entity_Recognition_and_Relation_Extraction_for_Conversational_Systems_in_Indian_Languages/links/5ee1c21b92851ce9e7d927ac/SSN-NLPIECSIL-FIRE-2018-Deep-Learning-Approach-to-Named-Entity-Recognition-and-Relation-Extraction-for-Conversational-Systems-in-Indian-Languages.pdf"
+            "link": "https://www.researchgate.net/profile/Senthil-Kumar-Balasubramanian/publication/342095186_SSN_NLPIECSIL-FIRE-2018_Deep_Learning_Approach_to_Named_Entity_Recognition_and_Relation_Extraction_for_Conversational_Systems_in_Indian_Languages/links/5ee1c21b92851ce9e7d927ac/SSN-NLPIECSIL-FIRE-2018-Deep-Learning-Approach-to-Named-Entity-Recognition-and-Relation-Extraction-for-Conversational-Systems-in-Indian-Languages.pdf"
           },
           {
-            "id":"multilingualauthorprofilingonsmsmessagesmaponsms",
-            "label":"Multilingual Author Profiling on SMS Messages (MAPonSMS)",
-            "overviewpapers":[
+            "id": "multilingualauthorprofilingonsmsmessagesmaponsms",
+            "label": "Multilingual Author Profiling on SMS Messages (MAPonSMS)",
+            "overviewpapers": [
               "sharjeel-2018-maponsms"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "devi-2018-kcedalab",
               "thenmozhi-2018-multilingual",
               "nemati-2018-gender",
@@ -1457,59 +1443,59 @@
               "gaur-2018-multilingual",
               "orts-2018-statistical"
             ],
-            "link":"https://lahore.comsats.edu.pk/cs/MAPonSMS/index.html"
+            "link": "https://lahore.comsats.edu.pk/cs/MAPonSMS/index.html"
           },
           {
-            "id":"eventextractionfromnewswiresandsocialmediatextinindianlanguageseventxtractil",
-            "label":"Event Extraction from Newswires and Social Media Text in Indian Languages (EventXtract-IL)",
-            "overviewpapers":[
-              "EventXtract-IL: Event Extraction from Newswires and Social Media Text in Indian Languages @ FIRE 2018 – An Overview"
+            "id": "eventextractionfromnewswiresandsocialmediatextinindianlanguageseventxtractil",
+            "label": "Event Extraction from Newswires and Social Media Text in Indian Languages (EventXtract-IL)",
+            "overviewpapers": [
+              "EventXtract-IL: Event Extraction from Newswires and Social Media Text in Indian Languages @ FIRE 2018 \u00e2\u20ac\u201c An Overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "kuila-2018-neural",
               "saroj-2018-rule"
             ],
-            "link":"http://78.46.86.133/EventXtractionIL-FIRE2018/"
+            "link": "http://78.46.86.133/EventXtractionIL-FIRE2018/"
           },
           {
-            "id":"verbphrasetranslationinenglishandindianlanguagesvptil",
-            "label":"Verb Phrase Translation in English and Indian Languages (VPT-IL)",
-            "overviewpapers":[
+            "id": "verbphrasetranslationinenglishandindianlanguagesvptil",
+            "label": "Verb Phrase Translation in English and Indian Languages (VPT-IL)",
+            "overviewpapers": [
               "ram-2018-overview-1"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "pathak-2018-nmt",
               "thenmozhi-2018-deep",
               "krishnamurthy-2018-transferrule"
             ],
-            "link":"http://78.46.86.133/VPT-IL-FIRE2018/"
+            "link": "http://78.46.86.133/VPT-IL-FIRE2018/"
           }
         ]
       },
       {
-        "id":"clef",
-        "label":"CLEF",
-        "tasks":[
+        "id": "clef",
+        "label": "CLEF",
+        "tasks": [
           {
-            "id":"centreclef",
-            "label":"CENTRE@CLEF",
-            "overviewpapers":[
+            "id": "centreclef",
+            "label": "CENTRE@CLEF",
+            "overviewpapers": [
               "ferro-2018-centre"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "jungwirth-2018-replicating"
             ],
-            "link":"http://www.centre-eval.org/"
+            "link": "http://www.centre-eval.org/"
           },
           {
-            "id":"lifeclef",
-            "label":"LifeCLEF",
-            "overviewpapers":[
+            "id": "lifeclef",
+            "label": "LifeCLEF",
+            "overviewpapers": [
               "botella-2018-overview",
               "goeau-2018-overview-1",
               "goeau-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "atito-2018-plant",
               "deneu-2018-locationbased",
               "haupt-2018-largescale",
@@ -1523,17 +1509,17 @@
               "taubert-2018-species",
               "wu-2018-construction"
             ],
-            "link":"https://www.imageclef.org/LifeCLEF2018"
+            "link": "https://www.imageclef.org/LifeCLEF2018"
           },
           {
-            "id":"panlabondigitaltextforensics",
-            "label":"PAN Lab on Digital Text Forensics",
-            "overviewpapers":[
+            "id": "panlabondigitaltextforensics",
+            "label": "PAN Lab on Digital Text Forensics",
+            "overviewpapers": [
               "potthast-2018-overview",
               "pardo-2018-overview",
               "kestemont-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "khan-2018-model",
               "aragon-2018-straightforward",
               "bayot-2018-multilingual",
@@ -1572,17 +1558,17 @@
               "veenhoven-2018-using",
               "zlatkova-2018-ensemblerich"
             ],
-            "link":"https://pan.webis.de/"
+            "link": "https://pan.webis.de/"
           },
           {
-            "id":"clefehealth",
-            "label":"CLEF eHealth",
-            "overviewpapers":[
+            "id": "clefehealth",
+            "label": "CLEF eHealth",
+            "overviewpapers": [
               "neveol-2018-clef",
               "kanoulas-2018-clef",
               "2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "alharbi-2018-retrieving",
               "almagro-2018-mamtramed",
               "atutxa-2018-ixamed",
@@ -1611,35 +1597,35 @@
               "yang-2018-improving",
               "zayani-2018-miracl"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-2125/invited_paper_18.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-2125/invited_paper_18.pdf"
           },
           {
-            "id":"mcmultilingualculturalminingandretrieval",
-            "label":"MC2 - Multilingual Cultural Mining and Retrieval",
-            "overviewpapers":[
+            "id": "mcmultilingualculturalminingandretrieval",
+            "label": "MC2 - Multilingual Cultural Mining and Retrieval",
+            "overviewpapers": [
               "cossu-2018-clef"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ali-2018-monolingual",
               "deturck-2018-ertim",
               "dufour-2018-lia",
               "sendi-2018-opinion",
               "zhou-2018-ecnu"
             ],
-            "link":"https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=10"
+            "link": "https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=10"
           },
           {
-            "id":"imageclefmultimediaretrievalinclef",
-            "label":"ImageCLEF - Multimedia Retrieval in CLEF",
-            "overviewpapers":[
+            "id": "imageclefmultimediaretrievalinclef",
+            "label": "ImageCLEF - Multimedia Retrieval in CLEF",
+            "overviewpapers": [
               "zhou-2018-interactive",
               "deherrera-2018-overview",
               "cid-2018-overview",
               "hasan-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ahmed-2018-texture",
-              "Deep Neural Networks and Decision Tree Classifier for Visual Question Answering in the Medical Domain",
+              "allaouzi-2018-deep",
               "allaouzi-2018-dcnn",
               "abacha-2018-nlm",
               "abdallah-2018-regim",
@@ -1647,7 +1633,7 @@
               "dao-2018-leveraging",
               "cid-2018-texturebased",
               "dogariu-2018-multimedia",
-              "Analysing TB Severity Levels with an Enhanced Deep re-sidual Learning – Depth-Resnet",
+              "gao-2018-analysing",
               "gentili-2018-imageclef",
               "hamadi-2018-imageclef",
               "ishay-2018-imageclef",
@@ -1660,7 +1646,7 @@
               "spinks-2018-generating",
               "su-2018-umass",
               "talafha-2018-vqamed",
-              "Visual Concept Selection with Textual Knowledge for Understanding Activities of Daily Living and Life Moment Retrieval",
+              "tang-2018-visual",
               "tatusch-2018-detection",
               "tran-2018-lifelog",
               "valavanis-2018-ipl",
@@ -1668,27 +1654,27 @@
               "zhou-2018-interactive",
               "zhou-2018-employing"
             ],
-            "link":"https://www.imageclef.org/2018/"
+            "link": "https://www.imageclef.org/2018/"
           },
           {
-            "id":"pirclefevaluationofpersonalisedinformationretrieval",
-            "label":"PIR-CLEF - Evaluation of Personalised Information Retrieval ",
-            "overviewpapers":[
+            "id": "pirclefevaluationofpersonalisedinformationretrieval",
+            "label": "PIR-CLEF - Evaluation of Personalised Information Retrieval ",
+            "overviewpapers": [
               "pasi-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "andreumarin-2018-pir",
               "bai-2018-ecnu"
             ],
-            "link":"https://ikr3.disco.unimib.it/"
+            "link": "https://ikr3.disco.unimib.it/"
           },
           {
-            "id":"earlyriskpredictionontheinternet",
-            "label":"Early Risk Prediction on the Internet",
-            "overviewpapers":[
+            "id": "earlyriskpredictionontheinternet",
+            "label": "Early Risk Prediction on the Internet",
+            "overviewpapers": [
               "losada-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "cacheda-2018-analysis",
               "funez-2018-unsl",
               "liu-2018-tua",
@@ -1701,16 +1687,16 @@
               "trotzek-2018-word",
               "wang-2018-neural"
             ],
-            "link":"https://early.irlab.org/2018/index.html"
+            "link": "https://early.irlab.org/2018/index.html"
           },
           {
-            "id":"checkthatautomaticidentificationandverificationofpoliticalclaims",
-            "label":"Checkthat - Automatic Identification and Verification of Political Claims",
-            "overviewpapers":[
+            "id": "checkthatautomaticidentificationandverificationofpoliticalclaims",
+            "label": "Checkthat - Automatic Identification and Verification of Political Claims",
+            "overviewpapers": [
               "atanasova-2018-overview",
               "barroncedeno-2018-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "agez-2018-irit",
               "ghanem-2018-upvinaoe",
               "ghanem-2018-upvinaoe-1",
@@ -1720,25 +1706,25 @@
               "yasser-2018-bigir",
               "zuo-2018-hybrid"
             ],
-            "link":"https://arxiv.org/pdf/1808.05542.pdf"
+            "link": "https://arxiv.org/pdf/1808.05542.pdf"
           }
         ]
       }
     ]
   },
-  "2017":{
-    "conferences":[
+  "2017": {
+    "conferences": [
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"commoncore",
-            "label":"Common Core",
-            "overviewpapers":[
+            "id": "commoncore",
+            "label": "Common Core",
+            "overviewpapers": [
               "allan-2017-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "chang-2017-ictnet",
               "vangysel-2017-ilps",
               "ferro-2017-ims",
@@ -1751,73 +1737,73 @@
               "grossman-2017-mrguwaterloo",
               "hagen-2017-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-CC.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-CC.pdf"
           },
           {
-            "id":"complexanswerretrieval",
-            "label":"Complex Answer Retrieval",
-            "overviewpapers":[
-              "ren-2019-ictnet"
+            "id": "complexanswerretrieval",
+            "label": "Complex Answer Retrieval",
+            "overviewpapers": [
+              "dietz-2017-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "cheng-2017-ictnet",
               "macavaney-2017-contextualized",
               "maldonado-2017-utd"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf"
           },
           {
-            "id":"dynamicdomain",
-            "label":"Dynamic Domain",
-            "overviewpapers":[
+            "id": "dynamicdomain",
+            "label": "Dynamic Domain",
+            "overviewpapers": [
               "yang-2017-trec"
             ],
-            "participantpapers":[
-              "zhou-2020-rlirank",
+            "participantpapers": [
+              "tang-2017-reinforcement",
               "zhang-2017-ictnet",
               "rogers-2017-umdclip"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-DD.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-DD.pdf"
           },
           {
-            "id":"liveqa",
-            "label":"LiveQA",
-            "overviewpapers":[
+            "id": "liveqa",
+            "label": "LiveQA",
+            "overviewpapers": [
               "abacha-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "wang-2017-cmu",
               "datla-2017-open"
             ],
-            "link":""
+            "link": ""
           },
           {
-            "id":"opensearch",
-            "label":"OpenSearch",
-            "overviewpapers":[
+            "id": "opensearch",
+            "label": "OpenSearch",
+            "overviewpapers": [
               "jagerman-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "devezas-2017-feup",
               "xu-2017-ictnet",
               "tavakolpoursaleh-2017-ircologne",
               "hagen-2017-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-O.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-O.pdf"
           },
           {
-            "id":"precisionmedicine",
-            "label":"Precision Medicine",
-            "overviewpapers":[
+            "id": "precisionmedicine",
+            "label": "Precision Medicine",
+            "overviewpapers": [
               "roberts-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "pasche-2017-customizing",
               "jo-2017-cbnu",
               "nguyen-2017-csiro",
               "eghlidi-2017-eth",
               "wu-2017-hokiego",
-              "lopezubeda-2019-trec",
+              "lopezgarcia-2017-trec",
               "wang-2017-leveraging-1",
               "yin-2017-retrieving",
               "przybyla-2017-identifying",
@@ -1833,20 +1819,20 @@
               "viswavarapu-2017-unt",
               "goodwin-2017-utd"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-PM.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-PM.pdf"
           },
           {
-            "id":"realtimesummarization",
-            "label":"Real-time Summarization",
-            "overviewpapers":[
+            "id": "realtimesummarization",
+            "label": "Real-time Summarization",
+            "overviewpapers": [
               "lin-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "moulahi-2017-summarizing",
               "meng-2017-bjut",
               "han-2017-hljit",
               "wang-2017-ictnet",
-              "chellal-2018-irit",
+              "chellal-2017-irit",
               "hubert-2017-thoughts",
               "DAIICT-LDRP at TREC RTS 2017: Real Time Push Notification and Post Summarization",
               "goncalves-2017-novasearch",
@@ -1857,33 +1843,33 @@
               "gao-2017-fast",
               "lu-2017-silent"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
           },
           {
-            "id":"tasks",
-            "label":"Tasks",
-            "overviewpapers":[
+            "id": "tasks",
+            "label": "Tasks",
+            "overviewpapers": [
               "jagerman-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "li-2017-bjut",
               "barranca-2017-siena"
             ],
-            "link":"https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
+            "link": "https://trec.nist.gov/pubs/trec26/papers/Overview-RT.pdf"
           }
         ]
       },
       {
-        "id":"clef",
-        "label":"CLEF",
-        "tasks":[
+        "id": "clef",
+        "label": "CLEF",
+        "tasks": [
           {
-            "id":"clefnewsreel",
-            "label":"CLEF NewsREEL",
-            "overviewpapers":[
+            "id": "clefnewsreel",
+            "label": "CLEF NewsREEL",
+            "overviewpapers": [
               "kille-2017-clef"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "beck-2017-system",
               "bons-2017-news",
               "golian-2017-news",
@@ -1891,15 +1877,13 @@
               "liang-2017-clef",
               "ludmann-2017-recommending"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1866/paper_176.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1866/paper_176.pdf"
           },
           {
-            "id":"lifeclef",
-            "label":"LifeCLEF",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "lifeclef",
+            "label": "LifeCLEF",
+            "overviewpapers": [],
+            "participantpapers": [
               "goeau-2017-lifeclef",
               "goeau-2017-plant",
               "atito-2017-plant",
@@ -1917,17 +1901,17 @@
               "zhuang-2017-marine",
               "sulc-2017-learning"
             ],
-            "link":"https://www.imageclef.org/LifeCLEF2017"
+            "link": "https://www.imageclef.org/LifeCLEF2017"
           },
           {
-            "id":"panlabondigitaltextforensics",
-            "label":"PAN Lab on Digital Text Forensics",
-            "overviewpapers":[
+            "id": "panlabondigitaltextforensics",
+            "label": "PAN Lab on Digital Text Forensics",
+            "overviewpapers": [
               "hagen-2017-overview",
               "pardo-2017-overview",
               "tschuggnall-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "arcia-2017-author",
               "akhtyamova-2017-twitter",
               "alberts-2017-author",
@@ -1959,17 +1943,17 @@
               "sierra-2017-convolutional",
               "tellez-2017-gender"
             ],
-            "link":"https://pan.webis.de/shared-tasks.html"
+            "link": "https://pan.webis.de/shared-tasks.html"
           },
           {
-            "id":"clefehealthevaluationlab",
-            "label":"CLEF eHealth Evaluation Lab",
-            "overviewpapers":[
+            "id": "clefehealthevaluationlab",
+            "label": "CLEF eHealth Evaluation Lab",
+            "overviewpapers": [
               "neveol-2017-clef",
               "kanoulas-2017-clef",
               "palotti-2017-clef"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "atemezing-2017-nonlp",
               "cabot-2017-sibm",
               "dinunzio-2017-lexicon",
@@ -1980,7 +1964,7 @@
               "seva-2017-multilingual",
               "tchechmedjiev-2017-icd",
               "zweigenbaum-2017-multiple",
-              "Ranking Abstracts to Identify Relevant Evidence for Systematic Reviews: The University of Sheffieldâs Approach to CLEF eHealth 2017 Task 2",
+              "alharbi-2017-ranking",
               "azzopardi-2017-sis",
               "chen-2017-ecnu",
               "cormack-2017-technologyassisted",
@@ -1998,20 +1982,20 @@
               "2017-qut",
               "oh-2017-kisti",
               "palotti-2017-exploring",
-              "saleh-2016-task",
+              "saleh-2017-task",
               "thuma-2017-ubbotswana",
               "yang-2017-uevora"
             ],
-            "link":"https://sites.google.com/site/clefehealth2017/"
+            "link": "https://sites.google.com/site/clefehealth2017/"
           },
           {
-            "id":"clefmicroblogculturalcontextualization",
-            "label":"CLEF Microblog Cultural Contextualization",
-            "overviewpapers":[
+            "id": "clefmicroblogculturalcontextualization",
+            "label": "CLEF Microblog Cultural Contextualization",
+            "overviewpapers": [
               "ermakova-2017-clef-1",
               "goeuriot-2017-clef"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "chifu-2017-role",
               "cossu-2017-using",
               "arias-2017-tweets",
@@ -2023,18 +2007,18 @@
               "ouertatani-2017-opinion",
               "quillot-2017-reranking"
             ],
-            "link":"https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
+            "link": "https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
           },
           {
-            "id":"imageclef",
-            "label":"ImageCLEF",
-            "overviewpapers":[
+            "id": "imageclef",
+            "label": "ImageCLEF",
+            "overviewpapers": [
               "arenas-2017-overview",
               "dangnguyen-2017-overview",
               "cid-2017-overview",
               "eickhoff-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "arenas-2017-fabspaces",
               "abacha-2017-nlm",
               "braun-2017-convolutional",
@@ -2050,7 +2034,7 @@
               "liang-2017-isia",
               "liauchuk-2017-imageclef",
               "lyndon-2017-neural",
-              "damak-2011-irit",
+              "hoavy-2017-irit",
               "pelka-2017-keyword",
               "pinho-2017-towards",
               "pomente-2017-convolutional",
@@ -2059,32 +2043,30 @@
               "stefan-2017-finding",
               "stefan-2017-generating",
               "sun-2017-imageclef",
-              "valavanis-2018-ipl",
+              "valavanis-2017-ipl",
               "zhou-2017-organizer"
             ],
-            "link":"https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
+            "link": "https://talne.eu/spip/spip.php?page=rubrique&id_rubrique=3"
           },
           {
-            "id":"pirclef",
-            "label":"PIR-CLEF",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "pirclef",
+            "label": "PIR-CLEF",
+            "overviewpapers": [],
+            "participantpapers": [
               "pasi-2017-evaluation",
-              " A Realistic Approach Towards Usersâ Simulation ",
+              "barifah-2017-realistic",
               "belkin-2017-data",
               "conlan-2017-evalumap"
             ],
-            "link":"https://ikr3.disco.unimib.it/description-of-the-laboratory/"
+            "link": "https://ikr3.disco.unimib.it/description-of-the-laboratory/"
           },
           {
-            "id":"earlyriskpredictionontheinternet",
-            "label":"Early risk prediction on the Internet ",
-            "overviewpapers":[
+            "id": "earlyriskpredictionontheinternet",
+            "label": "Early risk prediction on the Internet ",
+            "overviewpapers": [
               "losada-2017-clef"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "errecalde-2017-temporal",
               "almeida-2017-detecting",
               "fariasanzaldua-2017-uachinaoe",
@@ -2094,61 +2076,59 @@
               "villatorotello-2017-uam",
               "villegas-2017-lidic"
             ],
-            "link":"https://early.irlab.org/2017/index.html"
+            "link": "https://early.irlab.org/2017/index.html"
           },
           {
-            "id":"dynamicsearchforcomplextasks",
-            "label":"Dynamic Search for Complex Tasks ",
-            "overviewpapers":[
+            "id": "dynamicsearchforcomplextasks",
+            "label": "Dynamic Search for Complex Tasks ",
+            "overviewpapers": [
               "kanoulas-2017-clef-2"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "hagen-2017-webis-1",
-              "Leveraging Wikipediaâs Article Structure to Build Search Agents: TUW at CLEF 2017 Dynamic Search",
+              "palotti-2017-leveraging",
               "suglia-2017-automatic"
             ],
-            "link":"https://ekanou.github.io/dynamicsearch/clef-lab.html"
+            "link": "https://ekanou.github.io/dynamicsearch/clef-lab.html"
           },
           {
-            "id":"multimodalspatialrolelabelingworkshop",
-            "label":"Multimodal Spatial Role Labeling Workshop ",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "multimodalspatialrolelabelingworkshop",
+            "label": "Multimodal Spatial Role Labeling Workshop ",
+            "overviewpapers": [],
+            "participantpapers": [
               "kordjamshidi-2017-clef-1",
               "zablocki-2017-lip"
             ],
-            "link":"https://www.cs.tulane.edu/~pkordjam/mSpRL_CLEF_lab.htm"
+            "link": "https://www.cs.tulane.edu/~pkordjam/mSpRL_CLEF_lab.htm"
           }
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"genderidentificationinrussiantexts",
-            "label":"Gender Identification in Russian texts",
-            "overviewpapers":[
+            "id": "genderidentificationinrussiantexts",
+            "label": "Gender Identification in Russian texts",
+            "overviewpapers": [
               "litvinova-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "vinayan-2017-amritanlp",
               "bhargava-2017-gender",
               "skitalinskaya-2017-crossgenre",
               "markov-2017-winning",
               "b-2017-representation"
             ],
-            "link":"https://en.rusprofilinglab.ru/rusprofiling-at-pan/opisanie-zadachi/"
+            "link": "https://en.rusprofilinglab.ru/rusprofiling-at-pan/opisanie-zadachi/"
           },
           {
-            "id":"informationretrievalfrommicroblogsduringdisasters",
-            "label":"Information Retrieval from Microblogs during Disasters",
-            "overviewpapers":[
+            "id": "informationretrievalfrommicroblogsduringdisasters",
+            "label": "Information Retrieval from Microblogs during Disasters",
+            "overviewpapers": [
               "basu-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "oostdijk-2017-detecting",
               "talukdar-2017-bitspilani",
               "kumar-2017-databros",
@@ -2160,15 +2140,15 @@
               "mehrotra-2017-iit",
               "fadaei-2017-use"
             ],
-            "link":"https://sites.google.com/site/irmidisfire2017/"
+            "link": "https://sites.google.com/site/irmidisfire2017/"
           },
           {
-            "id":"informationretrievalfromlegaldocuments",
-            "label":"Information Retrieval from Legal Documents",
-            "overviewpapers":[
+            "id": "informationretrievalfromlegaldocuments",
+            "label": "Information Retrieval from Legal Documents",
+            "overviewpapers": [
               "mandal-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "b-2017-distributed",
               "bhargava-2017-catchphrase",
               "sandeep-2017-extraction",
@@ -2180,15 +2160,15 @@
               "thuma-2017-importance",
               "koboyatshwene-2017-machine"
             ],
-            "link":"https://sites.google.com/view/fire2017irled"
+            "link": "https://sites.google.com/view/fire2017irled"
           },
           {
-            "id":"indiannativelanguageidentification",
-            "label":"Indian Native Language Identification",
-            "overviewpapers":[
+            "id": "indiannativelanguageidentification",
+            "label": "Indian Native Language Identification",
+            "overviewpapers": [
               "kumar-2017-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "nayel-2017-mangaloreuniversity",
               "b-2017-bharathi",
               "thenmozhi-2017-ssnnlp",
@@ -2197,53 +2177,51 @@
               "bhargava-2017-bitspilani",
               "jain-2017-seernet"
             ],
-            "link":"http://www.nlp.amrita.edu/INLI/Test.html"
+            "link": "http://www.nlp.amrita.edu/INLI/Test.html"
           },
           {
-            "id":"eventextractionfromnewswiresandsocialmediatextinindianlanguages",
-            "label":"Event Extraction from Newswires and Social Media Text in Indian Languages",
-            "overviewpapers":[
-              "rao-2018-eventxtractil"
+            "id": "eventextractionfromnewswiresandsocialmediatextinindianlanguages",
+            "label": "Event Extraction from Newswires and Social Media Text in Indian Languages",
+            "overviewpapers": [
+              "rao-2017-eventxtractil"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "kuila-2017-event",
               "sristy-2017-event",
               "devi-2017-kecdalab",
               "manju-2017-development"
             ],
-            "link":"http://78.46.86.133/EventXtractionIL-FIRE2017/"
+            "link": "http://78.46.86.133/EventXtractionIL-FIRE2017/"
           },
           {
-            "id":"doctoralconsortiumfire",
-            "label":"Doctoral Consortium @ FIRE 2017",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "doctoralconsortiumfire",
+            "label": "Doctoral Consortium @ FIRE 2017",
+            "overviewpapers": [],
+            "participantpapers": [
               "breja-2017-whytype",
               "sankhavara-2017-biomedical",
               "joshi-2017-insight",
               "modha-2017-microblog"
             ],
-            "link":""
+            "link": ""
           }
         ]
       }
     ]
   },
-  "2016":{
-    "conferences":[
+  "2016": {
+    "conferences": [
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"clinicaldecisionsupport",
-            "label":"Clinical Decision Support",
-            "overviewpapers":[
+            "id": "clinicaldecisionsupport",
+            "label": "Clinical Decision Support",
+            "overviewpapers": [
               "abacha-2016-nlm"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "jo-2016-cbnu",
               "zhang-2016-ccnu",
               "karimi-2016-csiro",
@@ -2261,20 +2239,20 @@
               "zhang-2016-nku",
               "abacha-2016-nlm",
               "hasan-2016-clinical",
-              "ippolito-2015-siena",
+              "kish-2016-siena",
               "wang-2016-extracting",
               "viswavarapu-2016-unt",
               "wang-2016-whuirgroup"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-CL.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-CL.pdf"
           },
           {
-            "id":"contextualsuggestion",
-            "label":"Contextual Suggestion",
-            "overviewpapers":[
+            "id": "contextualsuggestion",
+            "label": "Contextual Suggestion",
+            "overviewpapers": [
               "hashemi-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "bayomi-2016-adapttcd",
               "yin-2016-beijing",
               "kapoor-2016-employing",
@@ -2282,49 +2260,47 @@
               "dehghani-2016-significant",
               "khorasani-2016-context",
               "mo-2016-word",
-              "Siena College's Institute of Artificial Intelligence\nTREC 2016 Contextual Suggestion Track",
+              "Siena College's Institute of Artificial Intelligence TREC 2016 Contextual Suggestion Track",
               "hashemi-2016-neural",
               "manotumruksa-2016-university",
               "aliannejadi-2016-venue"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-CS.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-CS.pdf"
           },
           {
-            "id":"dynamicdomain",
-            "label":"Dynamic Domain",
-            "overviewpapers":[
+            "id": "dynamicdomain",
+            "label": "Dynamic Domain",
+            "overviewpapers": [
               "yang-2016-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "rahimi-2016-investigation",
               "joganah-2016-laval",
               "albahem-2016-rmit",
               "moraes-2016-ufmg",
               "dibuccio-2016-evaluation"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-DD.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-DD.pdf"
           },
           {
-            "id":"opensearch",
-            "label":"OpenSearch",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "opensearch",
+            "label": "OpenSearch",
+            "overviewpapers": [],
+            "participantpapers": [
               "li-2016-bjut",
               "niyogi-2016-iriitbhu",
               "schaer-2016-popularity",
               "hagen-2016-webis"
             ],
-            "link":""
+            "link": ""
           },
           {
-            "id":"liveqa",
-            "label":"LiveQA",
-            "overviewpapers":[
+            "id": "liveqa",
+            "label": "LiveQA",
+            "overviewpapers": [
               "agichtein-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "Answering Live Questions from Heterogeneous Data Sources: SMART in Live QA at TREC2016",
               "e-2016-bjut",
               "CLIP at TREC 2016: LiveQA and RTS",
@@ -2337,36 +2313,36 @@
               "malhas-2016-real",
               "mackenzie-2016-rmit"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-QA.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-QA.pdf"
           },
           {
-            "id":"realtimesummarization",
-            "label":"Real-time Summarization",
-            "overviewpapers":[
+            "id": "realtimesummarization",
+            "label": "Real-time Summarization",
+            "overviewpapers": [
               "tan-2016-polyu"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "wang-2016-bjut",
               "bei-2016-ccnu",
               "CLIP at TREC 2016: LiveQA and RTS",
               "tan-2016-polyu",
               "li-2016-hljit",
-              "hubert-2017-thoughts",
+              "IRIT at TREC Real Time Summarization 2016",
               "modha-2016-daiict",
               "yao-2016-pkuicst",
               "lee-2016-assorted",
               "suwaileh-2016-lightweight",
               "lu-2016-query"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-RT.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-RT.pdf"
           },
           {
-            "id":"totalrecall",
-            "label":"Total Recall",
-            "overviewpapers":[
+            "id": "totalrecall",
+            "label": "Total Recall",
+            "overviewpapers": [
               "hagen-2016-webis"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "pickens-2016-exploration",
               "dinunzio-2016-university",
               "dinunzio-2016-university",
@@ -2374,33 +2350,31 @@
               "cormack-2016-stop",
               "hagen-2016-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-TR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-TR.pdf"
           },
           {
-            "id":"tasks",
-            "label":"Tasks",
-            "overviewpapers":[
+            "id": "tasks",
+            "label": "Tasks",
+            "overviewpapers": [
               "hashemi-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "garigliotti-2016-university",
               "hagen-2016-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec25/papers/Overview-T.pdf"
+            "link": "https://trec.nist.gov/pubs/trec25/papers/Overview-T.pdf"
           }
         ]
       },
       {
-        "id":"clef",
-        "label":"CLEF",
-        "tasks":[
+        "id": "clef",
+        "label": "CLEF",
+        "tasks": [
           {
-            "id":"clefehealth",
-            "label":"CLEFeHealth",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "clefehealth",
+            "label": "CLEFeHealth",
+            "overviewpapers": [],
+            "participantpapers": [
               "kelly-2016-overview",
               "kelly-2016-overview",
               "neveol-2016-clinical",
@@ -2425,17 +2399,17 @@
               "wang-2016-mayonlpteam",
               "zweigenbaum-2016-limsi"
             ],
-            "link":"https://sites.google.com/site/clefehealth2016/"
+            "link": "https://sites.google.com/site/clefehealth2016/"
           },
           {
-            "id":"imageclef",
-            "label":"ImageCLEF ",
-            "overviewpapers":[
+            "id": "imageclef",
+            "label": "ImageCLEF ",
+            "overviewpapers": [
               "deherrera-2016-overview",
               "villegas-2016-overview",
               "gilbert-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "barlas-2016-duth",
               "cristea-2016-using",
               "calderon-2016-uaemex",
@@ -2452,15 +2426,13 @@
               "valavanis-2016-ipl",
               "zhu-2016-joint"
             ],
-            "link":"https://www.imageclef.org/2016"
+            "link": "https://www.imageclef.org/2016"
           },
           {
-            "id":"lifeclef",
-            "label":"LifeCLEF",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "lifeclef",
+            "label": "LifeCLEF",
+            "overviewpapers": [],
+            "participantpapers": [
               "goeau-2016-plant",
               "goeau-2016-lifeclef",
               "champ-2016-floristic",
@@ -2476,31 +2448,27 @@
               "ricard-2016-bag",
               "sprengel-2016-audio",
               "toth-2016-convolutional",
-              "Deep Learning and SVM Classification for Plant Recognition in Content-Based Large Scale Image Retrieval",
+              "toth-2016-deep",
               "sulc-2016-deep"
             ],
-            "link":"https://www.imageclef.org/node/197"
+            "link": "https://www.imageclef.org/node/197"
           },
           {
-            "id":"llirnewsreelnewideas",
-            "label":"LL4IR & NewsREEL: New Ideas",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "llirnewsreelnewideas",
+            "label": "LL4IR & NewsREEL: New Ideas",
+            "overviewpapers": [],
+            "participantpapers": [
               "jabeur-2016-living",
               "kelly-2016-researchcentres",
               "schaer-2016-ideas"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1618/EvalUMAP_paper_7.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1618/EvalUMAP_paper_7.pdf"
           },
           {
-            "id":"newsrecommendationevaluationlabnewsreel",
-            "label":"News Recommendation Evaluation Lab (NEWSREEL)",
-            "overviewpapers":[
-
-            ],
-            "participantpapers":[
+            "id": "newsrecommendationevaluationlabnewsreel",
+            "label": "News Recommendation Evaluation Lab (NEWSREEL)",
+            "overviewpapers": [],
+            "participantpapers": [
               "kille-2016-clef",
               "ciobanu-2016-development",
               "corsini-2016-clef",
@@ -2510,15 +2478,15 @@
               "probst-2016-optimizing",
               "yuan-2016-clicks"
             ],
-            "link":"https://dl.acm.org/doi/pdf/10.1145/2888422.2888443"
+            "link": "https://dl.acm.org/doi/pdf/10.1145/2888422.2888443"
           },
           {
-            "id":"digitaltextforensicspan",
-            "label":"Digital Text Forensics (PAN)",
-            "overviewpapers":[
+            "id": "digitaltextforensicspan",
+            "label": "Digital Text Forensics (PAN)",
+            "overviewpapers": [
               "pardo-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "stamatatos-2016-clustering",
               "potthast-2016-author",
               "agrawal-2016-age",
@@ -2547,21 +2515,21 @@
               "sari-2016-exploring",
               "ashraf-2016-crossgenre",
               "sittar-2016-author",
-              "A Big Increase in Known Unknowns: from Author Verification to Author Clustering",
+              "vartapetiance-2016-big",
               "zahid-2016-crossgenre",
               "zmiycharov-2016-experiments"
             ],
-            "link":"https://pan.webis.de/shared-tasks.html"
+            "link": "https://pan.webis.de/shared-tasks.html"
           },
           {
-            "id":"socialbooksearchsbs",
-            "label":"Social Book Search (SBS)",
-            "overviewpapers":[
+            "id": "socialbooksearchsbs",
+            "label": "Social Book Search (SBS)",
+            "overviewpapers": [
               "gade-2016-overview",
               "koolen-2016-overview",
               "bogers-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ollagnier-2016-linking",
               "chaa-2016-verbose",
               "ettaleb-2016-sbs",
@@ -2578,36 +2546,36 @@
               "ziak-2016-know-1",
               "ziak-2016-know"
             ],
-            "link":"http://social-book-search.humanities.uva.nl/#/overview"
+            "link": "http://social-book-search.humanities.uva.nl/#/overview"
           },
           {
-            "id":"culturalmicroblogcontextualizationcmc",
-            "label":"Cultural Microblog Contextualization (CMC)",
-            "overviewpapers":[
+            "id": "culturalmicroblogcontextualizationcmc",
+            "label": "Cultural Microblog Contextualization (CMC)",
+            "overviewpapers": [
               "ermakova-2016-cultural"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "dogra-2016-lig",
               "murtagh-2016-semantic",
               "hoang-2016-building-1",
               "pontes-2016-tweet",
-              "Tweet Data mining  : the Cultural Microblog Contextualization Data Set"
+              "scohy-2016-tweet"
             ],
-            "link":"https://talne.eu/spip/spip.php?page=article&id_article=8"
+            "link": "https://talne.eu/spip/spip.php?page=article&id_article=8"
           }
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"personalityrecognitioninsourcecodeprsoco",
-            "label":"Personality Recognition in SOurce COde (PR-SOCO) ",
-            "overviewpapers":[
+            "id": "personalityrecognitioninsourcecodeprsoco",
+            "label": "Personality Recognition in SOurce COde (PR-SOCO) ",
+            "overviewpapers": [
               "pardo-2016-pan"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "phani-2016-personality",
               "bilan-2016-capsprc",
               "castellanos-2016-personality",
@@ -2618,15 +2586,15 @@
               "ghosh-2016-indian",
               "vazquez-2016-uaemex"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T1-4.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T1-4.pdf"
           },
           {
-            "id":"informationextractionfrommicroblogspostedduringdisasters",
-            "label":"Information Extraction from Microblogs Posted during Disasters ",
-            "overviewpapers":[
+            "id": "informationextractionfrommicroblogspostedduringdisasters",
+            "label": "Information Extraction from Microblogs Posted during Disasters ",
+            "overviewpapers": [
               "ghosh-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "li-2016-using-1",
               "bandyopadhyay-2016-correlation",
               "dasgupta-2016-word",
@@ -2638,15 +2606,15 @@
               "chakraborty-2016-information",
               "lkhagvasuren-2016-semiautomatic"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T2-1.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T2-1.pdf"
           },
           {
-            "id":"sharedtaskonmixedscriptinformationretrievalmsir",
-            "label":"Shared Task on Mixed Script Information Retrieval (MSIR)",
-            "overviewpapers":[
+            "id": "sharedtaskonmixedscriptinformationretrievalmsir",
+            "label": "Shared Task on Mixed Script Information Retrieval (MSIR)",
+            "overviewpapers": [
               "banerjee-2016-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "majumder-2016-nlpnitmz",
               "londhe-2016-exploiting",
               "bhargava-2016-modeling",
@@ -2656,15 +2624,15 @@
               "b-2016-distributional",
               "singh-2016-cen"
             ],
-            "link":"https://msir2016.github.io/"
+            "link": "https://msir2016.github.io/"
           },
           {
-            "id":"persianplagiarismdetectionpersianplagdet",
-            "label":"Persian Plagiarism Detection (PersianPlagDet) ",
-            "overviewpapers":[
+            "id": "persianplagiarismdetectionpersianplagdet",
+            "label": "Persian Plagiarism Detection (PersianPlagDet) ",
+            "overviewpapers": [
               "asghari-2016-algorithms"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "ehsan-2016-pairwise",
               "esteki-2016-plagiarism",
               "gharavi-2016-deep",
@@ -2677,15 +2645,15 @@
               "mashhadirajab-2016-text",
               "sharifabadi-2016-mahak"
             ],
-            "link":"http://ictrc.ac.ir/plagdet/"
+            "link": "http://ictrc.ac.ir/plagdet/"
           },
           {
-            "id":"consumerhealthinformationsearchchis",
-            "label":"Consumer Health Information Search (CHIS) ",
-            "overviewpapers":[
+            "id": "consumerhealthinformationsearchchis",
+            "label": "Consumer Health Information Search (CHIS) ",
+            "overviewpapers": [
               "sinha-2016-chis"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "v-2016-amrita",
               "b-2016-distributional-1",
               "kumar-2016-relevance",
@@ -2696,15 +2664,15 @@
               "sankhavara-2016-team-1",
               "yang-2016-improving"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T5-1.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T5-1.pdf"
           },
           {
-            "id":"detectingparaphrasesinindianlanguagesdpil",
-            "label":"Detecting Paraphrases in Indian Languages (DPIL) ",
-            "overviewpapers":[
+            "id": "detectingparaphrasesinindianlanguagesdpil",
+            "label": "Detecting Paraphrases in Indian Languages (DPIL) ",
+            "overviewpapers": [
               "kumar-2016-dpil"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "bhargava-2016-bitspilani",
               "k-2016-ase",
               "sarkar-2016-ksju",
@@ -2716,15 +2684,15 @@
               "manju-2016-cusatteam",
               "thangarajan-2016-kec"
             ],
-            "link":"https://nlp.amrita.edu/dpil_cen/"
+            "link": "https://nlp.amrita.edu/dpil_cen/"
           },
           {
-            "id":"sharedtaskoncodemixentityextractioninindianlanguagescmeeil",
-            "label":"Shared Task on Code Mix Entity Extraction in Indian Languages (CMEE-IL)",
-            "overviewpapers":[
+            "id": "sharedtaskoncodemixentityextractioninindianlanguagescmeeil",
+            "label": "Shared Task on Code Mix Entity Extraction in Indian Languages (CMEE-IL)",
+            "overviewpapers": [
               "g-2016-amritacen"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "bhat-2016-code",
               "gupta-2016-hybrid",
               "g-2016-amritacen",
@@ -2733,31 +2701,31 @@
               "gosala-2016-deep",
               "skanda-2016-cen"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T7-1.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1737/T7-1.pdf"
           }
         ]
       }
     ]
   },
-  "2015":{
-    "conferences":[
+  "2015": {
+    "conferences": [
       {
-        "id":"trec",
-        "label":"TREC",
-        "tasks":[
+        "id": "trec",
+        "label": "TREC",
+        "tasks": [
           {
-            "id":"clinicaldecisionsupport",
-            "label":"Clinical Decision Support",
-            "overviewpapers":[
+            "id": "clinicaldecisionsupport",
+            "label": "Clinical Decision Support",
+            "overviewpapers": [
               "drosatos-2015-duth"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "zhang-2015-cbia",
               "jo-2015-cbnu",
               "cummins-2015-clinical",
               "nikolentzos-2015-aueb",
               "drosatos-2015-duth",
-              "ECNU at 2015 CDS Track:Two Re-ranking Methods in Medical Information Retrieval",
+              "hu-2015-ecnu",
               "audeh-2015-emse",
               "you-2015-fdumedsearch",
               "hu-2015-learning",
@@ -2778,15 +2746,15 @@
               "ghenai-2015-waterlooclarke",
               "balaneshinkordan-2015-wsuir"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
           },
           {
-            "id":"contextualsuggestion",
-            "label":"Contextual Suggestion",
-            "overviewpapers":[
-              "hashemi-2016-overview"
+            "id": "contextualsuggestion",
+            "label": "Contextual Suggestion",
+            "overviewpapers": [
+              "deanhall-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "chen-2015-bjut",
               "chakraborty-2015-contextual",
               "mo-2015-laval",
@@ -2798,34 +2766,34 @@
               "aliannejadi-2015-university",
               "hoffmann-2015-waterlooclarke"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf"
           },
           {
-            "id":"dynamicdomain",
-            "label":"Dynamic Domain",
-            "overviewpapers":[
+            "id": "dynamicdomain",
+            "label": "Dynamic Domain",
+            "overviewpapers": [
               "yang-2015-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "luo-2015-reranking",
               "burgess-2015-trec",
               "joganah-2015-laval",
               "mccreadie-2015-university"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/overview-dd.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/overview-dd.pdf"
           },
           {
-            "id":"liveqa",
-            "label":"Live QA",
-            "overviewpapers":[
+            "id": "liveqa",
+            "label": "Live QA",
+            "overviewpapers": [
               "zhang-2015-ecnu"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "bogdanova-2015-adaptdcu",
               "bagdouri-2015-clip",
               "varanasi-2015-questionanswer",
               "zhang-2015-ecnu",
-              "Leverage Web-based Answer Retrieval and Hierarchical Answer Selection to Improve the Performance of Live Question Answering",
+              "wu-2015-leverage",
               "savenkov-2015-ranking",
               "nie-2015-nudtmdp",
               "wang-2015-cmu",
@@ -2833,15 +2801,15 @@
               "chen-2015-rmit",
               "vtyurina-2015-waterlooclarke"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-QA.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-QA.pdf"
           },
           {
-            "id":"microblog",
-            "label":"Microblog",
-            "overviewpapers":[
+            "id": "microblog",
+            "label": "Microblog",
+            "overviewpapers": [
               "lin-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "liu-2015-bjut",
               "li-2015-bjut",
               "bagdouri-2015-clip",
@@ -2852,32 +2820,32 @@
               "fan-2015-pkuicst",
               "hasan-2015-exploiting",
               "suwaileh-2015-qu",
-              "buntain-2016-burst",
-              "bandyopadhyay-2011-query",
+              "buntain-2015-burst",
+              "avula-2015-queryexpansion",
               "tan-2015-university",
               "abualsaud-2015-waterlooclarke"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-MB.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-MB.pdf"
           },
           {
-            "id":"tasks",
-            "label":"Tasks",
-            "overviewpapers":[
+            "id": "tasks",
+            "label": "Tasks",
+            "overviewpapers": [
               "yilmaz-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "bennett-2015-mining",
               "hagen-2015-webis"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-T.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-T.pdf"
           },
           {
-            "id":"temporalsummarization",
-            "label":"Temporal Summarization",
-            "overviewpapers":[
+            "id": "temporalsummarization",
+            "label": "Temporal Summarization",
+            "overviewpapers": [
               "aslam-2015-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "zopf-2015-seqclusum",
               "yao-2015-bjut",
               "vuurens-2015-cwi",
@@ -2889,53 +2857,53 @@
               "garbacea-2015-university",
               "raza-2015-waterlooclarke"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-TS.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-TS.pdf"
           },
           {
-            "id":"totalrecall",
-            "label":"Total Recall",
-            "overviewpapers":[
+            "id": "totalrecall",
+            "label": "Total Recall",
+            "overviewpapers": [
               "roegiest-2015-trec"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "pickens-2015-constrained",
               "dhand-2015-efficient",
               "losey-2015-ediscovery",
               "lupu-2015-tuw",
               "vandijk-2015-university",
               "zhang-2015-waterlooclarke",
-              "cormack-2016-stop",
+              "cormack-2015-waterloo",
               "hagen-2015-webis",
               "wu-2015-whu"
             ],
-            "link":"https://trec.nist.gov/pubs/trec24/papers/Overview-TR.pdf"
+            "link": "https://trec.nist.gov/pubs/trec24/papers/Overview-TR.pdf"
           }
         ]
       },
       {
-        "id":"fire",
-        "label":"FIRE",
-        "tasks":[
+        "id": "fire",
+        "label": "FIRE",
+        "tasks": [
           {
-            "id":"crosslanguagedetectionofsourcecoderesuseclsoco",
-            "label":"Cross Language detection of SOurce COde resuse (CL-SOCO)",
-            "overviewpapers":[
+            "id": "crosslanguagedetectionofsourcecoderesuseclsoco",
+            "label": "Cross Language detection of SOurce COde resuse (CL-SOCO)",
+            "overviewpapers": [
               "flores-2015-pan"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "heblikar-2015-normalization",
               "ramirezdelacruz-2015-high",
               "shah-2015-clscr"
             ],
-            "link":"https://pan.webis.de/downloads/publications/papers/garciahernandez_2015.pdf"
+            "link": "https://pan.webis.de/downloads/publications/papers/garciahernandez_2015.pdf"
           },
           {
-            "id":"sharedtaskonmixedscriptinformationretrieval",
-            "label":"Shared Task on Mixed Script Information Retrieval",
-            "overviewpapers":[
+            "id": "sharedtaskonmixedscriptinformationretrieval",
+            "label": "Shared Task on Mixed Script Information Retrieval",
+            "overviewpapers": [
               "sequiera-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "kumar-2015-amritacennlp",
               "ghosh-2015-labeling",
               "shah-2015-hierarchical",
@@ -2947,27 +2915,27 @@
               "prabhakar-2015-ism",
               "ghelani-2015-mixed"
             ],
-            "link":"http://amitavadas.com/Pub/FIRE_2015_Overview.pdf"
+            "link": "http://amitavadas.com/Pub/FIRE_2015_Overview.pdf"
           },
           {
-            "id":"automatedstoryillustration",
-            "label":"Automated Story Illustration",
-            "overviewpapers":[
+            "id": "automatedstoryillustration",
+            "label": "Automated Story Illustration",
+            "overviewpapers": [
               "ganguly-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "p-2015-amritacen",
               "talsania-2015-automated"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T3-3.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T3-3.pdf"
           },
           {
-            "id":"entityextractionfromsocialmediatextindianlanguagesesmil",
-            "label":"Entity Extraction from Social Media Text - Indian Languages (ESM-IL)",
-            "overviewpapers":[
+            "id": "entityextractionfromsocialmediatextindianlanguagesesmil",
+            "label": "Entity Extraction from Social Media Text - Indian Languages (ESM-IL)",
+            "overviewpapers": [
               "rao-2015-esmil"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "p-2015-hits",
               "kumar-2015-amritacen",
               "sarkar-2015-hidden",
@@ -2976,20 +2944,20 @@
               "choudhury-2015-entity",
               "bagiya-2015-vira"
             ],
-            "link":"http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T4-6.pdf"
+            "link": "http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-1587/T4-6.pdf"
           },
           {
-            "id":"arabicplagiarismdetectionaraplagdet",
-            "label":"Arabic Plagiarism Detection (AraPlagDet)",
-            "overviewpapers":[
+            "id": "arabicplagiarismdetectionaraplagdet",
+            "label": "Arabic Plagiarism Detection (AraPlagDet)",
+            "overviewpapers": [
               "bensalem-2015-overview"
             ],
-            "participantpapers":[
+            "participantpapers": [
               "alzahrani-2015-arabic",
               "magooda-2015-rdi",
               "mahgoub-2015-rdi"
             ],
-            "link":"http://personales.upv.es/prosso/resources/BensalemEtAl_FIRE15.pdf"
+            "link": "http://personales.upv.es/prosso/resources/BensalemEtAl_FIRE15.pdf"
           }
         ]
       }
