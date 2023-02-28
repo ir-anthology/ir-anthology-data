@@ -8599,7 +8599,7 @@
     ]
   },
   "1999":{
-    "conferences": [
+    "conferences":[
       {
         "id":"trec",
         "label":"TREC",
@@ -8828,7 +8828,7 @@
     ]
   },
   "1998":{
-    "conferences": [
+    "conferences":[
       {
         "id":"trec",
         "label":"TREC",
@@ -8961,7 +8961,7 @@
 
             ],
             "participantpapers":[
-              "mayfield-1998-indexing",
+              "mayfield-1998-indexing"
             ],
             "link":""
           },
@@ -9009,7 +9009,7 @@
     ]
   },
   "1997":{
-    "conferences": [
+    "conferences":[
       {
         "id":"trec",
         "label":"TREC",
@@ -9225,7 +9225,7 @@
     ]
   },
   "1996":{
-    "conferences": [
+    "conferences":[
 
     ]
   }
