@@ -20,12 +20,14 @@ def parse_selection_key_set(path_criteria_bib):
             if not entry.bibid().startswith("CRITERIA:DBLP:"):
                 continue
             for key in entry.fields()["search-keys"].split(","):
-            	output.add(key.strip())
+                output.add(key.strip())
     return output
 
 def download(path_dblp_xml):
     print("pulling the dblp.xml from https://dblp.uni-trier.de/xml/dblp.xml.gz")
     url = "https://dblp.uni-trier.de/xml/dblp.xml.gz"
+    if os.path.exists(path_dblp_xml):
+        os.remove(path_dblp_xml)
     wget.download(url, path_dblp_xml)
     print("")
 
