@@ -6454,7 +6454,7 @@
               "sakai-2010-overview-1",
               "song-2010-microsoft",
               "ishikawa-2010-asura",
-              "kuriyama-2010-bestanswer",
+              "kuriyama-2010-bestanswer"
             ],
             "link":""
           }
@@ -7835,6 +7835,145 @@
             "link":""
           }
         ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"clir",
+            "label":"CLIR",
+            "overviewpapers":[
+              "kando-2007-overview",
+              "kishida-2007-overview"
+            ],
+            "participantpapers":[
+              "shi-2007-using",
+              "wang-2007-iasl",
+              "lu-2007-improving",
+              "sakai-2007-toshiba",
+              "na-2007-postech",
+              "abdou-2007-monolingual",
+              "cheng-2007-ainlp",
+              "fujita-2007-ntcir",
+              "gey-2007-search",
+              "he-2007-chinese",
+              "huang-2007-iscas",
+              "klyuev-2007-oasis",
+              "kwok-2007-ntcir-1",
+              "murata-2007-applying",
+              "sato-2007-ntcir",
+              "su-2007-using",
+              "tashiro-2007-justsystems",
+              "tomlinson-2007-sampling-2",
+              "tseng-2007-robustness",
+              "wu-2007-ncu",
+              "yang-2007-information",
+              "zhou-2007-ntcir"
+            ],
+            "link":""
+          },
+          {
+            "id":"clqa",
+            "label":"CLQA",
+            "overviewpapers":[
+              "sakai-2008-overview"
+            ],
+            "participantpapers":[
+              "sasaki-2007-overview",
+              "zhang-2007-ictdcu",
+              "wu-2007-twopass",
+              "lee-2007-chinesechinese",
+              "mori-2007-method",
+              "kwok-2007-ntcir",
+              "novak-2007-ntcir",
+              "mitamura-2007-javelin",
+              "chan-2007-extracting",
+              "akiba-2007-statistical",
+              "wu-2007-utilizing",
+              "ballesteros-2007-heuristic"
+            ],
+            "link":""
+          },
+          {
+            "id":"must",
+            "label":"MuST",
+            "overviewpapers":[
+              "kato-2007-expansion"
+            ],
+            "participantpapers":[
+              "nanba-2007-extraction",
+              "takama-2007-visualization",
+              "saito-2007-extraction",
+              "murata-2007-extraction"
+            ],
+            "link":""
+          },
+          {
+            "id":"opinion",
+            "label":"Opinion",
+            "overviewpapers":[
+              "seki-2007-overview"
+            ],
+            "participantpapers":[
+              "bloom-2007-appraisal",
+              "breck-2007-cornell",
+              "evans-2007-lowresources",
+              "huang-2007-iscas-1",
+              "kanamaru-2007-japanese",
+              "kim-2007-opinion",
+              "ku-2007-using",
+              "li-2007-experiments",
+              "mizuguchi-2007-threephase",
+              "seki-2007-crosslingual",
+              "wu-2007-ntcir",
+              "xu-2007-opinmine"
+            ],
+            "link":""
+          },
+          {
+            "id":"patent",
+            "label":"Patent",
+            "overviewpapers":[
+              "fujii-2007-overview",
+              "iwayama-2007-overview"
+            ],
+            "participantpapers":[
+              "aono-2007-leveraging",
+              "fujii-2007-integrating",
+              "fujino-2007-multilabel",
+              "hashimoto-2007-term",
+              "tseng-2007-invalidity",
+              "kim-2007-postech",
+              "li-2007-sv",
+              "mase-2007-ntcir",
+              "murata-2007-using",
+              "nanba-2007-query",
+              "rikitoku-2007-fterm",
+              "tanioka-2007-passage",
+              "konishi-2007-fterm"
+            ],
+            "link":""
+          },
+          {
+            "id":"qac",
+            "label":"QAC",
+            "overviewpapers":[
+              "fukumoto-2007-overview"
+            ],
+            "participantpapers":[
+              "fukumoto-2007-question",
+              "harada-2007-qa",
+              "higashinaka-2007-ntt",
+              "shima-2007-javelin",
+              "mori-2007-monolithic",
+              "murata-2007-system",
+              "kimura-2007-homio",
+              "mizuno-2007-nonfactoid"
+            ],
+            "link":""
+          }
+        ]
       }
     ]
   },
@@ -8654,6 +8793,128 @@
             "link":""
           }
         ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"clir",
+            "label":"Cross Lingual Information Retrieval Task (CLIR)",
+            "overviewpapers":[
+              "kishida-2005-overview"
+            ],
+            "participantpapers":[
+              "ma-2005-single",
+              "abdou-2005-report",
+              "yang-2005-ir",
+              "sakai-2005-toshiba",
+              "he-2005-chinese",
+              "zhang-2005-using",
+              "murata-2005-applying",
+              "lu-2005-ntcir",
+              "moulinier-2005-thomson-2",
+              "kwok-2005-ntcir",
+              "na-2005-postech",
+              "nakagawa-2005-ntcir",
+              "kummer-2005-mimor",
+              "xiao-2005-experiments",
+              "min-2005-iscas",
+              "fujita-2005-decade",
+              "villenaroman-2005-miracle-2",
+              "kamps-2005-university-1",
+              "tseng-2005-comparison",
+              "tomlinson-2005-cjk",
+              "chen-2005-chinese",
+              "gey-2005-similar",
+              "lin-2005-searchresultbased"
+            ],
+            "link":""
+          },
+          {
+            "id":"clqa",
+            "label":"Cross Lingual Question Answering Task (CLQA)",
+            "overviewpapers":[
+              "sasaki-2005-overview"
+            ],
+            "participantpapers":[
+              "isozaki-2005-ntt",
+              "lin-2005-cmu",
+              "lee-2005-asqa",
+              "kwok-2005-ntcir-1",
+              "mori-2005-method",
+              "murata-2005-japanesetoenglish",
+              "sasaki-2005-baseline",
+              "shimizu-2005-bidirectional",
+              "chen-2005-chinese-1",
+              "lin-2005-system",
+              "sutcliffe-2005-chinese",
+              "wang-2005-lccdcu",
+              "lin-2005-improving"
+            ],
+            "link":""
+          },
+          {
+            "id":"patent",
+            "label":"Patent Retrieval Task (PATENT)",
+            "overviewpapers":[
+              "fujii-2005-overview",
+              "iwayama-2005-overview"
+            ],
+            "participantpapers":[
+              "doi-2005-patent",
+              "fujii-2005-document",
+              "itoh-2005-ntcir",
+              "kang-2005-postech",
+              "kim-2005-patent",
+              "konishi-2005-query",
+              "mase-2005-ntcir",
+              "murata-2005-using",
+              "takeuchi-2005-experiments",
+              "tanioka-2005-distributed-1",
+              "tashiro-2005-justsystem",
+              "tseng-2005-automatic",
+              "ueda-2005-evaluation"
+            ],
+            "link":""
+          },
+          {
+            "id":"qac",
+            "label":"Question Answering Chanllenge (QAC)",
+            "overviewpapers":[
+              "kato-2005-overview"
+            ],
+            "participantpapers":[
+              "matsuda-2005-synthesis",
+              "murata-2005-japanese",
+              "mori-2005-answering",
+              "murata-2005-question",
+              "kimura-2005-three",
+              "ramamonjisoa-2005-question",
+              "matsuda-2005-answering"
+            ],
+            "link":""
+          },
+          {
+            "id":"web",
+            "label":"WEB Task",
+            "overviewpapers":[
+              "oyama-2005-overview",
+              "yoshioka-2005-overview"
+            ],
+            "participantpapers":[
+              "fujii-2005-exploiting",
+              "tateishi-2005-verification",
+              "sato-2005-ntcir",
+              "tanioka-2005-distributed",
+              "klyuev-2005-oasis",
+              "toda-2005-search",
+              "masada-2005-improving",
+              "eguchi-2005-ntcir"
+            ],
+            "link":""
+          }
+        ]
       }
     ]
   },
@@ -8998,6 +9259,140 @@
               "metzler-2004-indri",
               "anh-2004-melbourne",
               "attardi-2004-using"
+            ],
+            "link":""
+          }
+        ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"clir",
+            "label":"Cross Lingual Information Retrieval Task (CLIR)",
+            "overviewpapers":[
+              "kishida-2004-overview"
+            ],
+            "participantpapers":[
+              "fujii-2004-crosslanguage",
+              "gey-2004-chinese",
+              "kang-2004-combination",
+              "kimura-2004-clir",
+              "kishida-2004-prediction",
+              "kojima-2004-ricoh-2",
+              "kwok-2004-ntcir",
+              "levow-2004-university-3",
+              "lin-2004-merging",
+              "luk-2004-pseudorelevance",
+              "moulinier-2004-thomson",
+              "muramatsu-2004-integration",
+              "murata-2004-applying",
+              "nakagawa-2004-ntcir",
+              "qu-2004-justsystemclairvoyance",
+              "sakai-2004-toshiba",
+              "savoy-2004-report",
+              "seo-2004-kunlp",
+              "tomlinson-2004-cjk",
+              "tseng-2004-global",
+              "yang-2004-chinese",
+              "zhang-2004-applying",
+              "zhang-2004-rmit",
+              "zhou-2004-experiments"
+            ],
+            "link":""
+          },
+          {
+            "id":"patent",
+            "label":"PATENT Retrieval Task (PATENT)",
+            "overviewpapers":[
+              "fujii-2004-overview"
+            ],
+            "participantpapers":[
+              "fujii-2004-document",
+              "fujita-2004-revisiting-1",
+              "itoh-2004-ntcir",
+              "konishi-2004-invalidity",
+              "mase-2004-twostage",
+              "sato-2004-ntcir",
+              "shinmori-2004-claim",
+              "takeuchi-2004-experiments",
+              "uchida-2004-patent"
+            ],
+            "link":""
+          },
+          {
+            "id":"qac",
+            "label":"Question Answering Challenge (QAC)",
+            "overviewpapers":[
+              "fukumoto-2004-question",
+              "kato-2004-question"
+            ],
+            "participantpapers":[
+              "akiba-2004-question",
+              "fuchigami-2004-oki",
+              "fukumoto-2004-ritsqa",
+              "hidaka-2004-question",
+              "ismail-2004-question",
+              "isozaki-2004-ntt",
+              "kosugi-2004-question",
+              "kurata-2004-gdqa",
+              "mori-2004-japanese",
+              "murata-2004-japanese",
+              "na-2004-postech",
+              "nii-2004-question",
+              "nomoto-2004-ntcir",
+              "nomoto-2004-making",
+              "ramamonjisoa-2004-finding",
+              "sakai-2004-toshiba-1",
+              "sekine-2004-nyucrl",
+              "takahashi-2004-naist",
+              "takaki-2004-ntt"
+            ],
+            "link":""
+          },
+          {
+            "id":"tsc",
+            "label":"Text Summarization Challenge (TSC)",
+            "overviewpapers":[
+              "hirao-2004-text"
+            ],
+            "participantpapers":[
+              "fukumoto-2004-multidocument",
+              "lim-2004-multidocument",
+              "mori-2004-multidocument",
+              "nobata-2004-comparison",
+              "okazaki-2004-tiss",
+              "sakai-2004-multipledocument",
+              "sakurai-2004-querybased",
+              "seki-2004-userfocused",
+              "yoshioka-2004-multiple"
+            ],
+            "link":""
+          },
+          {
+            "id":"web",
+            "label":"WEB Task",
+            "overviewpapers":[
+              "oyama-2004-overview",
+              "eguchi-2004-overview"
+            ],
+            "participantpapers":[
+              "oyama-2004-overview-1",
+              "ohtsuka-2004-evaluation",
+              "arikawa-2004-preliminary",
+              "eguchi-2004-overview-1",
+              "akiba-2004-experiments",
+              "fukushige-2004-giving",
+              "kanazawa-2004-rd",
+              "kaneda-2004-document",
+              "kawai-2004-navigation",
+              "nakakubo-2004-ntcir",
+              "ohta-2004-overlapping",
+              "sasaki-2004-web",
+              "tsuruta-2004-web",
+              "xu-2004-using",
+              "yoshioka-2004-study"
             ],
             "link":""
           }
@@ -10415,8 +10810,7 @@
               "milicfrayling-1996-clarit",
               "gey-1996-term",
               "schiettecatte-1996-document",
-              "sumner-1996-investigation",
-
+              "sumner-1996-investigation"
             ],
             "link":""
           },
@@ -10458,8 +10852,7 @@
               "voorhees-1996-overview"
             ],
             "participantpapers":[
-              "voorhees-1996-trec",
-
+              "voorhees-1996-trec"
             ],
             "link":""
           },
@@ -10470,8 +10863,7 @@
               "voorhees-1996-overview"
             ],
             "participantpapers":[
-              "voorhees-1996-trec",
-
+              "voorhees-1996-trec"
             ],
             "link":""
           },
@@ -10486,7 +10878,7 @@
               "tong-1996-ocr"
             ],
             "link":""
-          },
+          }
         ]
       }
     ]
@@ -10529,8 +10921,7 @@
               "kwok-1995-trec",
               "hearst-1995-xerox",
               "buckley-1995-new",
-              "strzalkowski-1995-natural-1",
-
+              "strzalkowski-1995-natural-1"
             ],
             "link":""
           },
@@ -10655,8 +11046,7 @@
               "kwok-1995-trec",
               "hearst-1995-xerox",
               "buckley-1995-new",
-              "strzalkowski-1995-natural-1",
-
+              "strzalkowski-1995-natural-1"
             ],
             "link":""
           },
@@ -10745,146 +11135,146 @@
   },
   "1994":{
     "conferences":[
-    {
-      "id":"trec",
-      "label":"TREC",
-      "tasks":[
-        {
-          "id":"adhoc",
-          "label":"ADHOC ",
-          "overviewpapers":[
-            "harman-1994-overview-1"
-          ],
-          "participantpapers":[
-            "robertson-1994-okapi",
-            "broglio-1994-document",
-            "buckley-1994-automatic",
-            "thompson-1994-trec",
-            "kwok-1994-trec",
-            "knaus-1994-improving",
-            "cooper-1994-experiments",
-            "lu-1994-query",
-            "shaw-1994-combination",
-            "kantor-1994-decision",
-            "taguesutcliffe-1994-statistical"
-          ],
-          "link":""
-        },
-        {
-          "id":"routing",
-          "label":"ROUTING",
-          "overviewpapers":[
-            "harman-1994-overview-1"
-          ],
-          "participantpapers":[
-            "robertson-1994-okapi",
-            "kwok-1994-trec",
-            "broglio-1994-document",
-            "walczuch-1994-routing",
-            "dumais-1994-latent",
-            "buckley-1994-automatic",
-            "cooper-1994-experiments",
-            "thompson-1994-trec",
-            "yochum-1994-research",
-            "driscoll-1994-using",
-            "strzalkowski-1994-natural",
-            "yu-1994-fdf"
-          ],
-          "link":""
-        },
-        {
-          "id":"interactive",
-          "label":"INTERACTIVE",
-          "overviewpapers":[
-            "harman-1994-overview-1"
-          ],
-          "participantpapers":[
-            "tong-1994-interactive",
-            "koenemann-1994-new",
-            "robertson-1994-okapi",
-            "charoenkitkarn-1994-interactive"
-          ],
-          "link":""
-        }
-      ]
-    }
-  ]
+      {
+        "id":"trec",
+        "label":"TREC",
+        "tasks":[
+          {
+            "id":"adhoc",
+            "label":"ADHOC ",
+            "overviewpapers":[
+              "harman-1994-overview-1"
+            ],
+            "participantpapers":[
+              "robertson-1994-okapi",
+              "broglio-1994-document",
+              "buckley-1994-automatic",
+              "thompson-1994-trec",
+              "kwok-1994-trec",
+              "knaus-1994-improving",
+              "cooper-1994-experiments",
+              "lu-1994-query",
+              "shaw-1994-combination",
+              "kantor-1994-decision",
+              "taguesutcliffe-1994-statistical"
+            ],
+            "link":""
+          },
+          {
+            "id":"routing",
+            "label":"ROUTING",
+            "overviewpapers":[
+              "harman-1994-overview-1"
+            ],
+            "participantpapers":[
+              "robertson-1994-okapi",
+              "kwok-1994-trec",
+              "broglio-1994-document",
+              "walczuch-1994-routing",
+              "dumais-1994-latent",
+              "buckley-1994-automatic",
+              "cooper-1994-experiments",
+              "thompson-1994-trec",
+              "yochum-1994-research",
+              "driscoll-1994-using",
+              "strzalkowski-1994-natural",
+              "yu-1994-fdf"
+            ],
+            "link":""
+          },
+          {
+            "id":"interactive",
+            "label":"INTERACTIVE",
+            "overviewpapers":[
+              "harman-1994-overview-1"
+            ],
+            "participantpapers":[
+              "tong-1994-interactive",
+              "koenemann-1994-new",
+              "robertson-1994-okapi",
+              "charoenkitkarn-1994-interactive"
+            ],
+            "link":""
+          }
+        ]
+      }
+    ]
   },
   "1993":{
     "conferences":[
-     {
-      "id":"trec",
-      "label":"TREC",
-      "tasks":[
-        {
-          "id":"adhoc",
-          "label":"ADHOC ",
-          "overviewpapers":[
-            "harman-1993-overview"
-          ],
-          "participantpapers":[
-            "robertson-1993-okapi",
-            "belkin-1993-combining",
-            "buckley-1993-automatic",
-            "cooper-1993-full",
-            "fuhr-1993-probalistic",
-            "croft-1993-trec",
-            "liddy-1993-drlink",
-            "gallant-1993-feedback",
-            "dumais-1993-latent",
-            "massand-1993-information",
-            "strzalkowski-1993-recent",
-            "evans-1993-design",
-            "delfavero-1993-bayesian",
-            "knaus-1993-effective",
-            "cavnar-1993-ngrambased",
-            "moffat-1993-retrieval",
-            "lehman-1993-knowledgebased",
-            "voorhees-1993-expanding",
-            "kwok-1993-trec",
-            "fox-1993-combination",
-            "nelson-1993-conquest",
-            "thompson-1993-description",
-            "kelleher-1993-report"
-          ],
-          "link":""
-        },
-        {
-          "id":"routing",
-          "label":"ROUTING",
-          "overviewpapers":[
-            "harman-1993-overview"
-          ],
-          "participantpapers":[
-            "robertson-1993-okapi",
-            "belkin-1993-combining",
-            "buckley-1993-automatic",
-            "cooper-1993-full",
-            "fuhr-1993-probalistic",
-            "croft-1993-trec",
-            "liddy-1993-drlink",
-            "gallant-1993-feedback",
-            "dumais-1993-latent",
-            "massand-1993-information",
-            "strzalkowski-1993-recent",
-            "evans-1993-design",
-            "delfavero-1993-bayesian",
-            "knaus-1993-effective",
-            "cavnar-1993-ngrambased",
-            "jacobs-1993-ge",
-            "mettler-1993-trecii",
-            "lehman-1993-knowledgebased",
-            "voorhees-1993-expanding",
-            "kwok-1993-trec",
-            "tong-1993-machine",
-            "nelson-1993-conquest",
-            "thompson-1993-description",
-            "cooper-1993-workshop"
-          ],
-          "link":""
-        }
-      ]
-    }
+      {
+        "id":"trec",
+        "label":"TREC",
+        "tasks":[
+          {
+            "id":"adhoc",
+            "label":"ADHOC ",
+            "overviewpapers":[
+              "harman-1993-overview"
+            ],
+            "participantpapers":[
+              "robertson-1993-okapi",
+              "belkin-1993-combining",
+              "buckley-1993-automatic",
+              "cooper-1993-full",
+              "fuhr-1993-probalistic",
+              "croft-1993-trec",
+              "liddy-1993-drlink",
+              "gallant-1993-feedback",
+              "dumais-1993-latent",
+              "massand-1993-information",
+              "strzalkowski-1993-recent",
+              "evans-1993-design",
+              "delfavero-1993-bayesian",
+              "knaus-1993-effective",
+              "cavnar-1993-ngrambased",
+              "moffat-1993-retrieval",
+              "lehman-1993-knowledgebased",
+              "voorhees-1993-expanding",
+              "kwok-1993-trec",
+              "fox-1993-combination",
+              "nelson-1993-conquest",
+              "thompson-1993-description",
+              "kelleher-1993-report"
+            ],
+            "link":""
+          },
+          {
+            "id":"routing",
+            "label":"ROUTING",
+            "overviewpapers":[
+              "harman-1993-overview"
+            ],
+            "participantpapers":[
+              "robertson-1993-okapi",
+              "belkin-1993-combining",
+              "buckley-1993-automatic",
+              "cooper-1993-full",
+              "fuhr-1993-probalistic",
+              "croft-1993-trec",
+              "liddy-1993-drlink",
+              "gallant-1993-feedback",
+              "dumais-1993-latent",
+              "massand-1993-information",
+              "strzalkowski-1993-recent",
+              "evans-1993-design",
+              "delfavero-1993-bayesian",
+              "knaus-1993-effective",
+              "cavnar-1993-ngrambased",
+              "jacobs-1993-ge",
+              "mettler-1993-trecii",
+              "lehman-1993-knowledgebased",
+              "voorhees-1993-expanding",
+              "kwok-1993-trec",
+              "tong-1993-machine",
+              "nelson-1993-conquest",
+              "thompson-1993-description",
+              "cooper-1993-workshop"
+            ],
+            "link":""
+          }
+        ]
+      }
     ]
   },
   "1992":{
