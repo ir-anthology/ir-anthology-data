@@ -9952,6 +9952,125 @@
             "link":""
           }
         ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"clir",
+            "label":"Cross Lingual Information Retrieval Task (CLIR)",
+            "overviewpapers":[
+              "chen-2002-overview"
+            ],
+            "participantpapers":[
+              "lee-2002-characteristics",
+              "kwok-2002-ntcir",
+              "sakai-2002-toshiba",
+              "moulinier-2002-thomson-2",
+              "tomlinson-2002-asian",
+              "seo-2002-kunlp",
+              "takeda-2002-deciding",
+              "murata-2002-applying",
+              "luk-2002-different",
+              "lin-2002-description",
+              "he-2002-ntcir",
+              "yang-2002-cmu",
+              "zhang-2002-iscas",
+              "fujii-2002-ntcir-1",
+              "ji-2002-chinese",
+              "juang-2002-uniform",
+              "mcnamee-2002-knowledgelight",
+              "sato-2002-ntcir-1",
+              "kluev-2002-oasis",
+              "huang-2002-waterloo",
+              "lee-2002-posnir",
+              "chen-2002-experiments",
+              "jang-2002-simple"
+            ],
+            "link":""
+          },
+          {
+            "id":"patent",
+            "label":"PATENT Retrieval Task (PATENT)",
+            "overviewpapers":[
+              "iwayama-2002-overview"
+            ],
+            "participantpapers":[
+              "itoh-2002-term",
+              "kishida-2002-experiment",
+              "sato-2002-ntcir-2",
+              "nakatani-2002-ntt",
+              "niwa-2002-patent",
+              "fujii-2002-ntcir",
+              "chen-2002-experiments-1",
+              "sahlgren-2002-englishjapanese",
+              "murata-2002-using",
+              "shinmori-2002-rhetorical"
+            ],
+            "link":""
+          },
+          {
+            "id":"qac",
+            "label":"Question Answering Challenge (QAC)",
+            "overviewpapers":[
+              "fukumoto-2002-question"
+            ],
+            "participantpapers":[
+              "akiba-2002-towards",
+              "ikeno-2002-oki",
+              "kawahara-2002-question",
+              "kawata-2002-quark",
+              "lee-2002-siteqj",
+              "mori-2002-search",
+              "murata-2002-questionanswering",
+              "nomoto-2002-ntcir",
+              "sasaki-2002-ntt",
+              "seki-2002-answer",
+              "sekine-2002-nyucrl",
+              "takahashi-2002-applying",
+              "takaki-2002-ntt",
+              "thawonmas-2002-exploitation",
+              "masui-2002-maimai",
+              "fukumoto-2002-ritsqa"
+            ],
+            "link":""
+          },
+          {
+            "id":"tsc",
+            "label":"Text Summarization Challenge (TSC)",
+            "overviewpapers":[
+              "fukusima-2002-text"
+            ],
+            "participantpapers":[
+              "fukumoto-2002-text",
+              "hirao-2002-nttnaist",
+              "ishikawa-2002-trainable",
+              "mori-2002-information",
+              "nobata-2002-summarization",
+              "okazaki-2002-two",
+              "sakai-2002-unsupervised",
+              "seki-2002-sentence"
+            ],
+            "link":""
+          },
+          {
+            "id":"web",
+            "label":"WEB Task",
+            "overviewpapers":[
+              "eguchi-2002-overview"
+            ],
+            "participantpapers":[
+              "tateishi-2002-evaluation",
+              "toyoda-2002-university",
+              "ozaku-2002-study",
+              "kluev-2002-web",
+              "sato-2002-ntcir",
+              "fujii-2002-evaluating"
+            ],
+            "link":""
+          }
+        ]
       }
     ]
   },
@@ -10207,6 +10326,50 @@
               "clarke-2001-web",
               "ra-2001-yonseietri",
               "xi-2001-machine"
+            ],
+            "link":""
+          }
+        ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"clir",
+            "label":"Cross Lingual Information Retrieval Task (CLIR)",
+            "overviewpapers":[
+
+            ],
+            "participantpapers":[
+              "oard-2001-ntcir",
+              "bian-2001-transez",
+              "kwok-2001-ntcir",
+              "murata-2001-crl",
+              "luk-2001-hybrid",
+              "chen-2001-chinese",
+              "sakai-2001-flexible-1",
+              "mori-2001-crosslingual",
+              "fujita-2001-notes",
+              "kishida-2001-regression",
+              "iwayama-2001-effect",
+              "kanazawa-2001-rd"
+            ],
+            "link":""
+          },
+          {
+            "id":"tsc",
+            "label":"Text Summarization Challenge (TSC)",
+            "overviewpapers":[
+
+            ],
+            "participantpapers":[
+              "mori-2001-term",
+              "nobata-2001-sentence",
+              "ishikawa-2001-hybrid",
+              "ohtake-2001-yet",
+              "nakao-2001-small",
+              "hirao-2001-text"
             ],
             "link":""
           }
@@ -10587,6 +10750,61 @@
               "davison-1999-early",
               "allan-1999-inquery",
               "newby-1999-moving"
+            ],
+            "link":""
+          }
+        ]
+      },
+      {
+        "id":"ntcir",
+        "label":"NTCIR",
+        "tasks":[
+          {
+            "id":"ir",
+            "label":"IR Task",
+            "overviewpapers":[
+              "kando-1999-overview"
+            ],
+            "participantpapers":[
+              "chen-1999-comparing",
+              "murata-1999-information",
+              "sato-1999-ntcir",
+              "kanazawa-1999-rdat",
+              "ozawa-1999-japanese",
+              "vines-1999-experiments",
+              "fujita-1999-notes",
+              "ohira-1999-proposal",
+              "matsumura-1999-structured",
+              "niwa-1999-interactive",
+              "sawada-1999-dynamic",
+              "sakai-1999-crosslanguage",
+              "lin-1999-description-1",
+              "nakazawa-1999-cross",
+              "oard-1999-ntcir",
+              "fujii-1999-crosslanguage",
+              "mizobuchi-1999-multilingual",
+              "fukushima-1999-characterbased",
+              "umemoto-1999-development",
+              "kato-1999-ideaderiving",
+              "kameda-1999-advanced"
+            ],
+            "link":""
+          },
+          {
+            "id":"tmrec",
+            "label":"Automatic Term Recognition and Role Analysis Task",
+            "overviewpapers":[
+              "kageura-1999-overview",
+              "kageura-1999-evaluation"
+            ],
+            "participantpapers":[
+              "takeuchi-1999-evaluation",
+              "koyama-1999-evaluation",
+              "uchimoto-1999-term",
+              "nakagawa-1999-compound",
+              "morimoto-1999-extraction",
+              "fukushige-1999-ntcir",
+              "hisamitsu-1999-term"
             ],
             "link":""
           }
